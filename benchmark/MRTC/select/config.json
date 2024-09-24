@@ -1,0 +1,6 @@
+{
+    "benchmark": "select",
+    "asm": "select.asm",
+    "asm_detailed": "selectD.asm",
+    "skip_as_plt": []
+}

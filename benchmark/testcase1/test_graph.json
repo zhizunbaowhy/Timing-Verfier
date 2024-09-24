@@ -1,0 +1,23 @@
+{
+    "target_elf": "./testcase1_bin",
+    "workload": {
+        "type": "graph",
+        "layout": {
+            "0": [
+                {"task_name": "sender", "function": "e2e_send_pthread_000"}
+            ],
+            "1": [
+                {"task_name": "receiver", "function": "e2e_recv_pthread_000"}
+            ]
+        },
+        "dependencies": [
+            {
+                "src_task": "sender",
+                "src_function": "XXCOMM_E2E_Send",
+                "dst_task": "receiver",
+                "dst_function": "XXCOMM_E2E_Recv"
+            }
+        ],
+        "loop": true
+    }
+}

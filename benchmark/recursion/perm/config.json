@@ -1,0 +1,7 @@
+{
+    "benchmark":"perm",
+    "asm": "Perm.asm",
+    "asm_detailed": "PermD.asm",
+    "procedure_cfg": ["all"],
+    "skip_as_plt": []
+}

@@ -1,0 +1,7 @@
+{
+    "benchmark": "edn",
+    "asm": "edn.asm",
+    "asm_detailed": "ednD.asm",
+    "procedure_cfg": [],
+    "skip_as_plt": []
+}

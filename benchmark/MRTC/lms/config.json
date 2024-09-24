@@ -1,0 +1,7 @@
+{
+    "benchmark": "lms",
+    "asm": "lms.asm",
+    "asm_detailed": "lmsD.asm",
+    "procedure_cfg": ["all"],
+    "skip_as_plt": []
+}

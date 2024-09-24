@@ -1,0 +1,6 @@
+{
+    "benchmark": "cover",
+    "asm": "cover.asm",
+    "asm_detailed": "coverD.asm",
+    "skip_as_plt": []
+}

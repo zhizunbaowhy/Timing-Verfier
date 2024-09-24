@@ -1,0 +1,6 @@
+{
+    "benchmark": "qurt",
+    "asm": "qurt.asm",
+    "asm_detailed": "qurtD.asm",
+    "skip_as_plt": []
+}

@@ -1,0 +1,7 @@
+{
+    "benchmark": "fft1",
+    "asm": "fft1.asm",
+    "asm_detailed": "fft1D.asm",
+    "procedure_cfg": [],
+    "skip_as_plt": []
+}

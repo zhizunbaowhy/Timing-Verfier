@@ -1,0 +1,6 @@
+{
+    "benchmark": "fir",
+    "asm": "fir.asm",
+    "asm_detailed": "firD.asm",
+    "skip_as_plt": []
+}

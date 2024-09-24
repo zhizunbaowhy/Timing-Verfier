@@ -1,0 +1,7 @@
+{
+    "asm": "lulesh.asm",
+    "asm_detailed": "luleshD.asm",
+    "skip_as_plt": [
+        
+    ] 
+}

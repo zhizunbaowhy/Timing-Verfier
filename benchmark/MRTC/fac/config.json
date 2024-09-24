@@ -1,0 +1,7 @@
+{
+    "benchmark": "fac",
+    "asm": "fac.asm",
+    "asm_detailed": "facD.asm",
+    "procedure_cfg": [],
+    "skip_as_plt": []
+}

@@ -1,0 +1,7 @@
+{
+    "benchmark":"even_odd",
+    "asm": "even_odd.asm",
+    "asm_detailed": "even_oddD.asm",
+    "procedure_cfg": [],
+    "skip_as_plt": []
+}

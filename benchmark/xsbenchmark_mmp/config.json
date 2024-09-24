@@ -1,0 +1,14 @@
+{
+    "benchmark":"XSBench",
+    "asm": "XSBenchMMP.asm",
+    "asm_detailed": "XSBenchMMPD.asm",
+    "skip_as_plt": [
+        "center_print", 
+        "border_print", 
+        "fancy_int", 
+        "print_CLI_error", 
+        "logo", 
+        "read_CLI", 
+        "__wrap_malloc"
+    ] 
+}

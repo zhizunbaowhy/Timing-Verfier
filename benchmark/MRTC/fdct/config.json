@@ -1,0 +1,7 @@
+{
+    "benchmark": "fdct",
+    "asm": "fdct.asm",
+    "asm_detailed": "fdctD.asm",
+    "procedure_cfg": [],
+    "skip_as_plt": []
+}

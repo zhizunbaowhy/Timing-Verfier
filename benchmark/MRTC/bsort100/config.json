@@ -1,0 +1,6 @@
+{
+    "benchmark": "bsort100",
+    "asm": "bsort100.asm",
+    "asm_detailed": "bsort100D.asm",
+    "skip_as_plt": []
+}

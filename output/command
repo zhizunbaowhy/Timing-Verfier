@@ -1,0 +1,5 @@
+python run_benchmark_cli.py  -f /Users/gugujixiao/SyncSpace/workspace/project/HW_Cache/code/hw_cache_analysis/benchmark/testcase1
+
+python run_benchmark_cli.py  -f /Users/gugujixiao/SyncSpace/workspace/project/HW_Cache/code/hw_cache_analysis/benchmark/spec_medium
+
+python run_benchmark_cli.py  -f /Users/gugujixiao/SyncSpace/workspace/project/HW_Cache/code/hw_cache_analysis/benchmark/MRTC/bs  

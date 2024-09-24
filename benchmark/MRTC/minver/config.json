@@ -1,0 +1,7 @@
+{
+    "benchmark": "minver",
+    "asm": "minver.asm",
+    "asm_detailed": "minverD.asm",
+    "procedure_cfg": ["all"],
+    "skip_as_plt": []
+}

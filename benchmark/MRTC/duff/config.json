@@ -1,0 +1,6 @@
+{
+    "benchmark": "duff",
+    "asm": "duff.asm",
+    "asm_detailed": "duffD.asm",
+    "skip_as_plt": []
+}

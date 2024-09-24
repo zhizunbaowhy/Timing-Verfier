@@ -1,0 +1,6 @@
+{
+    "benchmark": "crc",
+    "asm": "crc.asm",
+    "asm_detailed": "crcD.asm",
+    "skip_as_plt": []
+}

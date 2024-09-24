@@ -1,0 +1,7 @@
+{
+    "benchmark":"cur",
+    "asm": "cur.asm",
+    "asm_detailed": "curD.asm",
+    "procedure_cfg": ["all"],
+    "skip_as_plt": []
+}

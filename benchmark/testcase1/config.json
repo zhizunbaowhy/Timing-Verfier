@@ -1,0 +1,9 @@
+{
+    "benchmark":"hw_test1",
+    "asm": "hw_test1.asm",
+    "asm_detailed": "hw_test1D.asm",
+    "procedure_cfg": [],
+    "skip_as_plt": [
+        
+    ] 
+}

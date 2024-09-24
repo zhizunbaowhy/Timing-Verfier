@@ -1,0 +1,7 @@
+{
+    "asm": "hackbench.asm",
+    "asm_detailed": "hackbenchD.asm",
+    "skip_as_plt": [
+        
+    ] 
+}

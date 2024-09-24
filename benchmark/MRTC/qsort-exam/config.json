@@ -1,0 +1,6 @@
+{
+    "benchmark": "qsort-exam",
+    "asm": "qsort-exam.asm",
+    "asm_detailed": "qsort-examD.asm",
+    "skip_as_plt": []
+}

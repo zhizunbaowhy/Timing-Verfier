@@ -1,0 +1,7 @@
+{
+    "benchmark": "ludcmp",
+    "asm": "ludcmp.asm",
+    "asm_detailed": "ludcmpD.asm",
+    "procedure_cfg": ["all"],
+    "skip_as_plt": []
+}
