@@ -421,7 +421,7 @@ class Edge:
 
 
 
-def creat_cfg(instructions:List[str]):
+def creat_cfg(instructions:List[str]): #构建cfg过程
     #cfg = nx.DiGraph()
     block_id = 0  #初始块id
     # 将start_list和end_list的键排序
