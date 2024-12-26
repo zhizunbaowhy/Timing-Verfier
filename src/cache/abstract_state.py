@@ -583,15 +583,15 @@ class MultiLevelCacheState:
                     self.__cache_config[CacheHierarchy.L1D].associativity + 1, victim_l1d)
 
         " L3 update"
-        cache_level = CacheHierarchy.L3
-        for mb_L2 in PO_MUST:
-            mb_L3 = MemblockConvert(mb_L2, self.__cache_config.get_cache_config(CacheHierarchy.L2),
-                                         self.__cache_config.get_cache_config(CacheHierarchy.L3))
-            self.__states[CacheAnalysisMethod.MUST][cache_level].updateL3(mb_L3)  # 将L2驱逐的内存块重定向到 L3 缓存
-        for mb_L2 in PO_MAY:
-            mb_L3 = MemblockConvert(mb_L2, self.__cache_config.get_cache_config(CacheHierarchy.L2),
-                                         self.__cache_config.get_cache_config(CacheHierarchy.L3))
-            self.__states[CacheAnalysisMethod.MAY][cache_level].updateL3(mb_L3)  # 将L2驱逐的内存块重定向到 L3 缓存
+        # cache_level = CacheHierarchy.L3
+        # for mb_L2 in PO_MUST:
+        #     mb_L3 = MemblockConvert(mb_L2, self.__cache_config.get_cache_config(CacheHierarchy.L2),
+        #                                  self.__cache_config.get_cache_config(CacheHierarchy.L3))
+        #     self.__states[CacheAnalysisMethod.MUST][cache_level].updateL3(mb_L3)  # 将L2驱逐的内存块重定向到 L3 缓存
+        # for mb_L2 in PO_MAY:
+        #     mb_L3 = MemblockConvert(mb_L2, self.__cache_config.get_cache_config(CacheHierarchy.L2),
+        #                                  self.__cache_config.get_cache_config(CacheHierarchy.L3))
+        #     self.__states[CacheAnalysisMethod.MAY][cache_level].updateL3(mb_L3)  # 将L2驱逐的内存块重定向到 L3 缓存
 
         " L1 update "
         cache_level = L1_cache_level

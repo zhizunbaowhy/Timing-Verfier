@@ -54,15 +54,12 @@ class InstructionType(Enum):
 
 class AddrMode(Enum):
     Base = auto()  # Register addressing
-    # Offset
     ImmOffset = auto()  # Immediate number offset.
     RegOffset = auto()  # Register offset.
     RegShift = auto()  # Register with shift offset.
-    # Update before addressing.
     ImmBef = auto()
     RegBef = auto()
     RegShiftBef = auto()
-    # Update after addressing.
     ImmAft = auto()
     RegAft = auto()
     RegShiftAft = auto()
@@ -81,32 +78,22 @@ class IParserBase:
 
 
 class LoadStoreParser:
-    # Basic split
+
     split = IParserBase.any_space + IParserBase.reg + IParserBase.space_dot + IParserBase.any_word
-
-    # adrp operands
     operand_adrp_access = r"([0-9a-fA-F]*)\s*(<.*>)"
-
-    # Shift pattern in load/store addressing.
     offset_shift = "({})".format("|".join(InstNameTable.Shift))
-
     bracket_operand = r"\[.*\]"
     bracket_update_operand = r"\[.*\]!"
     bracket_update_after_operand = r"\[.*\]" + IParserBase.space_dot + IParserBase.any_word
-
-    # Register addressing
     reg_ad = r"^\[" + IParserBase.reg + r"\]$"
-    # Offset addressing
     imm_offset_ad = r"\[" + IParserBase.reg + IParserBase.space_dot + r"\#(-?)" + IParserBase.imm_number + r"\]"
     reg_offset_ad = r"\[" + IParserBase.reg + IParserBase.space_dot + r"(-?)" + IParserBase.reg + r"\]"
     reg_shift_offset_ad = (r"\[" + IParserBase.reg + IParserBase.space_dot +
                            r"(-?)" + IParserBase.reg + IParserBase.space_dot +
                            offset_shift + r"\s*\#(-?)" + IParserBase.imm_offset + r"\]")
-    # Update before addressing
     bef_imm_offset_ad = imm_offset_ad + '!'
     bef_reg_offset_ad = reg_offset_ad + '!'
     bef_reg_shift_offset_ad = reg_shift_offset_ad + '!'
-    # Update after addressing
     aft_imm_offset_ad = r"\[" + IParserBase.reg + r"\]" + IParserBase.space_dot + r"\#(-?)" + IParserBase.imm_offset
     aft_reg_offset_ad = r"\[" + IParserBase.reg + r"\]" + IParserBase.space_dot + r"(-?)" + IParserBase.reg
     aft_reg_shift_offset_ad = (r"\[" + IParserBase.reg + r"\]" + IParserBase.space_dot +
