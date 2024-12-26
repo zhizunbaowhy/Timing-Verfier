@@ -1,0 +1,25 @@
+{
+    "src" : [
+        {
+            "name": "tests/inputs/main/cnt/cnt.c",
+            "cons": [
+                {
+                    "line number": 50,
+                    "upper bound": 128
+                },
+                {
+                    "line number": 51,
+                    "upper bound": 128
+                },
+                {
+                    "line number": 66,
+                    "upper bound": 128
+                },
+                {
+                    "line number": 67,
+                    "upper bound": 128
+                }
+            ]
+        }
+    ]
+}

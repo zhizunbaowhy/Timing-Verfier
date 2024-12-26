@@ -1,0 +1,225 @@
+{
+    "file": "./tests/inputs/fcall/fir/fir.dinfo",
+    "loops": [
+        {
+            "line_in_dinfo": 767,
+            "src_file": "autoinit.c",
+            "line_range": [
+                138,
+                147
+            ],
+            "tag_pc_range": [
+                [
+                    36770,
+                    36788
+                ],
+                [
+                    36788,
+                    36820
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1008,
+            "src_file": "copy_decompress_rle.c",
+            "line_range": [
+                115,
+                297
+            ],
+            "tag_pc_range": [
+                [
+                    36232,
+                    36240
+                ],
+                [
+                    36264,
+                    36282
+                ],
+                [
+                    36282,
+                    36328
+                ],
+                [
+                    36328,
+                    36368
+                ],
+                [
+                    36368,
+                    36392
+                ],
+                [
+                    36392,
+                    36480
+                ],
+                [
+                    36502,
+                    36512
+                ],
+                [
+                    36512,
+                    36564
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1040,
+            "src_file": "copy_decompress_rle.c",
+            "line_range": [
+                233,
+                238
+            ],
+            "tag_pc_range": [
+                [
+                    36488,
+                    36502
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1051,
+            "src_file": "copy_decompress_rle.c",
+            "line_range": [
+                115,
+                173
+            ],
+            "tag_pc_range": [
+                [
+                    36240,
+                    36264
+                ],
+                [
+                    36564,
+                    36580
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1277,
+            "src_file": "cpy_tbl.c",
+            "line_range": [
+                59,
+                87
+            ],
+            "tag_pc_range": [
+                [
+                    36916,
+                    36946
+                ],
+                [
+                    37024,
+                    37032
+                ],
+                [
+                    36984,
+                    37004
+                ],
+                [
+                    36946,
+                    36984
+                ],
+                [
+                    37004,
+                    37024
+                ],
+                [
+                    37032,
+                    37056
+                ],
+                [
+                    37056,
+                    37088
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1358,
+            "src_file": "tls.c",
+            "line_range": [
+                84,
+                106
+            ],
+            "tag_pc_range": [
+                [
+                    37644,
+                    37680
+                ],
+                [
+                    37680,
+                    37708
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1424,
+            "src_file": "cpp_init.c",
+            "line_range": [
+                81,
+                82
+            ],
+            "tag_pc_range": [
+                [
+                    38060,
+                    38064
+                ],
+                [
+                    38064,
+                    38084
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1536,
+            "src_file": "tests/inputs/fcall/fir/fir.c",
+            "line_range": [
+                271,
+                297
+            ],
+            "tag_pc_range": [
+                [
+                    35940,
+                    35968
+                ],
+                [
+                    35968,
+                    35970
+                ],
+                [
+                    36036,
+                    36044
+                ],
+                [
+                    36044,
+                    36196
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1555,
+            "src_file": "tests/inputs/fcall/fir/fir.c",
+            "line_range": [
+                280,
+                281
+            ],
+            "tag_pc_range": [
+                [
+                    35970,
+                    36036
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1672,
+            "src_file": "exit.c",
+            "line_range": [
+                127,
+                128
+            ],
+            "tag_pc_range": [
+                [
+                    38180,
+                    38184
+                ]
+            ]
+        }
+    ]
+}

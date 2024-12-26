@@ -1,0 +1,411 @@
+{
+    "file": "./tests/inputs/fcall/ndes/ndes.dinfo",
+    "loops": [
+        {
+            "line_in_dinfo": 789,
+            "src_file": "copy_zero_init.c",
+            "line_range": [
+                156,
+                161
+            ],
+            "tag_pc_range": [
+                [
+                    36640,
+                    36652
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 945,
+            "src_file": "autoinit.c",
+            "line_range": [
+                138,
+                147
+            ],
+            "tag_pc_range": [
+                [
+                    36162,
+                    36180
+                ],
+                [
+                    36180,
+                    36212
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1206,
+            "src_file": "copy_decompress_rle.c",
+            "line_range": [
+                115,
+                297
+            ],
+            "tag_pc_range": [
+                [
+                    35624,
+                    35632
+                ],
+                [
+                    35656,
+                    35674
+                ],
+                [
+                    35674,
+                    35720
+                ],
+                [
+                    35720,
+                    35760
+                ],
+                [
+                    35760,
+                    35784
+                ],
+                [
+                    35784,
+                    35872
+                ],
+                [
+                    35894,
+                    35904
+                ],
+                [
+                    35904,
+                    35956
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1238,
+            "src_file": "copy_decompress_rle.c",
+            "line_range": [
+                233,
+                238
+            ],
+            "tag_pc_range": [
+                [
+                    35880,
+                    35894
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1249,
+            "src_file": "copy_decompress_rle.c",
+            "line_range": [
+                115,
+                173
+            ],
+            "tag_pc_range": [
+                [
+                    35632,
+                    35656
+                ],
+                [
+                    35956,
+                    35972
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1475,
+            "src_file": "cpy_tbl.c",
+            "line_range": [
+                59,
+                87
+            ],
+            "tag_pc_range": [
+                [
+                    36308,
+                    36338
+                ],
+                [
+                    36416,
+                    36424
+                ],
+                [
+                    36376,
+                    36396
+                ],
+                [
+                    36338,
+                    36376
+                ],
+                [
+                    36396,
+                    36416
+                ],
+                [
+                    36424,
+                    36448
+                ],
+                [
+                    36448,
+                    36480
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1556,
+            "src_file": "tls.c",
+            "line_range": [
+                84,
+                106
+            ],
+            "tag_pc_range": [
+                [
+                    37036,
+                    37072
+                ],
+                [
+                    37072,
+                    37100
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1622,
+            "src_file": "cpp_init.c",
+            "line_range": [
+                81,
+                82
+            ],
+            "tag_pc_range": [
+                [
+                    37452,
+                    37456
+                ],
+                [
+                    37456,
+                    37476
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1745,
+            "src_file": "tests/inputs/fcall/ndes/ndes.c",
+            "line_range": [
+                100,
+                103
+            ],
+            "tag_pc_range": [
+                [
+                    33800,
+                    33812
+                ],
+                [
+                    33812,
+                    33874
+                ],
+                [
+                    33874,
+                    33948
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1762,
+            "src_file": "tests/inputs/fcall/ndes/ndes.c",
+            "line_range": [
+                89,
+                95
+            ],
+            "tag_pc_range": [
+                [
+                    33600,
+                    33632
+                ],
+                [
+                    33632,
+                    33720
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1776,
+            "src_file": "tests/inputs/fcall/ndes/ndes.c",
+            "line_range": [
+                85,
+                88
+            ],
+            "tag_pc_range": [
+                [
+                    33440,
+                    33444
+                ],
+                [
+                    33444,
+                    33480
+                ],
+                [
+                    33480,
+                    33544
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1793,
+            "src_file": "tests/inputs/fcall/ndes/ndes.c",
+            "line_range": [
+                82,
+                82
+            ],
+            "tag_pc_range": [
+                [
+                    33236,
+                    33264
+                ],
+                [
+                    33264,
+                    33372
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1807,
+            "src_file": "tests/inputs/fcall/ndes/ndes.c",
+            "line_range": [
+                77,
+                80
+            ],
+            "tag_pc_range": [
+                [
+                    33012,
+                    33016
+                ],
+                [
+                    33016,
+                    33080
+                ],
+                [
+                    33080,
+                    33176
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1824,
+            "src_file": "tests/inputs/fcall/ndes/ndes.c",
+            "line_range": [
+                72,
+                72
+            ],
+            "tag_pc_range": [
+                [
+                    32864,
+                    32888
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1915,
+            "src_file": "tests/inputs/fcall/ndes/ndes.c",
+            "line_range": [
+                125,
+                132
+            ],
+            "tag_pc_range": [
+                [
+                    34456,
+                    34464
+                ],
+                [
+                    34464,
+                    34602
+                ],
+                [
+                    34602,
+                    34712
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1932,
+            "src_file": "tests/inputs/fcall/ndes/ndes.c",
+            "line_range": [
+                120,
+                123
+            ],
+            "tag_pc_range": [
+                [
+                    34264,
+                    34360
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1977,
+            "src_file": "tests/inputs/fcall/ndes/ndes.c",
+            "line_range": [
+                212,
+                213
+            ],
+            "tag_pc_range": [
+                [
+                    35424,
+                    35510
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1988,
+            "src_file": "tests/inputs/fcall/ndes/ndes.c",
+            "line_range": [
+                202,
+                209
+            ],
+            "tag_pc_range": [
+                [
+                    35204,
+                    35374
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1999,
+            "src_file": "tests/inputs/fcall/ndes/ndes.c",
+            "line_range": [
+                195,
+                200
+            ],
+            "tag_pc_range": [
+                [
+                    35090,
+                    35180
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 2010,
+            "src_file": "tests/inputs/fcall/ndes/ndes.c",
+            "line_range": [
+                185,
+                189
+            ],
+            "tag_pc_range": [
+                [
+                    34792,
+                    34796
+                ],
+                [
+                    34796,
+                    34984
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 2156,
+            "src_file": "exit.c",
+            "line_range": [
+                127,
+                128
+            ],
+            "tag_pc_range": [
+                [
+                    37572,
+                    37576
+                ]
+            ]
+        }
+    ]
+}

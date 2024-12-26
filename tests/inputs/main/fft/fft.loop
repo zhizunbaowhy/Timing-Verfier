@@ -1,0 +1,323 @@
+{
+    "file": "./tests/inputs/main/fft/fft.dinfo",
+    "loops": [
+        {
+            "line_in_dinfo": 723,
+            "src_file": "copy_zero_init.c",
+            "line_range": [
+                156,
+                161
+            ],
+            "tag_pc_range": [
+                [
+                    36032,
+                    36044
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 879,
+            "src_file": "autoinit.c",
+            "line_range": [
+                138,
+                147
+            ],
+            "tag_pc_range": [
+                [
+                    35554,
+                    35572
+                ],
+                [
+                    35572,
+                    35604
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1140,
+            "src_file": "copy_decompress_rle.c",
+            "line_range": [
+                115,
+                297
+            ],
+            "tag_pc_range": [
+                [
+                    35016,
+                    35024
+                ],
+                [
+                    35048,
+                    35066
+                ],
+                [
+                    35066,
+                    35112
+                ],
+                [
+                    35112,
+                    35152
+                ],
+                [
+                    35152,
+                    35176
+                ],
+                [
+                    35176,
+                    35264
+                ],
+                [
+                    35286,
+                    35296
+                ],
+                [
+                    35296,
+                    35348
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1172,
+            "src_file": "copy_decompress_rle.c",
+            "line_range": [
+                233,
+                238
+            ],
+            "tag_pc_range": [
+                [
+                    35272,
+                    35286
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1183,
+            "src_file": "copy_decompress_rle.c",
+            "line_range": [
+                115,
+                173
+            ],
+            "tag_pc_range": [
+                [
+                    35024,
+                    35048
+                ],
+                [
+                    35348,
+                    35364
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1409,
+            "src_file": "cpy_tbl.c",
+            "line_range": [
+                59,
+                87
+            ],
+            "tag_pc_range": [
+                [
+                    35700,
+                    35730
+                ],
+                [
+                    35808,
+                    35816
+                ],
+                [
+                    35768,
+                    35788
+                ],
+                [
+                    35730,
+                    35768
+                ],
+                [
+                    35788,
+                    35808
+                ],
+                [
+                    35816,
+                    35840
+                ],
+                [
+                    35840,
+                    35872
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1490,
+            "src_file": "tls.c",
+            "line_range": [
+                84,
+                106
+            ],
+            "tag_pc_range": [
+                [
+                    36428,
+                    36464
+                ],
+                [
+                    36464,
+                    36492
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1556,
+            "src_file": "cpp_init.c",
+            "line_range": [
+                81,
+                82
+            ],
+            "tag_pc_range": [
+                [
+                    37004,
+                    37008
+                ],
+                [
+                    37008,
+                    37028
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1642,
+            "src_file": "tests/inputs/main/fft/fft.c",
+            "line_range": [
+                98,
+                139
+            ],
+            "tag_pc_range": [
+                [
+                    33348,
+                    33352
+                ],
+                [
+                    33454,
+                    33492
+                ],
+                [
+                    33352,
+                    33454
+                ],
+                [
+                    34292,
+                    34336
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1661,
+            "src_file": "tests/inputs/main/fft/fft.c",
+            "line_range": [
+                108,
+                136
+            ],
+            "tag_pc_range": [
+                [
+                    33492,
+                    33576
+                ],
+                [
+                    33576,
+                    33688
+                ],
+                [
+                    34224,
+                    34292
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1677,
+            "src_file": "tests/inputs/main/fft/fft.c",
+            "line_range": [
+                116,
+                135
+            ],
+            "tag_pc_range": [
+                [
+                    33688,
+                    34056
+                ],
+                [
+                    34056,
+                    34224
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1690,
+            "src_file": "tests/inputs/main/fft/fft.c",
+            "line_range": [
+                75,
+                91
+            ],
+            "tag_pc_range": [
+                [
+                    33096,
+                    33106
+                ],
+                [
+                    33106,
+                    33108
+                ],
+                [
+                    33160,
+                    33300
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1706,
+            "src_file": "tests/inputs/main/fft/fft.c",
+            "line_range": [
+                81,
+                85
+            ],
+            "tag_pc_range": [
+                [
+                    33108,
+                    33160
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1716,
+            "src_file": "tests/inputs/main/fft/fft.c",
+            "line_range": [
+                49,
+                54
+            ],
+            "tag_pc_range": [
+                [
+                    32820,
+                    32824
+                ],
+                [
+                    32824,
+                    32868
+                ],
+                [
+                    32868,
+                    32996
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1839,
+            "src_file": "exit.c",
+            "line_range": [
+                127,
+                128
+            ],
+            "tag_pc_range": [
+                [
+                    37124,
+                    37128
+                ]
+            ]
+        }
+    ]
+}

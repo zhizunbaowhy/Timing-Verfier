@@ -1,0 +1,17 @@
+{
+    "src" : [
+        {
+            "name": "tests/inputs/fcall/fdct/fdct.c",
+            "cons": [
+                {
+                    "line number": 83,
+                    "upper bound": 8
+                },
+                {
+                    "line number": 161,
+                    "upper bound": 8
+                }
+            ]
+        }
+    ]
+}

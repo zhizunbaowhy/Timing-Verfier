@@ -1,0 +1,21 @@
+{
+    "src" : [
+        {
+            "name": "tests/inputs/fcall/bsort100/bsort100.c",
+            "cons": [
+                {
+                    "line number" : 85,
+                    "upper bound": 100
+                },
+                {
+                    "line number": 101,
+                    "upper bound": 99
+                },
+                {
+                    "line number": 106,
+                    "upper bound": 49
+                }
+            ]
+        }
+    ]
+}

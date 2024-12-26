@@ -1,0 +1,2264 @@
+
+OBJECT FILE:  tests/inputs/main/adpcm/adpcm.out
+
+ Object File Information
+
+    File Name:           tests/inputs/main/adpcm/adpcm.out
+    Format:              ELF Version 1                    
+    File Type:           executable file                  
+    Machine:             TI C6x                           
+    Machine Endian:      little endian                    
+    Entry Point:         0x0000aea0                       
+    Vendor:              Texas Instruments, Inc.          
+    Producer:            Linker                           
+    Linker Version:      7.4.4                            
+    Number of Sections:  29                               
+    File Length:         38220                            
+    ELF Class:           32-bit objects                   
+    ELF e_flags:         0x00000000                       
+
+ Program Segment Table
+
+    id type    load addr  run addr   file size mem size flags align
+    -- ----    ---------  --------   --------- -------- ----- -----
+    0  PT_LOAD 0x00008000 0x00008000 0x0       0x2410   rw-   8    
+    1  PT_LOAD 0x0000a420 0x0000a420 0xc00     0xc00    r-x   32   
+    2  PT_LOAD 0x0000b020 0x0000b020 0x0       0x400    rw-   8    
+    3  PT_LOAD 0x0000b420 0x0000b420 0x0       0x1b4    rw-   8    
+    4  PT_LOAD 0x0000b5d8 0x0000b5d8 0x1bc     0x1bc    r--   8    
+
+ Section Information
+
+    id name                      load addr  run addr     size align alloc
+    -- ----                      ---------  --------     ---- ----- -----
+     0 (no name)                 0x00000000 0x00000000    0x0     0   N  
+     1 .neardata                 0x00000000 0x00000000    0x0     8   N  
+     2 .rodata                   0x00000000 0x00000000    0x0     8   N  
+     3 .bss                      0x00000000 0x00000000    0x0     8   N  
+     4 .text                     0x0000a420 0x0000a420  0xc00    32   Y  
+     5 .const                    0x00000000 0x00000000    0x0     8   N  
+     6 .data                     0x00000000 0x00000000    0x0     8   N  
+     7 .fardata                  0x0000b420 0x0000b420  0x1b4     8   Y  
+     8 .cinit                    0x0000b5d8 0x0000b5d8  0x1bc     8   Y  
+     9 .init_array               0x00000000 0x00000000    0x0     8   N  
+    10 .stack                    0x0000b020 0x0000b020  0x400     8   Y  
+    11 .sysmem                   0x00000000 0x00000000    0x0     8   N  
+    12 .far                      0x00008000 0x00008000 0x2410     8   Y  
+    13 .switch                   0x00000000 0x00000000    0x0     4   N  
+    14 .cio                      0x00000000 0x00000000    0x0     8   N  
+    15 .ppinfo                   0x00000000 0x00000000    0x0     4   N  
+    16 .ppdata                   0x00000000 0x00000000    0x0     4   N  
+    17 .debug_info               0x00000000 0x00000000 0x2e36     1   N  
+    18 .debug_line               0x00000000 0x00000000  0xa60     1   N  
+    19 .debug_aranges            0x00000000 0x00000000  0x1c0     1   N  
+    20 .debug_abbrev             0x00000000 0x00000000  0xcf4     1   N  
+    21 .debug_str                0x00000000 0x00000000  0xa83     1   N  
+    22 .debug_pubtypes           0x00000000 0x00000000  0x6f2     1   N  
+    23 .debug_frame              0x00000000 0x00000000  0x128     1   N  
+    24 .c6xabi.attributes        0x00000000 0x00000000   0x3e     0   N  
+    25 .symtab                   0x00000000 0x00000000 0x19e0     0   N  
+    26 .TI.section.flags         0x00000000 0x00000000   0x1f     0   N  
+    27 .strtab                   0x00000000 0x00000000  0xcea     0   N  
+    28 .shstrtab                 0x00000000 0x00000000  0x114     0   N  
+
+ Build Attributes in ".c6xabi.attributes"
+
+    Format Version:  'A'
+
+    <0>  Vendor Name:  "TI" (Texas Instruments, Inc.)
+
+         Tag_File:
+            Attributes:
+             Tag_Producer_Name        Linker  
+             Tag_Producer_VMajor      8       (Producer Major Version + 1)
+             Tag_Producer_VMinor      5       (Producer Minor Version + 1)
+             Tag_Producer_VPatch      5       (Producer Patch Version + 1)
+             Tag_ISA                  10      (C6600)
+             Tag_ABI                  2       (EABI)
+             Tag_Long_Precision_Bits  2       (32-bit long type)
+             Tag_Bitfield_layout      2       (compatible with any bitfield layout)
+             Tag_ABI_enum_size        3       (no enums that affect object file compatibility are used)
+
+    <1>  Vendor Name:  "c6xabi" (ABI for the Texas Instruments C6000 Architecture)
+
+         Tag_File:
+            Attributes:
+             Tag_ISA          10  (C6600)
+             Tag_ABI_wchar_t  1   (wchar_t size is 2)
+
+ Symbol Table ".symtab"
+
+     id name            value      kind      section         binding type    
+     -- ----            -----      ----      -------         ------- ----    
+      0 (no name)       0x00000000 undefined N/A             local   none    
+      1 .neardata       0x00000000 defined   .neardata       local   section 
+      2 .rodata         0x00000000 defined   .rodata         local   section 
+      3 .bss            0x00000000 defined   .bss            local   section 
+      4 .text           0x0000a420 defined   .text           local   section 
+      5 .const          0x00000000 defined   .const          local   section 
+      6 .data           0x00000000 defined   .data           local   section 
+      7 .fardata        0x0000b420 defined   .fardata        local   section 
+      8 .cinit          0x0000b5d8 defined   .cinit          local   section 
+      9 .init_array     0x00000000 defined   .init_array     local   section 
+     10 .stack          0x0000b020 defined   .stack          local   section 
+     11 .sysmem         0x00000000 defined   .sysmem         local   section 
+     12 .far            0x00008000 defined   .far            local   section 
+     13 .switch         0x00000000 defined   .switch         local   section 
+     14 .cio            0x00000000 defined   .cio            local   section 
+     15 .ppinfo         0x00000000 defined   .ppinfo         local   section 
+     16 .ppdata         0x00000000 defined   .ppdata         local   section 
+     17 .debug_info     0x00000000 defined   .debug_info     local   section 
+     18 .debug_line     0x00000000 defined   .debug_line     local   section 
+     19 .debug_aranges  0x00000000 defined   .debug_aranges  local   section 
+     20 .debug_abbrev   0x00000000 defined   .debug_abbrev   local   section 
+     21 .debug_str      0x00000000 defined   .debug_str      local   section 
+     22 .debug_pubtypes 0x00000000 defined   .debug_pubtypes local   section 
+     23 .debug_frame    0x00000000 defined   .debug_frame    local   section 
+     24 adpcm.asm       0x00000000 absolute  N/A             local   file    
+     25 $C$DW$L$main... 0x0000a484 defined   .text           local   function
+     26 $C$L1           0x0000a484 defined   .text           local   function
+     27 $C$DW$L$main... 0x0000a4a4 defined   .text           local   function
+     28 $C$DW$L$main... 0x0000a4a4 defined   .text           local   function
+     29 $C$DW$L$main... 0x0000a4aa defined   .text           local   function
+     30 $C$L2           0x0000a4aa defined   .text           local   function
+     31 $C$DW$L$main... 0x0000a4aa defined   .text           local   function
+     32 $C$DW$L$main... 0x0000a4ac defined   .text           local   function
+     33 $C$L3           0x0000a4ac defined   .text           local   function
+     34 $C$DW$L$main... 0x0000a4ac defined   .text           local   function
+     35 $C$DW$L$main... 0x0000a4b4 defined   .text           local   function
+     36 $C$DW$L$main... 0x0000a4b4 defined   .text           local   function
+     37 $C$DW$L$main... 0x0000a4ba defined   .text           local   function
+     38 $C$L4           0x0000a4ba defined   .text           local   function
+     39 $C$DW$L$main... 0x0000a4ba defined   .text           local   function
+     40 $C$DW$L$main... 0x0000a4d8 defined   .text           local   function
+     41 $C$DW$L$main... 0x0000a4d8 defined   .text           local   function
+     42 $C$DW$L$main... 0x0000a4f2 defined   .text           local   function
+     43 $C$L5           0x0000a4f2 defined   .text           local   function
+     44 $C$DW$L$main... 0x0000a4f2 defined   .text           local   function
+     45 $C$DW$L$main... 0x0000a508 defined   .text           local   function
+     46 $C$DW$L$main... 0x0000a508 defined   .text           local   function
+     47 $C$DW$L$main... 0x0000a526 defined   .text           local   function
+     48 $C$L6           0x0000a526 defined   .text           local   function
+     49 $C$DW$L$main... 0x0000a526 defined   .text           local   function
+     50 $C$DW$L$main... 0x0000a534 defined   .text           local   function
+     51 $C$DW$L$main... 0x0000a534 defined   .text           local   function
+     52 $C$DW$L$main... 0x0000a54c defined   .text           local   function
+     53 $C$L7           0x0000a54c defined   .text           local   function
+     54 $C$DW$L$main... 0x0000a54c defined   .text           local   function
+     55 $C$DW$L$main... 0x0000a554 defined   .text           local   function
+     56 $C$DW$L$main... 0x0000a554 defined   .text           local   function
+     57 $C$DW$L$main... 0x0000a562 defined   .text           local   function
+     58 $C$L8           0x0000a562 defined   .text           local   function
+     59 $C$DW$L$main... 0x0000a562 defined   .text           local   function
+     60 $C$DW$L$main... 0x0000a56c defined   .text           local   function
+     61 $C$L9           0x0000a56c defined   .text           local   function
+     62 $C$DW$L$main... 0x0000a56c defined   .text           local   function
+     63 $C$DW$L$main... 0x0000a578 defined   .text           local   function
+     64 $C$DW$L$main... 0x0000a578 defined   .text           local   function
+     65 $C$DW$L$main... 0x0000a584 defined   .text           local   function
+     66 $C$L10          0x0000a584 defined   .text           local   function
+     67 $C$DW$L$main... 0x0000a584 defined   .text           local   function
+     68 $C$DW$L$main... 0x0000a590 defined   .text           local   function
+     69 $C$DW$L$main... 0x0000a590 defined   .text           local   function
+     70 $C$DW$L$main... 0x0000a594 defined   .text           local   function
+     71 $C$L11          0x0000a594 defined   .text           local   function
+     72 $C$DW$L$main... 0x0000a594 defined   .text           local   function
+     73 $C$DW$L$main... 0x0000a5b0 defined   .text           local   function
+     74 $C$DW$L$main... 0x0000a5b0 defined   .text           local   function
+     75 $C$DW$L$main... 0x0000a5b4 defined   .text           local   function
+     76 $C$L12          0x0000a5b4 defined   .text           local   function
+     77 $C$DW$L$main... 0x0000a5b4 defined   .text           local   function
+     78 $C$DW$L$main... 0x0000a5c0 defined   .text           local   function
+     79 $C$DW$L$main... 0x0000a5c0 defined   .text           local   function
+     80 $C$DW$L$main... 0x0000a5c4 defined   .text           local   function
+     81 $C$L13          0x0000a5c4 defined   .text           local   function
+     82 $C$DW$L$main... 0x0000a5c4 defined   .text           local   function
+     83 $C$DW$L$main... 0x0000a5cc defined   .text           local   function
+     84 $C$DW$L$main... 0x0000a5cc defined   .text           local   function
+     85 $C$DW$L$main... 0x0000a5e0 defined   .text           local   function
+     86 $C$L14          0x0000a5e0 defined   .text           local   function
+     87 $C$DW$L$main... 0x0000a5e0 defined   .text           local   function
+     88 $C$DW$L$main... 0x0000a5f6 defined   .text           local   function
+     89 $C$L15          0x0000a5f6 defined   .text           local   function
+     90 $C$DW$L$main... 0x0000a5f6 defined   .text           local   function
+     91 $C$L16          0x0000a614 defined   .text           local   function
+     92 $C$DW$L$main... 0x0000a614 defined   .text           local   function
+     93 $C$L17          0x0000a64c defined   .text           local   function
+     94 $C$DW$L$main... 0x0000a6a4 defined   .text           local   function
+     95 $C$L18          0x0000a6a4 defined   .text           local   function
+     96 $C$DW$L$main... 0x0000a6ac defined   .text           local   function
+     97 $C$DW$L$main... 0x0000a6ac defined   .text           local   function
+     98 $C$DW$L$main... 0x0000a6b8 defined   .text           local   function
+     99 $C$L19          0x0000a6b8 defined   .text           local   function
+    100 $C$DW$L$main... 0x0000a6b8 defined   .text           local   function
+    101 $C$DW$L$main... 0x0000a6d4 defined   .text           local   function
+    102 $C$L20          0x0000a6d4 defined   .text           local   function
+    103 $C$DW$L$main... 0x0000a6d4 defined   .text           local   function
+    104 $C$DW$L$main... 0x0000a700 defined   .text           local   function
+    105 $C$DW$L$main... 0x0000a700 defined   .text           local   function
+    106 $C$DW$L$main... 0x0000a704 defined   .text           local   function
+    107 $C$L21          0x0000a704 defined   .text           local   function
+    108 $C$DW$L$main... 0x0000a704 defined   .text           local   function
+    109 $C$DW$L$main... 0x0000a70c defined   .text           local   function
+    110 $C$DW$L$main... 0x0000a70c defined   .text           local   function
+    111 $C$DW$L$main... 0x0000a710 defined   .text           local   function
+    112 $C$L22          0x0000a710 defined   .text           local   function
+    113 $C$DW$L$main... 0x0000a710 defined   .text           local   function
+    114 $C$DW$L$main... 0x0000a740 defined   .text           local   function
+    115 $C$DW$L$main... 0x0000a740 defined   .text           local   function
+    116 $C$DW$L$main... 0x0000a74a defined   .text           local   function
+    117 $C$L23          0x0000a74a defined   .text           local   function
+    118 $C$DW$L$main... 0x0000a74a defined   .text           local   function
+    119 $C$DW$L$main... 0x0000a758 defined   .text           local   function
+    120 $C$DW$L$main... 0x0000a758 defined   .text           local   function
+    121 $C$DW$L$main... 0x0000a768 defined   .text           local   function
+    122 $C$L24          0x0000a768 defined   .text           local   function
+    123 $C$DW$L$main... 0x0000a768 defined   .text           local   function
+    124 $C$DW$L$main... 0x0000a774 defined   .text           local   function
+    125 $C$DW$L$main... 0x0000a774 defined   .text           local   function
+    126 $C$DW$L$main... 0x0000a784 defined   .text           local   function
+    127 $C$L25          0x0000a784 defined   .text           local   function
+    128 $C$DW$L$main... 0x0000a784 defined   .text           local   function
+    129 $C$DW$L$main... 0x0000a78c defined   .text           local   function
+    130 $C$DW$L$main... 0x0000a78c defined   .text           local   function
+    131 $C$DW$L$main... 0x0000a796 defined   .text           local   function
+    132 $C$L26          0x0000a796 defined   .text           local   function
+    133 $C$DW$L$main... 0x0000a796 defined   .text           local   function
+    134 $C$DW$L$main... 0x0000a7a4 defined   .text           local   function
+    135 $C$L27          0x0000a7a4 defined   .text           local   function
+    136 $C$DW$L$main... 0x0000a7a4 defined   .text           local   function
+    137 $C$DW$L$main... 0x0000a7b0 defined   .text           local   function
+    138 $C$DW$L$main... 0x0000a7b0 defined   .text           local   function
+    139 $C$DW$L$main... 0x0000a7b8 defined   .text           local   function
+    140 $C$L28          0x0000a7b8 defined   .text           local   function
+    141 $C$DW$L$main... 0x0000a7b8 defined   .text           local   function
+    142 $C$DW$L$main... 0x0000a7c8 defined   .text           local   function
+    143 $C$DW$L$main... 0x0000a7c8 defined   .text           local   function
+    144 $C$DW$L$main... 0x0000a7cc defined   .text           local   function
+    145 $C$L29          0x0000a7cc defined   .text           local   function
+    146 $C$DW$L$main... 0x0000a7cc defined   .text           local   function
+    147 $C$L30          0x0000a7f0 defined   .text           local   function
+    148 $C$DW$L$main... 0x0000a7f0 defined   .text           local   function
+    149 .text           0x0000a420 defined   .text           local   section 
+    150 .fardata:ind... 0x0000b588 defined   .fardata        local   section 
+    151 .fardata:ste... 0x0000b420 defined   .fardata        local   section 
+    152 .far            0x00008000 defined   .far            local   section 
+    153 .debug_info     0x00002a63 defined   .debug_info     local   section 
+    154 .debug_info     0x00002904 defined   .debug_info     local   section 
+    155 .debug_info     0x0000282e defined   .debug_info     local   section 
+    156 .debug_info     0x00002682 defined   .debug_info     local   section 
+    157 .debug_info     0x0000157a defined   .debug_info     local   section 
+    158 .debug_info     0x000029d4 defined   .debug_info     local   section 
+    159 .debug_info     0x00002d4f defined   .debug_info     local   section 
+    160 .debug_line     0x000009fd defined   .debug_line     local   section 
+    161 .debug_line     0x000009ba defined   .debug_line     local   section 
+    162 .debug_line     0x00000977 defined   .debug_line     local   section 
+    163 .debug_line     0x000008f1 defined   .debug_line     local   section 
+    164 .debug_line     0x00000458 defined   .debug_line     local   section 
+    165 .debug_line     0x000007a8 defined   .debug_line     local   section 
+    166 .debug_line     0x00000934 defined   .debug_line     local   section 
+    167 .debug_frame    0x00000000 defined   .debug_frame    local   section 
+    168 .debug_abbrev   0x00000c24 defined   .debug_abbrev   local   section 
+    169 .debug_abbrev   0x00000bfb defined   .debug_abbrev   local   section 
+    170 .debug_abbrev   0x00000bd2 defined   .debug_abbrev   local   section 
+    171 .debug_abbrev   0x00000b6f defined   .debug_abbrev   local   section 
+    172 .debug_abbrev   0x0000081d defined   .debug_abbrev   local   section 
+    173 .debug_str      0x000007c7 defined   .debug_str      local   section 
+    174 .debug_abbrev   0x0000089c defined   .debug_abbrev   local   section 
+    175 .debug_str      0x000009d0 defined   .debug_str      local   section 
+    176 .debug_abbrev   0x00000b98 defined   .debug_abbrev   local   section 
+    177 .debug_aranges  0x00000180 defined   .debug_aranges  local   section 
+    178 .debug_pubtypes 0x00000582 defined   .debug_pubtypes local   section 
+    179 .debug_pubtypes 0x000006d0 defined   .debug_pubtypes local   section 
+    180 boot.asm        0x00000000 absolute  N/A             local   file    
+    181 $C$RL0          0x0000aed4 defined   .text           local   function
+    182 $C$RL1          0x0000aee8 defined   .text           local   function
+    183 $C$RL2          0x0000aefc defined   .text           local   function
+    184 .stack          0x0000b020 defined   .stack          local   section 
+    185 .text:_c_int00  0x0000aea0 defined   .text           local   section 
+    186 .debug_info     0x0000101f defined   .debug_info     local   section 
+    187 .debug_info     0x0000055b defined   .debug_info     local   section 
+    188 .debug_info     0x00000000 defined   .debug_info     local   section 
+    189 .debug_info     0x00001a8c defined   .debug_info     local   section 
+    190 .debug_info     0x00002116 defined   .debug_info     local   section 
+    191 .debug_line     0x0000073a defined   .debug_line     local   section 
+    192 .debug_line     0x00000354 defined   .debug_line     local   section 
+    193 .debug_line     0x00000000 defined   .debug_line     local   section 
+    194 .debug_line     0x0000061a defined   .debug_line     local   section 
+    195 .debug_line     0x00000764 defined   .debug_line     local   section 
+    196 .debug_abbrev   0x000005b5 defined   .debug_abbrev   local   section 
+    197 .debug_abbrev   0x00000237 defined   .debug_abbrev   local   section 
+    198 .debug_abbrev   0x00000000 defined   .debug_abbrev   local   section 
+    199 .debug_str      0x00000238 defined   .debug_str      local   section 
+    200 .debug_abbrev   0x00000351 defined   .debug_abbrev   local   section 
+    201 .debug_str      0x000005a8 defined   .debug_str      local   section 
+    202 .debug_abbrev   0x0000062c defined   .debug_abbrev   local   section 
+    203 .debug_aranges  0x00000000 defined   .debug_aranges  local   section 
+    204 .debug_pubtypes 0x00000109 defined   .debug_pubtypes local   section 
+    205 .debug_pubtypes 0x0000035b defined   .debug_pubtypes local   section 
+    206 copy_decompr... 0x00000000 absolute  N/A             local   file    
+    207 .text:decomp... 0x0000afe0 defined   .text           local   section 
+    208 .debug_info     0x00001e38 defined   .debug_info     local   section 
+    209 .debug_info     0x00000110 defined   .debug_info     local   section 
+    210 .debug_info     0x00001d65 defined   .debug_info     local   section 
+    211 .debug_info     0x00000a6a defined   .debug_info     local   section 
+    212 .debug_info     0x00001df2 defined   .debug_info     local   section 
+    213 .debug_line     0x000007f2 defined   .debug_line     local   section 
+    214 .debug_line     0x00000040 defined   .debug_line     local   section 
+    215 .debug_line     0x00000672 defined   .debug_line     local   section 
+    216 .debug_line     0x0000024b defined   .debug_line     local   section 
+    217 .debug_line     0x00000692 defined   .debug_line     local   section 
+    218 .debug_abbrev   0x0000095b defined   .debug_abbrev   local   section 
+    219 .debug_abbrev   0x00000069 defined   .debug_abbrev   local   section 
+    220 .debug_str      0x0000034e defined   .debug_str      local   section 
+    221 .debug_abbrev   0x00000406 defined   .debug_abbrev   local   section 
+    222 .debug_str      0x00000000 defined   .debug_str      local   section 
+    223 .debug_abbrev   0x000000d2 defined   .debug_abbrev   local   section 
+    224 .debug_str      0x00000464 defined   .debug_str      local   section 
+    225 .debug_abbrev   0x00000478 defined   .debug_abbrev   local   section 
+    226 .debug_aranges  0x00000020 defined   .debug_aranges  local   section 
+    227 .debug_pubtypes 0x00000210 defined   .debug_pubtypes local   section 
+    228 .debug_pubtypes 0x00000000 defined   .debug_pubtypes local   section 
+    229 .debug_pubtypes 0x00000307 defined   .debug_pubtypes local   section 
+    230 copy_decompr... 0x00000000 absolute  N/A             local   file    
+    231 __TI_decompr... 0x0000a820 defined   .text           local   function
+    232 $C$L1           0x0000a828 defined   .text           local   function
+    233 $C$L2           0x0000a830 defined   .text           local   function
+    234 $C$L3           0x0000a8b0 defined   .text           local   function
+    235 $C$L4           0x0000a8c8 defined   .text           local   function
+    236 $C$L8           0x0000a940 defined   .text           local   function
+    237 $C$L9           0x0000a974 defined   .text           local   function
+    238 $C$L10          0x0000a984 defined   .text           local   function
+    239 .text:__TI_d... 0x0000a820 defined   .text           local   section 
+    240 .text:decomp... 0x0000b000 defined   .text           local   section 
+    241 .debug_info     0x00000e02 defined   .debug_info     local   section 
+    242 .debug_info     0x00000b10 defined   .debug_info     local   section 
+    243 .debug_info     0x000003ef defined   .debug_info     local   section 
+    244 .debug_info     0x00000fd9 defined   .debug_info     local   section 
+    245 .debug_info     0x00001f1d defined   .debug_info     local   section 
+    246 .debug_line     0x0000071a defined   .debug_line     local   section 
+    247 .debug_line     0x000002b9 defined   .debug_line     local   section 
+    248 .debug_line     0x000000e4 defined   .debug_line     local   section 
+    249 .debug_line     0x0000031b defined   .debug_line     local   section 
+    250 .debug_line     0x000006d6 defined   .debug_line     local   section 
+    251 .debug_abbrev   0x00000557 defined   .debug_abbrev   local   section 
+    252 .debug_abbrev   0x000004c0 defined   .debug_abbrev   local   section 
+    253 .debug_abbrev   0x0000019f defined   .debug_abbrev   local   section 
+    254 .debug_str      0x00000182 defined   .debug_str      local   section 
+    255 .debug_abbrev   0x00000213 defined   .debug_abbrev   local   section 
+    256 .debug_str      0x0000050f defined   .debug_str      local   section 
+    257 .debug_abbrev   0x0000049c defined   .debug_abbrev   local   section 
+    258 .debug_aranges  0x00000100 defined   .debug_aranges  local   section 
+    259 .debug_aranges  0x00000060 defined   .debug_aranges  local   section 
+    260 .debug_pubtypes 0x000000bc defined   .debug_pubtypes local   section 
+    261 .debug_pubtypes 0x0000033e defined   .debug_pubtypes local   section 
+    262 copy_zero_in... 0x00000000 absolute  N/A             local   file    
+    263 $C$L4           0x0000ac2e defined   .text           local   function
+    264 .text:decomp... 0x0000aba0 defined   .text           local   section 
+    265 .debug_info     0x00001f49 defined   .debug_info     local   section 
+    266 .debug_info     0x0000025f defined   .debug_info     local   section 
+    267 .debug_info     0x00000abd defined   .debug_info     local   section 
+    268 .debug_line     0x00000812 defined   .debug_line     local   section 
+    269 .debug_line     0x0000008b defined   .debug_line     local   section 
+    270 .debug_line     0x00000285 defined   .debug_line     local   section 
+    271 .debug_abbrev   0x000009a7 defined   .debug_abbrev   local   section 
+    272 .debug_abbrev   0x000000f6 defined   .debug_abbrev   local   section 
+    273 .debug_str      0x000000c4 defined   .debug_str      local   section 
+    274 .debug_abbrev   0x0000017b defined   .debug_abbrev   local   section 
+    275 .debug_aranges  0x00000040 defined   .debug_aranges  local   section 
+    276 .debug_pubtypes 0x0000005e defined   .debug_pubtypes local   section 
+    277 exit.asm        0x00000000 absolute  N/A             local   file    
+    278 $C$L1           0x0000afc4 defined   .text           local   function
+    279 $C$RL0          0x0000accc defined   .text           local   function
+    280 $C$L2           0x0000ace0 defined   .text           local   function
+    281 $C$L3           0x0000acf0 defined   .text           local   function
+    282 $C$RL1          0x0000acf0 defined   .text           local   function
+    283 $C$L4           0x0000ad10 defined   .text           local   function
+    284 $C$RL2          0x0000ad10 defined   .text           local   function
+    285 .fardata        0x0000b5c8 defined   .fardata        local   section 
+    286 .text:abort     0x0000afc0 defined   .text           local   section 
+    287 .text:exit      0x0000ac80 defined   .text           local   section 
+    288 .debug_info     0x00002b57 defined   .debug_info     local   section 
+    289 .debug_info     0x00001b20 defined   .debug_info     local   section 
+    290 .debug_info     0x00001c47 defined   .debug_info     local   section 
+    291 .debug_info     0x00000888 defined   .debug_info     local   section 
+    292 .debug_line     0x00000a1d defined   .debug_line     local   section 
+    293 .debug_line     0x000007c8 defined   .debug_line     local   section 
+    294 .debug_line     0x0000063a defined   .debug_line     local   section 
+    295 .debug_line     0x000001c0 defined   .debug_line     local   section 
+    296 .debug_abbrev   0x00000c68 defined   .debug_abbrev   local   section 
+    297 .debug_abbrev   0x000008c7 defined   .debug_abbrev   local   section 
+    298 .debug_abbrev   0x000008f0 defined   .debug_abbrev   local   section 
+    299 .debug_abbrev   0x00000383 defined   .debug_abbrev   local   section 
+    300 .debug_aranges  0x000001a0 defined   .debug_aranges  local   section 
+    301 .debug_aranges  0x000000c0 defined   .debug_aranges  local   section 
+    302 memcpy64.asm    0x00000000 absolute  N/A             local   file    
+    303 .text:memcpy    0x0000ae00 defined   .text           local   section 
+    304 .debug_info     0x00000994 defined   .debug_info     local   section 
+    305 .debug_line     0x000001fe defined   .debug_line     local   section 
+    306 .debug_abbrev   0x00000438 defined   .debug_abbrev   local   section 
+    307 .debug_aranges  0x000000e0 defined   .debug_aranges  local   section 
+    308 args_main.asm   0x00000000 absolute  N/A             local   file    
+    309 .text:_args_... 0x0000af80 defined   .text           local   section 
+    310 .debug_info     0x00000792 defined   .debug_info     local   section 
+    311 .debug_line     0x0000017e defined   .debug_line     local   section 
+    312 .debug_abbrev   0x000002f4 defined   .debug_abbrev   local   section 
+    313 .debug_aranges  0x000000a0 defined   .debug_aranges  local   section 
+    314 autoinit.asm    0x00000000 absolute  N/A             local   file    
+    315 $C$RL0          0x0000a9e4 defined   .text           local   function
+    316 $C$L1           0x0000aa04 defined   .text           local   function
+    317 $C$L2           0x0000aa42 defined   .text           local   function
+    318 $C$RL1          0x0000aa54 defined   .text           local   function
+    319 $C$L3           0x0000aa74 defined   .text           local   function
+    320 .text:_auto_... 0x0000a9a0 defined   .text           local   section 
+    321 .debug_info     0x00000602 defined   .debug_info     local   section 
+    322 .debug_line     0x0000012e defined   .debug_line     local   section 
+    323 .debug_abbrev   0x00000260 defined   .debug_abbrev   local   section 
+    324 .debug_aranges  0x00000080 defined   .debug_aranges  local   section 
+    325 cpp_init.asm    0x00000000 absolute  N/A             local   file    
+    326 $C$L1           0x0000af4c defined   .text           local   function
+    327 $C$RL0          0x0000af50 defined   .text           local   function
+    328 $C$L2           0x0000af64 defined   .text           local   function
+    329 .text:__TI_c... 0x0000af20 defined   .text           local   section 
+    330 .debug_info     0x0000141b defined   .debug_info     local   section 
+    331 .debug_line     0x0000040e defined   .debug_line     local   section 
+    332 .debug_abbrev   0x00000797 defined   .debug_abbrev   local   section 
+    333 .debug_aranges  0x00000160 defined   .debug_aranges  local   section 
+    334 cpy_tbl.asm     0x00000000 absolute  N/A             local   file    
+    335 $C$L1           0x0000aad4 defined   .text           local   function
+    336 $C$RL0          0x0000ab2c defined   .text           local   function
+    337 $C$L2           0x0000ab40 defined   .text           local   function
+    338 $C$RL1          0x0000ab48 defined   .text           local   function
+    339 $C$L3           0x0000ab60 defined   .text           local   function
+    340 $C$L4           0x0000ab80 defined   .text           local   function
+    341 .text:copy_in   0x0000aaa0 defined   .text           local   section 
+    342 .debug_info     0x000022ef defined   .debug_info     local   section 
+    343 .debug_info     0x00001129 defined   .debug_info     local   section 
+    344 .debug_info     0x00002c82 defined   .debug_info     local   section 
+    345 .debug_line     0x00000832 defined   .debug_line     local   section 
+    346 .debug_line     0x0000037e defined   .debug_line     local   section 
+    347 .debug_line     0x00000883 defined   .debug_line     local   section 
+    348 .debug_abbrev   0x00000a05 defined   .debug_abbrev   local   section 
+    349 .debug_abbrev   0x00000661 defined   .debug_abbrev   local   section 
+    350 .debug_str      0x000008e0 defined   .debug_str      local   section 
+    351 .debug_abbrev   0x00000a8a defined   .debug_abbrev   local   section 
+    352 .debug_aranges  0x00000120 defined   .debug_aranges  local   section 
+    353 .debug_pubtypes 0x00000680 defined   .debug_pubtypes local   section 
+    354 tls.asm         0x00000000 absolute  N/A             local   file    
+    355 $C$L2           0x0000adac defined   .text           local   function
+    356 $C$RL1          0x0000add0 defined   .text           local   function
+    357 $C$L3           0x0000adec defined   .text           local   function
+    358 .text:tls:in... 0x0000ad40 defined   .text           local   section 
+    359 .debug_info     0x0000242f defined   .debug_info     local   section 
+    360 .debug_info     0x000012b7 defined   .debug_info     local   section 
+    361 .debug_line     0x000008c8 defined   .debug_line     local   section 
+    362 .debug_line     0x000003c5 defined   .debug_line     local   section 
+    363 .debug_abbrev   0x00000ad5 defined   .debug_abbrev   local   section 
+    364 .debug_abbrev   0x00000703 defined   .debug_abbrev   local   section 
+    365 .debug_aranges  0x00000140 defined   .debug_aranges  local   section 
+    366 tls_get_tp.asm  0x00000000 absolute  N/A             local   file    
+    367 .debug_abbrev   0x00000ce5 defined   .debug_abbrev   local   section 
+    368 .debug_info     0x00002da4 defined   .debug_info     local   section 
+    369 __TI_CINIT_Base 0x0000b784 defined   .cinit          global  none    
+    370 __TI_CINIT_L... 0x0000b794 defined   .cinit          global  none    
+    371 __TI_Handler... 0x0000b770 defined   .cinit          global  none    
+    372 __TI_Handler... 0x0000b77c defined   .cinit          global  none    
+    373 binit           0xffffffff absolute  N/A             global  none    
+    374 __binit__       0xffffffff absolute  N/A             global  none    
+    375 __TI_STACK_SIZE 0x00000400 absolute  N/A             global  none    
+    376 __TI_STACK_END  0x0000b420 defined   .stack          global  none    
+    377 __c_args__      0xffffffff absolute  N/A             global  none    
+    378 __TI_pprof_o... 0xffffffff absolute  N/A             global  none    
+    379 __TI_prof_da... 0xffffffff absolute  N/A             global  none    
+    380 __TI_prof_da... 0xffffffff absolute  N/A             global  none    
+    381 decoder_state   0x0000a408 defined   .far            global  object  
+    382 stepsizeTable   0x0000b420 defined   .fardata        global  object  
+    383 coder_1_state   0x0000a400 defined   .far            global  object  
+    384 state           0x0000a40c defined   .far            global  object  
+    385 adpcmdata       0x00009000 defined   .far            global  object  
+    386 pcmdata_2       0x00009400 defined   .far            global  object  
+    387 main            0x0000a420 defined   .text           global  function
+    388 pcmdata         0x00008000 defined   .far            global  object  
+    389 coder_2_state   0x0000a404 defined   .far            global  object  
+    390 indexTable      0x0000b588 defined   .fardata        global  object  
+    391 _c_int00        0x0000aea0 defined   .text           global  function
+    392 _stack          0x0000b020 defined   .stack          global  object  
+    393 __TI_decompr... 0x0000afe0 defined   .text           global  function
+    394 __TI_decompr... 0x0000b000 defined   .text           global  function
+    395 __TI_zero_init  0x0000aba0 defined   .text           global  function
+    396 C$$EXIT         0x0000afc0 defined   .text           global  function
+    397 _dtors_ptr      0x0000b5cc defined   .fardata        global  object  
+    398 abort           0x0000afc0 defined   .text           global  function
+    399 _cleanup_ptr    0x0000b5c8 defined   .fardata        global  object  
+    400 exit            0x0000ac80 defined   .text           global  function
+    401 __TI_enable_... 0x0000b5d0 defined   .fardata        global  object  
+    402 memcpy          0x0000ae00 defined   .text           global  function
+    403 _args_main      0x0000af80 defined   .text           global  function
+    404 _auto_init_elf  0x0000a9a0 defined   .text           global  function
+    405 __TI_cpp_init   0x0000af20 defined   .text           global  function
+    406 copy_in         0x0000aaa0 defined   .text           global  function
+    407 __TI_tls_init   0x0000ad40 defined   .text           global  function
+    408 __TI_STATIC_... 0x00000000 defined   .bss            global  none    
+    409 __TI_args_main  0x00000001 absolute  N/A             global  none    
+    410 __TI_INITARR... 0x00000000 undefined N/A             weak    none    
+    411 __TI_INITARR... 0x00000000 undefined N/A             weak    none    
+    412 __TI_TLS_INI... 0x00000000 undefined N/A             weak    none    
+    413 __TI_TLS_INI... 0x00000000 undefined N/A             weak    none    
+
+ String Table ".strtab"
+
+    offset  string                                        
+    ------  ------                                        
+         0  ""                                            
+         1  ".neardata"                                   
+        11  ".rodata"                                     
+        19  ".bss"                                        
+        24  ".text"                                       
+        30  ".const"                                      
+        37  ".data"                                       
+        43  ".fardata"                                    
+        52  ".cinit"                                      
+        59  ".init_array"                                 
+        71  ".stack"                                      
+        78  ".sysmem"                                     
+        86  ".far"                                        
+        91  ".switch"                                     
+        99  ".cio"                                        
+       104  ".ppinfo"                                     
+       112  ".ppdata"                                     
+       120  ".debug_info"                                 
+       132  ".debug_line"                                 
+       144  ".debug_aranges"                              
+       159  ".debug_abbrev"                               
+       173  ".debug_str"                                  
+       184  ".debug_pubtypes"                             
+       200  ".debug_frame"                                
+       213  "adpcm.asm"                                   
+       223  "$C$DW$L$main$2$B"                            
+       240  "$C$L1"                                       
+       246  "$C$DW$L$main$3$B"                            
+       263  "$C$DW$L$main$2$E"                            
+       280  "$C$DW$L$main$4$B"                            
+       297  "$C$L2"                                       
+       303  "$C$DW$L$main$3$E"                            
+       320  "$C$DW$L$main$5$B"                            
+       337  "$C$L3"                                       
+       343  "$C$DW$L$main$4$E"                            
+       360  "$C$DW$L$main$6$B"                            
+       377  "$C$DW$L$main$5$E"                            
+       394  "$C$DW$L$main$7$B"                            
+       411  "$C$L4"                                       
+       417  "$C$DW$L$main$6$E"                            
+       434  "$C$DW$L$main$8$B"                            
+       451  "$C$DW$L$main$7$E"                            
+       468  "$C$DW$L$main$9$B"                            
+       485  "$C$L5"                                       
+       491  "$C$DW$L$main$8$E"                            
+       508  "$C$DW$L$main$10$B"                           
+       526  "$C$DW$L$main$9$E"                            
+       543  "$C$DW$L$main$11$B"                           
+       561  "$C$L6"                                       
+       567  "$C$DW$L$main$10$E"                           
+       585  "$C$DW$L$main$12$B"                           
+       603  "$C$DW$L$main$11$E"                           
+       621  "$C$DW$L$main$13$B"                           
+       639  "$C$L7"                                       
+       645  "$C$DW$L$main$12$E"                           
+       663  "$C$DW$L$main$14$B"                           
+       681  "$C$DW$L$main$13$E"                           
+       699  "$C$DW$L$main$15$B"                           
+       717  "$C$L8"                                       
+       723  "$C$DW$L$main$14$E"                           
+       741  "$C$DW$L$main$16$B"                           
+       759  "$C$L9"                                       
+       765  "$C$DW$L$main$15$E"                           
+       783  "$C$DW$L$main$17$B"                           
+       801  "$C$DW$L$main$16$E"                           
+       819  "$C$DW$L$main$18$B"                           
+       837  "$C$L10"                                      
+       844  "$C$DW$L$main$17$E"                           
+       862  "$C$DW$L$main$19$B"                           
+       880  "$C$DW$L$main$18$E"                           
+       898  "$C$DW$L$main$20$B"                           
+       916  "$C$L11"                                      
+       923  "$C$DW$L$main$19$E"                           
+       941  "$C$DW$L$main$21$B"                           
+       959  "$C$DW$L$main$20$E"                           
+       977  "$C$DW$L$main$22$B"                           
+       995  "$C$L12"                                      
+      1002  "$C$DW$L$main$21$E"                           
+      1020  "$C$DW$L$main$23$B"                           
+      1038  "$C$DW$L$main$22$E"                           
+      1056  "$C$DW$L$main$24$B"                           
+      1074  "$C$L13"                                      
+      1081  "$C$DW$L$main$23$E"                           
+      1099  "$C$DW$L$main$25$B"                           
+      1117  "$C$DW$L$main$24$E"                           
+      1135  "$C$DW$L$main$26$B"                           
+      1153  "$C$L14"                                      
+      1160  "$C$DW$L$main$25$E"                           
+      1178  "$C$DW$L$main$27$B"                           
+      1196  "$C$L15"                                      
+      1203  "$C$DW$L$main$26$E"                           
+      1221  "$C$L16"                                      
+      1228  "$C$DW$L$main$27$E"                           
+      1246  "$C$L17"                                      
+      1253  "$C$DW$L$main$31$B"                           
+      1271  "$C$L18"                                      
+      1278  "$C$DW$L$main$32$B"                           
+      1296  "$C$DW$L$main$31$E"                           
+      1314  "$C$DW$L$main$33$B"                           
+      1332  "$C$L19"                                      
+      1339  "$C$DW$L$main$32$E"                           
+      1357  "$C$DW$L$main$34$B"                           
+      1375  "$C$L20"                                      
+      1382  "$C$DW$L$main$33$E"                           
+      1400  "$C$DW$L$main$35$B"                           
+      1418  "$C$DW$L$main$34$E"                           
+      1436  "$C$DW$L$main$36$B"                           
+      1454  "$C$L21"                                      
+      1461  "$C$DW$L$main$35$E"                           
+      1479  "$C$DW$L$main$37$B"                           
+      1497  "$C$DW$L$main$36$E"                           
+      1515  "$C$DW$L$main$38$B"                           
+      1533  "$C$L22"                                      
+      1540  "$C$DW$L$main$37$E"                           
+      1558  "$C$DW$L$main$39$B"                           
+      1576  "$C$DW$L$main$38$E"                           
+      1594  "$C$DW$L$main$40$B"                           
+      1612  "$C$L23"                                      
+      1619  "$C$DW$L$main$39$E"                           
+      1637  "$C$DW$L$main$41$B"                           
+      1655  "$C$DW$L$main$40$E"                           
+      1673  "$C$DW$L$main$42$B"                           
+      1691  "$C$L24"                                      
+      1698  "$C$DW$L$main$41$E"                           
+      1716  "$C$DW$L$main$43$B"                           
+      1734  "$C$DW$L$main$42$E"                           
+      1752  "$C$DW$L$main$44$B"                           
+      1770  "$C$L25"                                      
+      1777  "$C$DW$L$main$43$E"                           
+      1795  "$C$DW$L$main$45$B"                           
+      1813  "$C$DW$L$main$44$E"                           
+      1831  "$C$DW$L$main$46$B"                           
+      1849  "$C$L26"                                      
+      1856  "$C$DW$L$main$45$E"                           
+      1874  "$C$DW$L$main$47$B"                           
+      1892  "$C$L27"                                      
+      1899  "$C$DW$L$main$46$E"                           
+      1917  "$C$DW$L$main$48$B"                           
+      1935  "$C$DW$L$main$47$E"                           
+      1953  "$C$DW$L$main$49$B"                           
+      1971  "$C$L28"                                      
+      1978  "$C$DW$L$main$48$E"                           
+      1996  "$C$DW$L$main$50$B"                           
+      2014  "$C$DW$L$main$49$E"                           
+      2032  "$C$DW$L$main$51$B"                           
+      2050  "$C$L29"                                      
+      2057  "$C$DW$L$main$50$E"                           
+      2075  "$C$L30"                                      
+      2082  "$C$DW$L$main$51$E"                           
+      2100  ".fardata:indexTable"                         
+      2120  ".fardata:stepsizeTable"                      
+      2143  "boot.asm"                                    
+      2152  "$C$RL0"                                      
+      2159  "$C$RL1"                                      
+      2166  "$C$RL2"                                      
+      2173  ".text:_c_int00"                              
+      2188  "copy_decompress_none.asm"                    
+      2213  ".text:decompress:none:__TI_decompress_none"  
+      2256  "copy_decompress_rle.asm"                     
+      2280  "__TI_decompress_rle_core"                    
+      2305  ".text:__TI_decompress_rle_core"              
+      2336  ".text:decompress:rle24:__TI_decompress_rle24"
+      2381  "copy_zero_init.asm"                          
+      2400  ".text:decompress:ZI:__TI_zero_init"          
+      2435  "exit.asm"                                    
+      2444  ".text:abort"                                 
+      2456  ".text:exit"                                  
+      2467  "memcpy64.asm"                                
+      2480  ".text:memcpy"                                
+      2493  "args_main.asm"                               
+      2507  ".text:_args_main"                            
+      2524  "autoinit.asm"                                
+      2537  ".text:_auto_init_elf"                        
+      2558  "cpp_init.asm"                                
+      2571  ".text:__TI_cpp_init"                         
+      2591  "cpy_tbl.asm"                                 
+      2603  ".text:copy_in"                               
+      2617  "tls.asm"                                     
+      2625  ".text:tls:init:__TI_tls_init"                
+      2654  "tls_get_tp.asm"                              
+      2669  "__TI_CINIT_Base"                             
+      2685  "__TI_CINIT_Limit"                            
+      2702  "__TI_Handler_Table_Base"                     
+      2726  "__TI_Handler_Table_Limit"                    
+      2751  "binit"                                       
+      2757  "__binit__"                                   
+      2767  "__TI_STACK_SIZE"                             
+      2783  "__TI_STACK_END"                              
+      2798  "__c_args__"                                  
+      2809  "__TI_pprof_out_hndl"                         
+      2829  "__TI_prof_data_start"                        
+      2850  "__TI_prof_data_size"                         
+      2870  "decoder_state"                               
+      2884  "stepsizeTable"                               
+      2898  "coder_1_state"                               
+      2912  "state"                                       
+      2918  "adpcmdata"                                   
+      2928  "pcmdata_2"                                   
+      2938  "main"                                        
+      2943  "pcmdata"                                     
+      2951  "coder_2_state"                               
+      2965  "indexTable"                                  
+      2976  "_c_int00"                                    
+      2985  "_stack"                                      
+      2992  "__TI_decompress_none"                        
+      3013  "__TI_decompress_rle24"                       
+      3035  "__TI_zero_init"                              
+      3050  "C$$EXIT"                                     
+      3058  "_dtors_ptr"                                  
+      3069  "abort"                                       
+      3075  "_cleanup_ptr"                                
+      3088  "exit"                                        
+      3093  "__TI_enable_exit_profile_output"             
+      3125  "memcpy"                                      
+      3132  "_args_main"                                  
+      3143  "_auto_init_elf"                              
+      3158  "__TI_cpp_init"                               
+      3172  "copy_in"                                     
+      3180  "__TI_tls_init"                               
+      3194  "__TI_STATIC_BASE"                            
+      3211  "__TI_args_main"                              
+      3226  "__TI_INITARRAY_Base"                         
+      3246  "__TI_INITARRAY_Limit"                        
+      3267  "__TI_TLS_INIT_Base"                          
+      3286  "__TI_TLS_INIT_Limit"                         
+
+ String Table ".shstrtab"
+
+    offset  string              
+    ------  ------              
+         0  ""                  
+         1  ".neardata"         
+        11  ".rodata"           
+        19  ".bss"              
+        24  ".text"             
+        30  ".const"            
+        37  ".data"             
+        43  ".fardata"          
+        52  ".cinit"            
+        59  ".init_array"       
+        71  ".stack"            
+        78  ".sysmem"           
+        86  ".far"              
+        91  ".switch"           
+        99  ".cio"              
+       104  ".ppinfo"           
+       112  ".ppdata"           
+       120  ".debug_info"       
+       132  ".debug_line"       
+       144  ".debug_aranges"    
+       159  ".debug_abbrev"     
+       173  ".debug_str"        
+       184  ".debug_pubtypes"   
+       200  ".debug_frame"      
+       213  ".c6xabi.attributes"
+       232  ".symtab"           
+       240  ".TI.section.flags" 
+       258  ".strtab"           
+       266  ".shstrtab"         
+
+ DWARF Line Number Information in Section 18 (".debug_line")
+
+    --------------------------------------
+    Line Number Program at Offset 00000000
+    --------------------------------------
+
+    Header Information
+
+    Length:                     60                                    
+    Version:                    3                                     
+    Header Length:              29                                    
+    Minimum Instruction Length: 4                                     
+    Default is_stmt:            true                                  
+    Line Base:                  0                                     
+    Line Range:                 40                                    
+    Opcode Base:                13                                    
+    Standard Opcode Lengths:    { 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0 }
+
+    Include Directories
+
+    id name                   
+    -- ----                   
+     0 /tmp/TI_MKLIBr78rCW/SRC
+
+    Files
+
+    id name      directory last mod  length   
+    -- ----      --------- --------- ---------
+     0 (unknown) 0         (unknown) (unknown)
+     1 boot.c    0         (unknown) (unknown)
+
+    Line Number Program
+
+    address    file line col S B P E isa section      
+    ---------- ---- ---- --- - - - - --- -------      
+    0x0000aea0    1   87   1 Y N N N   0 .text        
+    0x0000af00    1  157   1 Y N N N   0 .text        
+    0x0000af04    1  157   1 N N N N   0 .text   (end)
+
+
+    --------------------------------------
+    Line Number Program at Offset 00000040
+    --------------------------------------
+
+    Header Information
+
+    Length:                     71                                    
+    Version:                    3                                     
+    Header Length:              45                                    
+    Minimum Instruction Length: 4                                     
+    Default is_stmt:            true                                  
+    Line Base:                  0                                     
+    Line Range:                 34                                    
+    Opcode Base:                13                                    
+    Standard Opcode Lengths:    { 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0 }
+
+    Include Directories
+
+    id name                   
+    -- ----                   
+     0 /tmp/TI_MKLIBr78rCW/SRC
+
+    Files
+
+    id name                   directory last mod  length   
+    -- ----                   --------- --------- ---------
+     0 (unknown)              0         (unknown) (unknown)
+     1 copy_decompress_none.c 0         (unknown) (unknown)
+
+    Line Number Program
+
+    address    file line col S B P E isa section      
+    ---------- ---- ---- --- - - - - --- -------      
+    0x0000afe0    1   86   1 Y N N N   0 .text        
+    0x0000aff8    1   97   1 Y N N N   0 .text        
+    0x0000affc    1   97   1 N N N N   0 .text   (end)
+
+
+    --------------------------------------
+    Line Number Program at Offset 0000008b
+    --------------------------------------
+
+    Header Information
+
+    Length:                     85                                    
+    Version:                    3                                     
+    Header Length:              39                                    
+    Minimum Instruction Length: 2                                     
+    Default is_stmt:            true                                  
+    Line Base:                  0                                     
+    Line Range:                 69                                    
+    Opcode Base:                13                                    
+    Standard Opcode Lengths:    { 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0 }
+
+    Include Directories
+
+    id name                   
+    -- ----                   
+     0 /tmp/TI_MKLIBr78rCW/SRC
+
+    Files
+
+    id name             directory last mod  length   
+    -- ----             --------- --------- ---------
+     0 (unknown)        0         (unknown) (unknown)
+     1 copy_zero_init.c 0         (unknown) (unknown)
+
+    Line Number Program
+
+    address    file line col S B P E isa section      
+    ---------- ---- ---- --- - - - - --- -------      
+    0x0000aba0    1   85   1 Y N N N   0 .text        
+    0x0000ac18    1  156   0 Y N N N   0 .text        
+    0x0000ac20    1  157   0 Y N N N   0 .text        
+    0x0000ac2a    1  161   0 Y N N N   0 .text        
+    0x0000ac64    1   99   1 Y N N N   0 .text        
+    0x0000ac68    1   99   1 N N N N   0 .text   (end)
+
+
+    --------------------------------------
+    Line Number Program at Offset 000000e4
+    --------------------------------------
+
+    Header Information
+
+    Length:                     70                                    
+    Version:                    3                                     
+    Header Length:              44                                    
+    Minimum Instruction Length: 4                                     
+    Default is_stmt:            true                                  
+    Line Base:                  0                                     
+    Line Range:                 60                                    
+    Opcode Base:                13                                    
+    Standard Opcode Lengths:    { 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0 }
+
+    Include Directories
+
+    id name                   
+    -- ----                   
+     0 /tmp/TI_MKLIBr78rCW/SRC
+
+    Files
+
+    id name                  directory last mod  length   
+    -- ----                  --------- --------- ---------
+     0 (unknown)             0         (unknown) (unknown)
+     1 copy_decompress_rle.c 0         (unknown) (unknown)
+
+    Line Number Program
+
+    address    file line col S B P E isa section      
+    ---------- ---- ---- --- - - - - --- -------      
+    0x0000b000    1  101   1 Y N N N   0 .text        
+    0x0000b00c    1  103   1 Y N N N   0 .text        
+    0x0000b010    1  103   1 N N N N   0 .text   (end)
+
+
+    --------------------------------------
+    Line Number Program at Offset 00000354
+    --------------------------------------
+
+    Header Information
+
+    Length:                     38                                    
+    Version:                    3                                     
+    Header Length:              29                                    
+    Minimum Instruction Length: 1                                     
+    Default is_stmt:            true                                  
+    Line Base:                  0                                     
+    Line Range:                 255                                   
+    Opcode Base:                13                                    
+    Standard Opcode Lengths:    { 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0 }
+
+    Include Directories
+
+    id name                   
+    -- ----                   
+     0 /tmp/TI_MKLIBr78rCW/SRC
+
+    Files
+
+    id name      directory last mod  length   
+    -- ----      --------- --------- ---------
+     0 (unknown) 0         (unknown) (unknown)
+     1 boot.c    0         (unknown) (unknown)
+
+    Line Number Program
+
+    address    file line col S B P E isa section
+    ---------- ---- ---- --- - - - - --- -------
+
+
+    --------------------------------------
+    Line Number Program at Offset 0000012e
+    --------------------------------------
+
+    Header Information
+
+    Length:                     76                                    
+    Version:                    3                                     
+    Header Length:              33                                    
+    Minimum Instruction Length: 2                                     
+    Default is_stmt:            true                                  
+    Line Base:                  0                                     
+    Line Range:                 16                                    
+    Opcode Base:                13                                    
+    Standard Opcode Lengths:    { 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0 }
+
+    Include Directories
+
+    id name                   
+    -- ----                   
+     0 /tmp/TI_MKLIBr78rCW/SRC
+
+    Files
+
+    id name       directory last mod  length   
+    -- ----       --------- --------- ---------
+     0 (unknown)  0         (unknown) (unknown)
+     1 autoinit.c 0         (unknown) (unknown)
+
+    Line Number Program
+
+    address    file line col S B P E isa section      
+    ---------- ---- ---- --- - - - - --- -------      
+    0x0000a9a0    1  110   1 Y N N N   0 .text        
+    0x0000aa3a    1  138   0 Y N N N   0 .text        
+    0x0000aa42    1  139   0 Y N N N   0 .text        
+    0x0000aa68    1  147   0 Y N N N   0 .text        
+    0x0000aa94    1  163   1 Y N N N   0 .text        
+    0x0000aa98    1  163   1 N N N N   0 .text   (end)
+
+
+    --------------------------------------
+    Line Number Program at Offset 0000017e
+    --------------------------------------
+
+    Header Information
+
+    Length:                     62                                    
+    Version:                    3                                     
+    Header Length:              34                                    
+    Minimum Instruction Length: 4                                     
+    Default is_stmt:            true                                  
+    Line Base:                  0                                     
+    Line Range:                 20                                    
+    Opcode Base:                13                                    
+    Standard Opcode Lengths:    { 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0 }
+
+    Include Directories
+
+    id name                   
+    -- ----                   
+     0 /tmp/TI_MKLIBr78rCW/SRC
+
+    Files
+
+    id name        directory last mod  length   
+    -- ----        --------- --------- ---------
+     0 (unknown)   0         (unknown) (unknown)
+     1 args_main.c 0         (unknown) (unknown)
+
+    Line Number Program
+
+    address    file line col S B P E isa section      
+    ---------- ---- ---- --- - - - - --- -------      
+    0x0000af80    1   72   1 Y N N N   0 .text        
+    0x0000afb0    1   92   1 Y N N N   0 .text        
+    0x0000afb4    1   92   1 N N N N   0 .text   (end)
+
+
+    --------------------------------------
+    Line Number Program at Offset 000001c0
+    --------------------------------------
+
+    Header Information
+
+    Length:                     58                                    
+    Version:                    3                                     
+    Header Length:              29                                    
+    Minimum Instruction Length: 4                                     
+    Default is_stmt:            true                                  
+    Line Base:                  0                                     
+    Line Range:                 25                                    
+    Opcode Base:                13                                    
+    Standard Opcode Lengths:    { 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0 }
+
+    Include Directories
+
+    id name                   
+    -- ----                   
+     0 /tmp/TI_MKLIBr78rCW/SRC
+
+    Files
+
+    id name      directory last mod  length   
+    -- ----      --------- --------- ---------
+     0 (unknown) 0         (unknown) (unknown)
+     1 exit.c    0         (unknown) (unknown)
+
+    Line Number Program
+
+    address    file line col S B P E isa section      
+    ---------- ---- ---- --- - - - - --- -------      
+    0x0000ac80    1   59   1 Y N N N   0 .text        
+    0x0000ad24    1  103   1 Y N N N   0 .text        
+    0x0000ad28    1  103   1 N N N N   0 .text   (end)
+
+
+    --------------------------------------
+    Line Number Program at Offset 000001fe
+    --------------------------------------
+
+    Header Information
+
+    Length:                     73                                    
+    Version:                    3                                     
+    Header Length:              35                                    
+    Minimum Instruction Length: 4                                     
+    Default is_stmt:            true                                  
+    Line Base:                  0                                     
+    Line Range:                 48                                    
+    Opcode Base:                13                                    
+    Standard Opcode Lengths:    { 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0 }
+
+    Include Directories
+
+    id name                   
+    -- ----                   
+     0 /tmp/TI_MKLIBr78rCW/SRC
+
+    Files
+
+    id name         directory last mod  length   
+    -- ----         --------- --------- ---------
+     0 (unknown)    0         (unknown) (unknown)
+     1 memcpy64.asm 0         (unknown) (unknown)
+
+    Line Number Program
+
+    address    file line col S B P E isa section      
+    ---------- ---- ---- --- - - - - --- -------      
+    0x0000ae00    1   78   0 Y N N N   0 .text        
+    0x0000ae0c    1   96   0 Y N N N   0 .text        
+    0x0000ae18    1  100   0 Y N N N   0 .text        
+    0x0000ae28    1  107   0 Y N N N   0 .text        
+    0x0000ae34    1  112   0 Y N N N   0 .text        
+    0x0000ae44    1  116   0 Y N N N   0 .text        
+    0x0000ae50    1  120   0 Y N N N   0 .text        
+    0x0000ae60    1  125   0 Y N N N   0 .text        
+    0x0000ae68    1  128   0 Y N N N   0 .text        
+    0x0000ae70    1  131   0 Y N N N   0 .text        
+    0x0000ae78    1  134   0 Y N N N   0 .text        
+    0x0000ae80    1  141   0 Y N N N   0 .text        
+    0x0000ae84    1  142   0 Y N N N   0 .text        
+    0x0000ae88    1  143   0 Y N N N   0 .text        
+    0x0000ae8c    1  145   0 Y N N N   0 .text        
+    0x0000ae94    1  150   0 Y N N N   0 .text        
+    0x0000ae98    1  150   0 N N N N   0 .text   (end)
+
+
+    --------------------------------------
+    Line Number Program at Offset 0000024b
+    --------------------------------------
+
+    Header Information
+
+    Length:                     54                                    
+    Version:                    3                                     
+    Header Length:              45                                    
+    Minimum Instruction Length: 1                                     
+    Default is_stmt:            true                                  
+    Line Base:                  0                                     
+    Line Range:                 255                                   
+    Opcode Base:                13                                    
+    Standard Opcode Lengths:    { 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0 }
+
+    Include Directories
+
+    id name                   
+    -- ----                   
+     0 /tmp/TI_MKLIBr78rCW/SRC
+
+    Files
+
+    id name                   directory last mod  length   
+    -- ----                   --------- --------- ---------
+     0 (unknown)              0         (unknown) (unknown)
+     1 copy_decompress_none.c 0         (unknown) (unknown)
+
+    Line Number Program
+
+    address    file line col S B P E isa section
+    ---------- ---- ---- --- - - - - --- -------
+
+
+    --------------------------------------
+    Line Number Program at Offset 00000285
+    --------------------------------------
+
+    Header Information
+
+    Length:                     48                                    
+    Version:                    3                                     
+    Header Length:              39                                    
+    Minimum Instruction Length: 1                                     
+    Default is_stmt:            true                                  
+    Line Base:                  0                                     
+    Line Range:                 255                                   
+    Opcode Base:                13                                    
+    Standard Opcode Lengths:    { 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0 }
+
+    Include Directories
+
+    id name                   
+    -- ----                   
+     0 /tmp/TI_MKLIBr78rCW/SRC
+
+    Files
+
+    id name             directory last mod  length   
+    -- ----             --------- --------- ---------
+     0 (unknown)        0         (unknown) (unknown)
+     1 copy_zero_init.c 0         (unknown) (unknown)
+
+    Line Number Program
+
+    address    file line col S B P E isa section
+    ---------- ---- ---- --- - - - - --- -------
+
+
+    --------------------------------------
+    Line Number Program at Offset 000002b9
+    --------------------------------------
+
+    Header Information
+
+    Length:                     94                                    
+    Version:                    3                                     
+    Header Length:              44                                    
+    Minimum Instruction Length: 4                                     
+    Default is_stmt:            true                                  
+    Line Base:                  0                                     
+    Line Range:                 93                                    
+    Opcode Base:                13                                    
+    Standard Opcode Lengths:    { 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0 }
+
+    Include Directories
+
+    id name                   
+    -- ----                   
+     0 /tmp/TI_MKLIBr78rCW/SRC
+
+    Files
+
+    id name                  directory last mod  length   
+    -- ----                  --------- --------- ---------
+     0 (unknown)             0         (unknown) (unknown)
+     1 copy_decompress_rle.c 0         (unknown) (unknown)
+
+    Line Number Program
+
+    address    file line col S B P E isa section      
+    ---------- ---- ---- --- - - - - --- -------      
+    0x0000a820    1  107   1 Y N N N   0 .text        
+    0x0000a82c    1  115   0 Y N N N   0 .text        
+    0x0000a830    1  116   0 Y N N N   0 .text        
+    0x0000a920    1  233   0 Y N N N   0 .text        
+    0x0000a928    1  234   0 Y N N N   0 .text        
+    0x0000a934    1  238   0 Y N N N   0 .text        
+    0x0000a980    1  173   0 Y N N N   0 .text        
+    0x0000a984    1  176   1 Y N N N   0 .text        
+    0x0000a988    1  176   1 N N N N   0 .text   (end)
+
+
+    --------------------------------------
+    Line Number Program at Offset 0000071a
+    --------------------------------------
+
+    Header Information
+
+    Length:                     28                                    
+    Version:                    3                                     
+    Header Length:              19                                    
+    Minimum Instruction Length: 1                                     
+    Default is_stmt:            true                                  
+    Line Base:                  0                                     
+    Line Range:                 255                                   
+    Opcode Base:                13                                    
+    Standard Opcode Lengths:    { 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0 }
+
+    Include Directories
+
+    id name                   
+    -- ----                   
+     0 /tmp/TI_MKLIBr78rCW/SRC
+
+    Files
+
+    id name      directory last mod  length   
+    -- ----      --------- --------- ---------
+     0 (unknown) 0         (unknown) (unknown)
+
+    Line Number Program
+
+    address    file line col S B P E isa section
+    ---------- ---- ---- --- - - - - --- -------
+
+
+    --------------------------------------
+    Line Number Program at Offset 0000031b
+    --------------------------------------
+
+    Header Information
+
+    Length:                     53                                    
+    Version:                    3                                     
+    Header Length:              44                                    
+    Minimum Instruction Length: 1                                     
+    Default is_stmt:            true                                  
+    Line Base:                  0                                     
+    Line Range:                 255                                   
+    Opcode Base:                13                                    
+    Standard Opcode Lengths:    { 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0 }
+
+    Include Directories
+
+    id name                   
+    -- ----                   
+     0 /tmp/TI_MKLIBr78rCW/SRC
+
+    Files
+
+    id name                  directory last mod  length   
+    -- ----                  --------- --------- ---------
+     0 (unknown)             0         (unknown) (unknown)
+     1 copy_decompress_rle.c 0         (unknown) (unknown)
+
+    Line Number Program
+
+    address    file line col S B P E isa section
+    ---------- ---- ---- --- - - - - --- -------
+
+
+    --------------------------------------
+    Line Number Program at Offset 0000073a
+    --------------------------------------
+
+    Header Information
+
+    Length:                     38                                    
+    Version:                    3                                     
+    Header Length:              29                                    
+    Minimum Instruction Length: 1                                     
+    Default is_stmt:            true                                  
+    Line Base:                  0                                     
+    Line Range:                 255                                   
+    Opcode Base:                13                                    
+    Standard Opcode Lengths:    { 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0 }
+
+    Include Directories
+
+    id name                   
+    -- ----                   
+     0 /tmp/TI_MKLIBr78rCW/SRC
+
+    Files
+
+    id name      directory last mod  length   
+    -- ----      --------- --------- ---------
+     0 (unknown) 0         (unknown) (unknown)
+     1 boot.c    0         (unknown) (unknown)
+
+    Line Number Program
+
+    address    file line col S B P E isa section
+    ---------- ---- ---- --- - - - - --- -------
+
+
+    --------------------------------------
+    Line Number Program at Offset 0000037e
+    --------------------------------------
+
+    Header Information
+
+    Length:                     67                                    
+    Version:                    3                                     
+    Header Length:              32                                    
+    Minimum Instruction Length: 4                                     
+    Default is_stmt:            true                                  
+    Line Base:                  0                                     
+    Line Range:                 17                                    
+    Opcode Base:                13                                    
+    Standard Opcode Lengths:    { 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0 }
+
+    Include Directories
+
+    id name                   
+    -- ----                   
+     0 /tmp/TI_MKLIBr78rCW/SRC
+
+    Files
+
+    id name      directory last mod  length   
+    -- ----      --------- --------- ---------
+     0 (unknown) 0         (unknown) (unknown)
+     1 cpy_tbl.c 0         (unknown) (unknown)
+
+    Line Number Program
+
+    address    file line col S B P E isa section      
+    ---------- ---- ---- --- - - - - --- -------      
+    0x0000aaa0    1   56   1 Y N N N   0 .text        
+    0x0000aad4    1   60   0 Y N N N   0 .text        
+    0x0000ab7c    1   87   0 Y N N N   0 .text        
+    0x0000ab90    1   88   1 Y N N N   0 .text        
+    0x0000ab94    1   88   1 N N N N   0 .text   (end)
+
+
+    --------------------------------------
+    Line Number Program at Offset 000003c5
+    --------------------------------------
+
+    Header Information
+
+    Length:                     69                                    
+    Version:                    3                                     
+    Header Length:              28                                    
+    Minimum Instruction Length: 2                                     
+    Default is_stmt:            true                                  
+    Line Base:                  0                                     
+    Line Range:                 13                                    
+    Opcode Base:                13                                    
+    Standard Opcode Lengths:    { 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0 }
+
+    Include Directories
+
+    id name                   
+    -- ----                   
+     0 /tmp/TI_MKLIBr78rCW/SRC
+
+    Files
+
+    id name      directory last mod  length   
+    -- ----      --------- --------- ---------
+     0 (unknown) 0         (unknown) (unknown)
+     1 tls.c     0         (unknown) (unknown)
+
+    Line Number Program
+
+    address    file line col S B P E isa section      
+    ---------- ---- ---- --- - - - - --- -------      
+    0x0000ad40    1   65   1 Y N N N   0 .text        
+    0x0000adaa    1   84   0 Y N N N   0 .text        
+    0x0000adac    1   85   0 Y N N N   0 .text        
+    0x0000ade4    1  106   0 Y N N N   0 .text        
+    0x0000adf8    1  108   1 Y N N N   0 .text        
+    0x0000ae00    1  108   1 N N N N   0 .text   (end)
+
+
+    --------------------------------------
+    Line Number Program at Offset 0000040e
+    --------------------------------------
+
+    Header Information
+
+    Length:                     70                                    
+    Version:                    3                                     
+    Header Length:              33                                    
+    Minimum Instruction Length: 2                                     
+    Default is_stmt:            true                                  
+    Line Base:                  0                                     
+    Line Range:                 18                                    
+    Opcode Base:                13                                    
+    Standard Opcode Lengths:    { 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0 }
+
+    Include Directories
+
+    id name                   
+    -- ----                   
+     0 /tmp/TI_MKLIBr78rCW/SRC
+
+    Files
+
+    id name       directory last mod  length   
+    -- ----       --------- --------- ---------
+     0 (unknown)  0         (unknown) (unknown)
+     1 cpp_init.c 0         (unknown) (unknown)
+
+    Line Number Program
+
+    address    file line col S B P E isa section      
+    ---------- ---- ---- --- - - - - --- -------      
+    0x0000af20    1   57   1 Y N N N   0 .text        
+    0x0000af4a    1   81   0 Y N N N   0 .text        
+    0x0000af4c    1   82   0 Y N N N   0 .text        
+    0x0000af74    1   86   1 Y N N N   0 .text        
+    0x0000af78    1   86   1 N N N N   0 .text   (end)
+
+
+    --------------------------------------
+    Line Number Program at Offset 00000458
+    --------------------------------------
+
+    Header Information
+
+    Length:                     446                                   
+    Version:                    3                                     
+    Header Length:              54                                    
+    Minimum Instruction Length: 2                                     
+    Default is_stmt:            true                                  
+    Line Base:                  0                                     
+    Line Range:                 73                                    
+    Opcode Base:                13                                    
+    Standard Opcode Lengths:    { 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0 }
+
+    Include Directories
+
+    id name                             
+    -- ----                             
+     0 C:\Users\Runqing Xu\Projects\wcet
+
+    Files
+
+    id name                            directory last mod  length   
+    -- ----                            --------- --------- ---------
+     0 (unknown)                       0         (unknown) (unknown)
+     1 tests/inputs/main/adpcm/adpcm.c 0         (unknown) (unknown)
+
+    Line Number Program
+
+    address    file line col S B P E isa section      
+    ---------- ---- ---- --- - - - - --- -------      
+    0x0000a420    1   81  12 Y N N N   0 .text        
+    0x0000a424    1   84   9 Y N N N   0 .text        
+    0x0000a428    1  102   5 Y N N N   0 .text        
+    0x0000a434    1  103   5 Y N N N   0 .text        
+    0x0000a444    1  104   5 Y N N N   0 .text        
+    0x0000a44c    1  107   5 Y N N N   0 .text        
+    0x0000a45a    1  108   5 Y N N N   0 .text        
+    0x0000a468    1  109   5 Y N N N   0 .text        
+    0x0000a474    1  111   5 Y N N N   0 .text        
+    0x0000a478    1  113  13 Y N N N   0 .text        
+    0x0000a484    1  114   9 Y N N N   0 .text        
+    0x0000a492    1  117   9 Y N N N   0 .text        
+    0x0000a49a    1  118   9 Y N N N   0 .text        
+    0x0000a4ae    1  121   9 Y N N N   0 .text        
+    0x0000a4b4    1  121  21 Y N N N   0 .text        
+    0x0000a4ba    1  131   9 Y N N N   0 .text        
+    0x0000a4c2    1  132   9 Y N N N   0 .text        
+    0x0000a4ca    1  134   9 Y N N N   0 .text        
+    0x0000a4d8    1  135  13 Y N N N   0 .text        
+    0x0000a4e0    1  136  13 Y N N N   0 .text        
+    0x0000a4e8    1  137  13 Y N N N   0 .text        
+    0x0000a4f2    1  139   9 Y N N N   0 .text        
+    0x0000a4fa    1  140   9 Y N N N   0 .text        
+    0x0000a508    1  141  13 Y N N N   0 .text        
+    0x0000a512    1  142  13 Y N N N   0 .text        
+    0x0000a51a    1  143  13 Y N N N   0 .text        
+    0x0000a526    1  145   9 Y N N N   0 .text        
+    0x0000a52c    1  146   9 Y N N N   0 .text        
+    0x0000a534    1  147  13 Y N N N   0 .text        
+    0x0000a542    1  148  13 Y N N N   0 .text        
+    0x0000a54c    1  152   9 Y N N N   0 .text        
+    0x0000a554    1  152  21 Y N N N   0 .text        
+    0x0000a562    1  153  14 Y N N N   0 .text        
+    0x0000a56c    1  156   9 Y N N N   0 .text        
+    0x0000a578    1  156  32 Y N N N   0 .text        
+    0x0000a584    1  157  14 Y N N N   0 .text        
+    0x0000a590    1  157  38 Y N N N   0 .text        
+    0x0000a594    1  161   9 Y N N N   0 .text        
+    0x0000a5a6    1  165   9 Y N N N   0 .text        
+    0x0000a5b0    1  165  26 Y N N N   0 .text        
+    0x0000a5b4    1  166   9 Y N N N   0 .text        
+    0x0000a5c0    1  166  27 Y N N N   0 .text        
+    0x0000a5c4    1  170   9 Y N N N   0 .text        
+    0x0000a5cc    1  171  13 Y N N N   0 .text        
+    0x0000a5da    1  172   9 Y N N N   0 .text        
+    0x0000a5e0    1  173  13 Y N N N   0 .text        
+    0x0000a5f6    1  175   9 Y N N N   0 .text        
+    0x0000a606    1  113  23 Y N N N   0 .text        
+    0x0000a60e    1  113  13 Y N N N   0 .text        
+    0x0000a614    1  178   5 Y N N N   0 .text        
+    0x0000a624    1  179   5 Y N N N   0 .text        
+    0x0000a62e    1  182   5 Y N N N   0 .text        
+    0x0000a638    1  183   9 Y N N N   0 .text        
+    0x0000a64c    1  187   5 Y N N N   0 .text        
+    0x0000a658    1  188   5 Y N N N   0 .text        
+    0x0000a668    1  189   5 Y N N N   0 .text        
+    0x0000a66e    1  192   5 Y N N N   0 .text        
+    0x0000a676    1  193   5 Y N N N   0 .text        
+    0x0000a684    1  194   5 Y N N N   0 .text        
+    0x0000a692    1  196   5 Y N N N   0 .text        
+    0x0000a696    1  198  13 Y N N N   0 .text        
+    0x0000a6a4    1  201   9 Y N N N   0 .text        
+    0x0000a6ac    1  202  13 Y N N N   0 .text        
+    0x0000a6b6    1  203   9 Y N N N   0 .text        
+    0x0000a6b8    1  204  13 Y N N N   0 .text        
+    0x0000a6ca    1  205  13 Y N N N   0 .text        
+    0x0000a6d4    1  207   9 Y N N N   0 .text        
+    0x0000a6da    1  210   9 Y N N N   0 .text        
+    0x0000a6f4    1  212   9 Y N N N   0 .text        
+    0x0000a700    1  212  26 Y N N N   0 .text        
+    0x0000a704    1  213   9 Y N N N   0 .text        
+    0x0000a70c    1  213  27 Y N N N   0 .text        
+    0x0000a710    1  216   9 Y N N N   0 .text        
+    0x0000a71a    1  217   9 Y N N N   0 .text        
+    0x0000a726    1  224   9 Y N N N   0 .text        
+    0x0000a72e    1  225   9 Y N N N   0 .text        
+    0x0000a740    1  225  26 Y N N N   0 .text        
+    0x0000a74a    1  226   9 Y N N N   0 .text        
+    0x0000a758    1  226  26 Y N N N   0 .text        
+    0x0000a768    1  227   9 Y N N N   0 .text        
+    0x0000a774    1  227  26 Y N N N   0 .text        
+    0x0000a784    1  229   9 Y N N N   0 .text        
+    0x0000a78c    1  230  13 Y N N N   0 .text        
+    0x0000a796    1  232  13 Y N N N   0 .text        
+    0x0000a7a4    1  235   9 Y N N N   0 .text        
+    0x0000a7b0    1  235  32 Y N N N   0 .text        
+    0x0000a7b8    1  236  14 Y N N N   0 .text        
+    0x0000a7c8    1  236  38 Y N N N   0 .text        
+    0x0000a7cc    1  242   9 Y N N N   0 .text        
+    0x0000a7e0    1  198  23 Y N N N   0 .text        
+    0x0000a7e8    1  198  13 Y N N N   0 .text        
+    0x0000a7f0    1  245   5 Y N N N   0 .text        
+    0x0000a7f8    1  246   5 Y N N N   0 .text        
+    0x0000a80c    1  248   5 Y N N N   0 .text        
+    0x0000a810    1  249   1 Y N N N   0 .text        
+    0x0000a818    1  249   1 N N N N   0 .text   (end)
+
+
+    --------------------------------------
+    Line Number Program at Offset 0000061a
+    --------------------------------------
+
+    Header Information
+
+    Length:                     28                                    
+    Version:                    3                                     
+    Header Length:              19                                    
+    Minimum Instruction Length: 1                                     
+    Default is_stmt:            true                                  
+    Line Base:                  0                                     
+    Line Range:                 255                                   
+    Opcode Base:                13                                    
+    Standard Opcode Lengths:    { 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0 }
+
+    Include Directories
+
+    id name                   
+    -- ----                   
+     0 /tmp/TI_MKLIBr78rCW/SRC
+
+    Files
+
+    id name      directory last mod  length   
+    -- ----      --------- --------- ---------
+     0 (unknown) 0         (unknown) (unknown)
+
+    Line Number Program
+
+    address    file line col S B P E isa section
+    ---------- ---- ---- --- - - - - --- -------
+
+
+    --------------------------------------
+    Line Number Program at Offset 000007c8
+    --------------------------------------
+
+    Header Information
+
+    Length:                     38                                    
+    Version:                    3                                     
+    Header Length:              29                                    
+    Minimum Instruction Length: 1                                     
+    Default is_stmt:            true                                  
+    Line Base:                  0                                     
+    Line Range:                 255                                   
+    Opcode Base:                13                                    
+    Standard Opcode Lengths:    { 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0 }
+
+    Include Directories
+
+    id name                   
+    -- ----                   
+     0 /tmp/TI_MKLIBr78rCW/SRC
+
+    Files
+
+    id name      directory last mod  length   
+    -- ----      --------- --------- ---------
+     0 (unknown) 0         (unknown) (unknown)
+     1 exit.c    0         (unknown) (unknown)
+
+    Line Number Program
+
+    address    file line col S B P E isa section
+    ---------- ---- ---- --- - - - - --- -------
+
+
+    --------------------------------------
+    Line Number Program at Offset 0000063a
+    --------------------------------------
+
+    Header Information
+
+    Length:                     52                                    
+    Version:                    3                                     
+    Header Length:              29                                    
+    Minimum Instruction Length: 4                                     
+    Default is_stmt:            true                                  
+    Line Base:                  0                                     
+    Line Range:                 121                                   
+    Opcode Base:                13                                    
+    Standard Opcode Lengths:    { 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0 }
+
+    Include Directories
+
+    id name                   
+    -- ----                   
+     0 /tmp/TI_MKLIBr78rCW/SRC
+
+    Files
+
+    id name      directory last mod  length   
+    -- ----      --------- --------- ---------
+     0 (unknown) 0         (unknown) (unknown)
+     1 exit.c    0         (unknown) (unknown)
+
+    Line Number Program
+
+    address    file line col S B P E isa section      
+    ---------- ---- ---- --- - - - - --- -------      
+    0x0000afc0    1  109   1 Y N N N   0 .text        
+    0x0000afc4    1  128   1 Y N N N   0 .text        
+    0x0000afc8    1  128   1 N N N N   0 .text   (end)
+
+
+    --------------------------------------
+    Line Number Program at Offset 00000672
+    --------------------------------------
+
+    Header Information
+
+    Length:                     28                                    
+    Version:                    3                                     
+    Header Length:              19                                    
+    Minimum Instruction Length: 1                                     
+    Default is_stmt:            true                                  
+    Line Base:                  0                                     
+    Line Range:                 255                                   
+    Opcode Base:                13                                    
+    Standard Opcode Lengths:    { 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0 }
+
+    Include Directories
+
+    id name                   
+    -- ----                   
+     0 /tmp/TI_MKLIBr78rCW/SRC
+
+    Files
+
+    id name      directory last mod  length   
+    -- ----      --------- --------- ---------
+     0 (unknown) 0         (unknown) (unknown)
+
+    Line Number Program
+
+    address    file line col S B P E isa section
+    ---------- ---- ---- --- - - - - --- -------
+
+
+    --------------------------------------
+    Line Number Program at Offset 00000692
+    --------------------------------------
+
+    Header Information
+
+    Length:                     64                                    
+    Version:                    3                                     
+    Header Length:              55                                    
+    Minimum Instruction Length: 1                                     
+    Default is_stmt:            true                                  
+    Line Base:                  0                                     
+    Line Range:                 255                                   
+    Opcode Base:                13                                    
+    Standard Opcode Lengths:    { 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0 }
+
+    Include Directories
+
+    id name                   
+    -- ----                   
+     0 /tmp/TI_MKLIBr78rCW/SRC
+
+    Files
+
+    id name                             directory last mod  length   
+    -- ----                             --------- --------- ---------
+     0 (unknown)                        0         (unknown) (unknown)
+     1 /tmp/TI_MKLIBr78rCW/SRC/stddef.h N/A       (unknown) (unknown)
+
+    Line Number Program
+
+    address    file line col S B P E isa section
+    ---------- ---- ---- --- - - - - --- -------
+
+
+    --------------------------------------
+    Line Number Program at Offset 000007f2
+    --------------------------------------
+
+    Header Information
+
+    Length:                     28                                    
+    Version:                    3                                     
+    Header Length:              19                                    
+    Minimum Instruction Length: 1                                     
+    Default is_stmt:            true                                  
+    Line Base:                  0                                     
+    Line Range:                 255                                   
+    Opcode Base:                13                                    
+    Standard Opcode Lengths:    { 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0 }
+
+    Include Directories
+
+    id name                   
+    -- ----                   
+     0 /tmp/TI_MKLIBr78rCW/SRC
+
+    Files
+
+    id name      directory last mod  length   
+    -- ----      --------- --------- ---------
+     0 (unknown) 0         (unknown) (unknown)
+
+    Line Number Program
+
+    address    file line col S B P E isa section
+    ---------- ---- ---- --- - - - - --- -------
+
+
+    --------------------------------------
+    Line Number Program at Offset 000006d6
+    --------------------------------------
+
+    Header Information
+
+    Length:                     64                                    
+    Version:                    3                                     
+    Header Length:              55                                    
+    Minimum Instruction Length: 1                                     
+    Default is_stmt:            true                                  
+    Line Base:                  0                                     
+    Line Range:                 255                                   
+    Opcode Base:                13                                    
+    Standard Opcode Lengths:    { 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0 }
+
+    Include Directories
+
+    id name                   
+    -- ----                   
+     0 /tmp/TI_MKLIBr78rCW/SRC
+
+    Files
+
+    id name                             directory last mod  length   
+    -- ----                             --------- --------- ---------
+     0 (unknown)                        0         (unknown) (unknown)
+     1 /tmp/TI_MKLIBr78rCW/SRC/string.h N/A       (unknown) (unknown)
+
+    Line Number Program
+
+    address    file line col S B P E isa section
+    ---------- ---- ---- --- - - - - --- -------
+
+
+    --------------------------------------
+    Line Number Program at Offset 00000812
+    --------------------------------------
+
+    Header Information
+
+    Length:                     28                                    
+    Version:                    3                                     
+    Header Length:              19                                    
+    Minimum Instruction Length: 1                                     
+    Default is_stmt:            true                                  
+    Line Base:                  0                                     
+    Line Range:                 255                                   
+    Opcode Base:                13                                    
+    Standard Opcode Lengths:    { 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0 }
+
+    Include Directories
+
+    id name                   
+    -- ----                   
+     0 /tmp/TI_MKLIBr78rCW/SRC
+
+    Files
+
+    id name      directory last mod  length   
+    -- ----      --------- --------- ---------
+     0 (unknown) 0         (unknown) (unknown)
+
+    Line Number Program
+
+    address    file line col S B P E isa section
+    ---------- ---- ---- --- - - - - --- -------
+
+
+    --------------------------------------
+    Line Number Program at Offset 00000764
+    --------------------------------------
+
+    Header Information
+
+    Length:                     64                                    
+    Version:                    3                                     
+    Header Length:              55                                    
+    Minimum Instruction Length: 1                                     
+    Default is_stmt:            true                                  
+    Line Base:                  0                                     
+    Line Range:                 255                                   
+    Opcode Base:                13                                    
+    Standard Opcode Lengths:    { 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0 }
+
+    Include Directories
+
+    id name                   
+    -- ----                   
+     0 /tmp/TI_MKLIBr78rCW/SRC
+
+    Files
+
+    id name                             directory last mod  length   
+    -- ----                             --------- --------- ---------
+     0 (unknown)                        0         (unknown) (unknown)
+     1 /tmp/TI_MKLIBr78rCW/SRC/stdint.h N/A       (unknown) (unknown)
+
+    Line Number Program
+
+    address    file line col S B P E isa section
+    ---------- ---- ---- --- - - - - --- -------
+
+
+    --------------------------------------
+    Line Number Program at Offset 00000832
+    --------------------------------------
+
+    Header Information
+
+    Length:                     77                                    
+    Version:                    3                                     
+    Header Length:              68                                    
+    Minimum Instruction Length: 1                                     
+    Default is_stmt:            true                                  
+    Line Base:                  0                                     
+    Line Range:                 255                                   
+    Opcode Base:                13                                    
+    Standard Opcode Lengths:    { 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0 }
+
+    Include Directories
+
+    id name                   
+    -- ----                   
+     0 /tmp/TI_MKLIBr78rCW/SRC
+
+    Files
+
+    id name                             directory last mod  length   
+    -- ----                             --------- --------- ---------
+     0 (unknown)                        0         (unknown) (unknown)
+     1 /tmp/TI_MKLIBr78rCW/SRC/string.h N/A       (unknown) (unknown)
+     2 cpy_tbl.c                        0         (unknown) (unknown)
+
+    Line Number Program
+
+    address    file line col S B P E isa section
+    ---------- ---- ---- --- - - - - --- -------
+
+
+    --------------------------------------
+    Line Number Program at Offset 000008c8
+    --------------------------------------
+
+    Header Information
+
+    Length:                     37                                    
+    Version:                    3                                     
+    Header Length:              28                                    
+    Minimum Instruction Length: 1                                     
+    Default is_stmt:            true                                  
+    Line Base:                  0                                     
+    Line Range:                 255                                   
+    Opcode Base:                13                                    
+    Standard Opcode Lengths:    { 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0 }
+
+    Include Directories
+
+    id name                   
+    -- ----                   
+     0 /tmp/TI_MKLIBr78rCW/SRC
+
+    Files
+
+    id name      directory last mod  length   
+    -- ----      --------- --------- ---------
+     0 (unknown) 0         (unknown) (unknown)
+     1 tls.c     0         (unknown) (unknown)
+
+    Line Number Program
+
+    address    file line col S B P E isa section
+    ---------- ---- ---- --- - - - - --- -------
+
+
+    --------------------------------------
+    Line Number Program at Offset 000008f1
+    --------------------------------------
+
+    Header Information
+
+    Length:                     63                                    
+    Version:                    3                                     
+    Header Length:              54                                    
+    Minimum Instruction Length: 1                                     
+    Default is_stmt:            true                                  
+    Line Base:                  0                                     
+    Line Range:                 255                                   
+    Opcode Base:                13                                    
+    Standard Opcode Lengths:    { 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0 }
+
+    Include Directories
+
+    id name                             
+    -- ----                             
+     0 C:\Users\Runqing Xu\Projects\wcet
+
+    Files
+
+    id name                            directory last mod  length   
+    -- ----                            --------- --------- ---------
+     0 (unknown)                       0         (unknown) (unknown)
+     1 tests/inputs/main/adpcm/adpcm.c 0         (unknown) (unknown)
+
+    Line Number Program
+
+    address    file line col S B P E isa section
+    ---------- ---- ---- --- - - - - --- -------
+
+
+    --------------------------------------
+    Line Number Program at Offset 00000977
+    --------------------------------------
+
+    Header Information
+
+    Length:                     63                                    
+    Version:                    3                                     
+    Header Length:              54                                    
+    Minimum Instruction Length: 1                                     
+    Default is_stmt:            true                                  
+    Line Base:                  0                                     
+    Line Range:                 255                                   
+    Opcode Base:                13                                    
+    Standard Opcode Lengths:    { 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0 }
+
+    Include Directories
+
+    id name                             
+    -- ----                             
+     0 C:\Users\Runqing Xu\Projects\wcet
+
+    Files
+
+    id name                            directory last mod  length   
+    -- ----                            --------- --------- ---------
+     0 (unknown)                       0         (unknown) (unknown)
+     1 tests/inputs/main/adpcm/adpcm.c 0         (unknown) (unknown)
+
+    Line Number Program
+
+    address    file line col S B P E isa section
+    ---------- ---- ---- --- - - - - --- -------
+
+
+    --------------------------------------
+    Line Number Program at Offset 000009ba
+    --------------------------------------
+
+    Header Information
+
+    Length:                     63                                    
+    Version:                    3                                     
+    Header Length:              54                                    
+    Minimum Instruction Length: 1                                     
+    Default is_stmt:            true                                  
+    Line Base:                  0                                     
+    Line Range:                 255                                   
+    Opcode Base:                13                                    
+    Standard Opcode Lengths:    { 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0 }
+
+    Include Directories
+
+    id name                             
+    -- ----                             
+     0 C:\Users\Runqing Xu\Projects\wcet
+
+    Files
+
+    id name                            directory last mod  length   
+    -- ----                            --------- --------- ---------
+     0 (unknown)                       0         (unknown) (unknown)
+     1 tests/inputs/main/adpcm/adpcm.c 0         (unknown) (unknown)
+
+    Line Number Program
+
+    address    file line col S B P E isa section
+    ---------- ---- ---- --- - - - - --- -------
+
+
+    --------------------------------------
+    Line Number Program at Offset 000007a8
+    --------------------------------------
+
+    Header Information
+
+    Length:                     28                                    
+    Version:                    3                                     
+    Header Length:              19                                    
+    Minimum Instruction Length: 1                                     
+    Default is_stmt:            true                                  
+    Line Base:                  0                                     
+    Line Range:                 255                                   
+    Opcode Base:                13                                    
+    Standard Opcode Lengths:    { 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0 }
+
+    Include Directories
+
+    id name                             
+    -- ----                             
+     0 C:\Users\Runqing Xu\Projects\wcet
+
+    Files
+
+    id name      directory last mod  length   
+    -- ----      --------- --------- ---------
+     0 (unknown) 0         (unknown) (unknown)
+
+    Line Number Program
+
+    address    file line col S B P E isa section
+    ---------- ---- ---- --- - - - - --- -------
+
+
+    --------------------------------------
+    Line Number Program at Offset 000009fd
+    --------------------------------------
+
+    Header Information
+
+    Length:                     28                                    
+    Version:                    3                                     
+    Header Length:              19                                    
+    Minimum Instruction Length: 1                                     
+    Default is_stmt:            true                                  
+    Line Base:                  0                                     
+    Line Range:                 255                                   
+    Opcode Base:                13                                    
+    Standard Opcode Lengths:    { 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0 }
+
+    Include Directories
+
+    id name                             
+    -- ----                             
+     0 C:\Users\Runqing Xu\Projects\wcet
+
+    Files
+
+    id name      directory last mod  length   
+    -- ----      --------- --------- ---------
+     0 (unknown) 0         (unknown) (unknown)
+
+    Line Number Program
+
+    address    file line col S B P E isa section
+    ---------- ---- ---- --- - - - - --- -------
+
+
+    --------------------------------------
+    Line Number Program at Offset 00000a1d
+    --------------------------------------
+
+    Header Information
+
+    Length:                     63                                    
+    Version:                    3                                     
+    Header Length:              54                                    
+    Minimum Instruction Length: 1                                     
+    Default is_stmt:            true                                  
+    Line Base:                  0                                     
+    Line Range:                 255                                   
+    Opcode Base:                13                                    
+    Standard Opcode Lengths:    { 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0 }
+
+    Include Directories
+
+    id name                   
+    -- ----                   
+     0 /tmp/TI_MKLIBr78rCW/SRC
+
+    Files
+
+    id name                            directory last mod  length   
+    -- ----                            --------- --------- ---------
+     0 (unknown)                       0         (unknown) (unknown)
+     1 /tmp/TI_MKLIBr78rCW/SRC/pprof.h N/A       (unknown) (unknown)
+
+    Line Number Program
+
+    address    file line col S B P E isa section
+    ---------- ---- ---- --- - - - - --- -------
+
+
+    --------------------------------------
+    Line Number Program at Offset 00000883
+    --------------------------------------
+
+    Header Information
+
+    Length:                     65                                    
+    Version:                    3                                     
+    Header Length:              56                                    
+    Minimum Instruction Length: 1                                     
+    Default is_stmt:            true                                  
+    Line Base:                  0                                     
+    Line Range:                 255                                   
+    Opcode Base:                13                                    
+    Standard Opcode Lengths:    { 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0 }
+
+    Include Directories
+
+    id name                   
+    -- ----                   
+     0 /tmp/TI_MKLIBr78rCW/SRC
+
+    Files
+
+    id name                              directory last mod  length   
+    -- ----                              --------- --------- ---------
+     0 (unknown)                         0         (unknown) (unknown)
+     1 /tmp/TI_MKLIBr78rCW/SRC/cpy_tbl.h N/A       (unknown) (unknown)
+
+    Line Number Program
+
+    address    file line col S B P E isa section
+    ---------- ---- ---- --- - - - - --- -------
+
+
+    --------------------------------------
+    Line Number Program at Offset 00000934
+    --------------------------------------
+
+    Header Information
+
+    Length:                     63                                    
+    Version:                    3                                     
+    Header Length:              54                                    
+    Minimum Instruction Length: 1                                     
+    Default is_stmt:            true                                  
+    Line Base:                  0                                     
+    Line Range:                 255                                   
+    Opcode Base:                13                                    
+    Standard Opcode Lengths:    { 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0 }
+
+    Include Directories
+
+    id name                             
+    -- ----                             
+     0 C:\Users\Runqing Xu\Projects\wcet
+
+    Files
+
+    id name                            directory last mod  length   
+    -- ----                            --------- --------- ---------
+     0 (unknown)                       0         (unknown) (unknown)
+     1 tests\inputs\main\adpcm\adpcm.h 0         (unknown) (unknown)
+
+    Line Number Program
+
+    address    file line col S B P E isa section
+    ---------- ---- ---- --- - - - - --- -------
+

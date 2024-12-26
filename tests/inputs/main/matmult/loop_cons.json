@@ -1,0 +1,37 @@
+{
+    "src" : [
+        {
+            "name": "tests/inputs/main/matmult/matmult.c",
+            "cons": [
+                {
+                    "line number" : 62,
+                    "upper bound": 24
+                },
+                {
+                    "line number": 63,
+                    "upper bound": 24
+                },
+                {
+                    "line number": 72,
+                    "upper bound": 24
+                },
+                {
+                    "line number": 73,
+                    "upper bound": 24
+                },
+                {
+                    "line number": 84,
+                    "upper bound": 24
+                },
+                {
+                    "line number": 85,
+                    "upper bound": 24
+                },
+                {
+                    "line number": 86,
+                    "upper bound": 24
+                }
+            ]
+        }
+    ]
+}

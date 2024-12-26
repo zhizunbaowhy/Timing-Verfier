@@ -1,0 +1,25 @@
+{
+    "src" : [
+        {
+            "name": "tests/inputs/fcall/ns/ns.c",
+            "cons": [
+                {
+                    "line number" : 504,
+                    "upper bound": 5
+                },
+                {
+                    "line number": 505,
+                    "upper bound": 5
+                },
+                {
+                    "line number": 506,
+                    "upper bound": 5
+                },
+                {
+                    "line number": 507,
+                    "upper bound": 5
+                }
+            ]
+        }
+    ]
+}

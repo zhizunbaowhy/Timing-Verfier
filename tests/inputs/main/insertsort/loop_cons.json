@@ -1,0 +1,21 @@
+{
+    "src" : [
+        {
+            "name": "tests/inputs/main/insertsort/insertsort.c",
+            "cons": [
+                {
+                    "line number": 63,
+                    "upper bound": 1024
+                },
+                {
+                    "line number": 67,
+                    "upper bound": 1024
+                },
+                {
+                    "line number": 69,
+                    "upper bound": 512
+                }
+            ]
+        }
+    ]
+}

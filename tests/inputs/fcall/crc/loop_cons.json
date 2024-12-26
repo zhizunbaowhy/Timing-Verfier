@@ -1,0 +1,21 @@
+{
+    "src": [
+        {
+            "name": "tests/inputs/fcall/crc/crc.c",
+            "cons": [
+                {
+                    "line number": 62,
+                    "upper bound": 8
+                },
+                {
+                    "line number": 82,
+                    "upper bound": 256
+                },
+                {
+                    "line number": 93,
+                    "upper bound": 42
+                }
+            ]
+        }
+    ]
+}

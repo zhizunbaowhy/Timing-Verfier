@@ -1,0 +1,30 @@
+{
+    "src" : [
+        {
+            "name": "tests/inputs/main/expint/expint.c",
+            "cons": [
+                {
+                    "line number" : 46,
+                    "upper bound": 100
+                },
+                {
+                    "line number": 66,
+                    "upper bound": 100
+                },
+                {
+                    "line number": 74,
+                    "upper bound": 49
+                }
+            ]
+        },
+        {
+            "name": "divi.asm",
+            "cons": [
+                {
+                    "line number": 136,
+                    "upper bound": 31
+                }
+            ]
+        }
+    ]
+}

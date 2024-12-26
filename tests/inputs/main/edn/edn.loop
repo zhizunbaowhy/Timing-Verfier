@@ -1,0 +1,317 @@
+{
+    "file": "./tests/inputs/main/edn/edn.dinfo",
+    "loops": [
+        {
+            "line_in_dinfo": 766,
+            "src_file": "autoinit.c",
+            "line_range": [
+                138,
+                147
+            ],
+            "tag_pc_range": [
+                [
+                    34786,
+                    34804
+                ],
+                [
+                    34804,
+                    34836
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1007,
+            "src_file": "copy_decompress_rle.c",
+            "line_range": [
+                115,
+                297
+            ],
+            "tag_pc_range": [
+                [
+                    34248,
+                    34256
+                ],
+                [
+                    34280,
+                    34298
+                ],
+                [
+                    34298,
+                    34344
+                ],
+                [
+                    34344,
+                    34384
+                ],
+                [
+                    34384,
+                    34408
+                ],
+                [
+                    34408,
+                    34496
+                ],
+                [
+                    34518,
+                    34528
+                ],
+                [
+                    34528,
+                    34580
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1039,
+            "src_file": "copy_decompress_rle.c",
+            "line_range": [
+                233,
+                238
+            ],
+            "tag_pc_range": [
+                [
+                    34504,
+                    34518
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1050,
+            "src_file": "copy_decompress_rle.c",
+            "line_range": [
+                115,
+                173
+            ],
+            "tag_pc_range": [
+                [
+                    34256,
+                    34280
+                ],
+                [
+                    34580,
+                    34596
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1276,
+            "src_file": "cpy_tbl.c",
+            "line_range": [
+                59,
+                87
+            ],
+            "tag_pc_range": [
+                [
+                    34932,
+                    34962
+                ],
+                [
+                    35040,
+                    35048
+                ],
+                [
+                    35000,
+                    35020
+                ],
+                [
+                    34962,
+                    35000
+                ],
+                [
+                    35020,
+                    35040
+                ],
+                [
+                    35048,
+                    35072
+                ],
+                [
+                    35072,
+                    35104
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1357,
+            "src_file": "tls.c",
+            "line_range": [
+                84,
+                106
+            ],
+            "tag_pc_range": [
+                [
+                    35436,
+                    35472
+                ],
+                [
+                    35472,
+                    35500
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1423,
+            "src_file": "cpp_init.c",
+            "line_range": [
+                81,
+                82
+            ],
+            "tag_pc_range": [
+                [
+                    35852,
+                    35856
+                ],
+                [
+                    35856,
+                    35876
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1482,
+            "src_file": "tests/inputs/main/edn/edn.c",
+            "line_range": [
+                119,
+                126
+            ],
+            "tag_pc_range": [
+                [
+                    33972,
+                    33974
+                ],
+                [
+                    33974,
+                    34184
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1496,
+            "src_file": "tests/inputs/main/edn/edn.c",
+            "line_range": [
+                101,
+                104
+            ],
+            "tag_pc_range": [
+                [
+                    33764,
+                    33888
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1506,
+            "src_file": "tests/inputs/main/edn/edn.c",
+            "line_range": [
+                76,
+                92
+            ],
+            "tag_pc_range": [
+                [
+                    33340,
+                    33352
+                ],
+                [
+                    33568,
+                    33688
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1520,
+            "src_file": "tests/inputs/main/edn/edn.c",
+            "line_range": [
+                80,
+                89
+            ],
+            "tag_pc_range": [
+                [
+                    33352,
+                    33358
+                ],
+                [
+                    33358,
+                    33568
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1533,
+            "src_file": "tests/inputs/main/edn/edn.c",
+            "line_range": [
+                62,
+                68
+            ],
+            "tag_pc_range": [
+                [
+                    33120,
+                    33122
+                ],
+                [
+                    33200,
+                    33280
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1546,
+            "src_file": "tests/inputs/main/edn/edn.c",
+            "line_range": [
+                64,
+                66
+            ],
+            "tag_pc_range": [
+                [
+                    33122,
+                    33200
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1556,
+            "src_file": "tests/inputs/main/edn/edn.c",
+            "line_range": [
+                49,
+                52
+            ],
+            "tag_pc_range": [
+                [
+                    32946,
+                    32948
+                ],
+                [
+                    32948,
+                    33064
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1569,
+            "src_file": "tests/inputs/main/edn/edn.c",
+            "line_range": [
+                40,
+                41
+            ],
+            "tag_pc_range": [
+                [
+                    32832,
+                    32900
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1686,
+            "src_file": "exit.c",
+            "line_range": [
+                127,
+                128
+            ],
+            "tag_pc_range": [
+                [
+                    35972,
+                    35976
+                ]
+            ]
+        }
+    ]
+}

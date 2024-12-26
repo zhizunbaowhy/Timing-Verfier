@@ -1,0 +1,2272 @@
+
+OBJECT FILE:  tests/inputs/main/bsort100/bsort100.out
+
+ Object File Information
+
+    File Name:           tests/inputs/main/bsort100/bsort100.out
+    Format:              ELF Version 1                          
+    File Type:           executable file                        
+    Machine:             TI C6x                                 
+    Machine Endian:      little endian                          
+    Entry Point:         0x000097e0                             
+    Vendor:              Texas Instruments, Inc.                
+    Producer:            Linker                                 
+    Linker Version:      7.4.4                                  
+    Number of Sections:  29                                     
+    File Length:         31404                                  
+    ELF Class:           32-bit objects                         
+    ELF e_flags:         0x00000000                             
+
+ Program Segment Table
+
+    id type    load addr  run addr   file size mem size flags align
+    -- ----    ---------  --------   --------- -------- ----- -----
+    0  PT_LOAD 0x00008000 0x00008000 0x0       0x1004   rw-   8    
+    1  PT_LOAD 0x00009008 0x00009008 0x0       0xc      rw-   8    
+    2  PT_LOAD 0x00009020 0x00009020 0x940     0x940    r-x   32   
+    3  PT_LOAD 0x00009960 0x00009960 0x0       0x400    rw-   8    
+    4  PT_LOAD 0x00009d60 0x00009d60 0x34      0x34     r--   8    
+
+ Section Information
+
+    id name                      load addr  run addr     size align alloc
+    -- ----                      ---------  --------     ---- ----- -----
+     0 (no name)                 0x00000000 0x00000000    0x0     0   N  
+     1 .neardata                 0x00000000 0x00000000    0x0     8   N  
+     2 .rodata                   0x00000000 0x00000000    0x0     8   N  
+     3 .bss                      0x00000000 0x00000000    0x0     8   N  
+     4 .text                     0x00009020 0x00009020  0x940    32   Y  
+     5 .const                    0x00000000 0x00000000    0x0     8   N  
+     6 .data                     0x00000000 0x00000000    0x0     8   N  
+     7 .fardata                  0x00009008 0x00009008    0xc     8   Y  
+     8 .cinit                    0x00009d60 0x00009d60   0x34     8   Y  
+     9 .init_array               0x00000000 0x00000000    0x0     8   N  
+    10 .stack                    0x00009960 0x00009960  0x400     8   Y  
+    11 .sysmem                   0x00000000 0x00000000    0x0     8   N  
+    12 .far                      0x00008000 0x00008000 0x1004     8   Y  
+    13 .switch                   0x00000000 0x00000000    0x0     4   N  
+    14 .cio                      0x00000000 0x00000000    0x0     8   N  
+    15 .ppinfo                   0x00000000 0x00000000    0x0     4   N  
+    16 .ppdata                   0x00000000 0x00000000    0x0     4   N  
+    17 .debug_info               0x00000000 0x00000000 0x296d     1   N  
+    18 .debug_line               0x00000000 0x00000000  0x888     1   N  
+    19 .debug_aranges            0x00000000 0x00000000  0x1c0     1   N  
+    20 .debug_abbrev             0x00000000 0x00000000  0xc56     1   N  
+    21 .debug_str                0x00000000 0x00000000  0x9d0     1   N  
+    22 .debug_pubtypes           0x00000000 0x00000000  0x6c0     1   N  
+    23 .debug_frame              0x00000000 0x00000000  0x128     1   N  
+    24 .c6xabi.attributes        0x00000000 0x00000000   0x3e     0   N  
+    25 .symtab                   0x00000000 0x00000000 0x1240     0   N  
+    26 .TI.section.flags         0x00000000 0x00000000   0x1f     0   N  
+    27 .strtab                   0x00000000 0x00000000  0x658     0   N  
+    28 .shstrtab                 0x00000000 0x00000000  0x114     0   N  
+
+ Build Attributes in ".c6xabi.attributes"
+
+    Format Version:  'A'
+
+    <0>  Vendor Name:  "TI" (Texas Instruments, Inc.)
+
+         Tag_File:
+            Attributes:
+             Tag_Producer_Name        Linker  
+             Tag_Producer_VMajor      8       (Producer Major Version + 1)
+             Tag_Producer_VMinor      5       (Producer Minor Version + 1)
+             Tag_Producer_VPatch      5       (Producer Patch Version + 1)
+             Tag_ISA                  10      (C6600)
+             Tag_ABI                  2       (EABI)
+             Tag_Long_Precision_Bits  2       (32-bit long type)
+             Tag_Bitfield_layout      2       (compatible with any bitfield layout)
+             Tag_ABI_enum_size        3       (no enums that affect object file compatibility are used)
+
+    <1>  Vendor Name:  "c6xabi" (ABI for the Texas Instruments C6000 Architecture)
+
+         Tag_File:
+            Attributes:
+             Tag_ISA          10  (C6600)
+             Tag_ABI_wchar_t  1   (wchar_t size is 2)
+
+ Symbol Table ".symtab"
+
+     id name            value      kind      section         binding type    
+     -- ----            -----      ----      -------         ------- ----    
+      0 (no name)       0x00000000 undefined N/A             local   none    
+      1 .neardata       0x00000000 defined   .neardata       local   section 
+      2 .rodata         0x00000000 defined   .rodata         local   section 
+      3 .bss            0x00000000 defined   .bss            local   section 
+      4 .text           0x00009020 defined   .text           local   section 
+      5 .const          0x00000000 defined   .const          local   section 
+      6 .data           0x00000000 defined   .data           local   section 
+      7 .fardata        0x00009008 defined   .fardata        local   section 
+      8 .cinit          0x00009d60 defined   .cinit          local   section 
+      9 .init_array     0x00000000 defined   .init_array     local   section 
+     10 .stack          0x00009960 defined   .stack          local   section 
+     11 .sysmem         0x00000000 defined   .sysmem         local   section 
+     12 .far            0x00008000 defined   .far            local   section 
+     13 .switch         0x00000000 defined   .switch         local   section 
+     14 .cio            0x00000000 defined   .cio            local   section 
+     15 .ppinfo         0x00000000 defined   .ppinfo         local   section 
+     16 .ppdata         0x00000000 defined   .ppdata         local   section 
+     17 .debug_info     0x00000000 defined   .debug_info     local   section 
+     18 .debug_line     0x00000000 defined   .debug_line     local   section 
+     19 .debug_aranges  0x00000000 defined   .debug_aranges  local   section 
+     20 .debug_abbrev   0x00000000 defined   .debug_abbrev   local   section 
+     21 .debug_str      0x00000000 defined   .debug_str      local   section 
+     22 .debug_pubtypes 0x00000000 defined   .debug_pubtypes local   section 
+     23 .debug_frame    0x00000000 defined   .debug_frame    local   section 
+     24 5290810         0x00000000 absolute  N/A             local   file    
+     25 $C$DW$L$main... 0x000091c0 defined   .text           local   function
+     26 $C$L1           0x000091c0 defined   .text           local   function
+     27 $C$L2           0x000091f4 defined   .text           local   function
+     28 $C$DW$L$main... 0x000091f4 defined   .text           local   function
+     29 $C$DW$L$main... 0x0000920c defined   .text           local   function
+     30 $C$L3           0x0000920c defined   .text           local   function
+     31 $C$DW$L$main... 0x00009220 defined   .text           local   function
+     32 $C$L4           0x00009220 defined   .text           local   function
+     33 $C$DW$L$main... 0x00009220 defined   .text           local   function
+     34 $C$DW$L$main... 0x00009234 defined   .text           local   function
+     35 $C$DW$L$main... 0x00009234 defined   .text           local   function
+     36 $C$DW$L$main... 0x00009258 defined   .text           local   function
+     37 $C$DW$L$main... 0x00009258 defined   .text           local   function
+     38 $C$DW$L$main... 0x00009298 defined   .text           local   function
+     39 $C$L5           0x00009298 defined   .text           local   function
+     40 $C$DW$L$main... 0x00009298 defined   .text           local   function
+     41 $C$DW$L$main... 0x000092b0 defined   .text           local   function
+     42 $C$L6           0x000092b0 defined   .text           local   function
+     43 $C$DW$L$main... 0x000092b0 defined   .text           local   function
+     44 $C$DW$L$main... 0x000092b8 defined   .text           local   function
+     45 $C$DW$L$main... 0x000092b8 defined   .text           local   function
+     46 $C$L7           0x000092d0 defined   .text           local   function
+     47 $C$DW$L$main... 0x000092d0 defined   .text           local   function
+     48 .text           0x000091a0 defined   .text           local   section 
+     49 .far            0x00008000 defined   .far            local   section 
+     50 .debug_info     0x0000281a defined   .debug_info     local   section 
+     51 .debug_info     0x000024ce defined   .debug_info     local   section 
+     52 .debug_info     0x0000157a defined   .debug_info     local   section 
+     53 .debug_info     0x0000259a defined   .debug_info     local   section 
+     54 .debug_line     0x00000868 defined   .debug_line     local   section 
+     55 .debug_line     0x000007dc defined   .debug_line     local   section 
+     56 .debug_line     0x00000458 defined   .debug_line     local   section 
+     57 .debug_line     0x00000693 defined   .debug_line     local   section 
+     58 .debug_frame    0x00000000 defined   .debug_frame    local   section 
+     59 .debug_abbrev   0x00000c20 defined   .debug_abbrev   local   section 
+     60 .debug_abbrev   0x00000b7a defined   .debug_abbrev   local   section 
+     61 .debug_abbrev   0x0000081d defined   .debug_abbrev   local   section 
+     62 .debug_str      0x000007c7 defined   .debug_str      local   section 
+     63 .debug_abbrev   0x000008a7 defined   .debug_abbrev   local   section 
+     64 .debug_aranges  0x00000180 defined   .debug_aranges  local   section 
+     65 .debug_pubtypes 0x00000582 defined   .debug_pubtypes local   section 
+     66 boot.asm        0x00000000 absolute  N/A             local   file    
+     67 $C$RL0          0x00009814 defined   .text           local   function
+     68 $C$RL1          0x00009828 defined   .text           local   function
+     69 $C$RL2          0x0000983c defined   .text           local   function
+     70 .stack          0x00009960 defined   .stack          local   section 
+     71 .text:_c_int00  0x000097e0 defined   .text           local   section 
+     72 .debug_info     0x0000101f defined   .debug_info     local   section 
+     73 .debug_info     0x0000055b defined   .debug_info     local   section 
+     74 .debug_info     0x00000000 defined   .debug_info     local   section 
+     75 .debug_info     0x000018d8 defined   .debug_info     local   section 
+     76 .debug_info     0x00001f62 defined   .debug_info     local   section 
+     77 .debug_line     0x00000625 defined   .debug_line     local   section 
+     78 .debug_line     0x00000354 defined   .debug_line     local   section 
+     79 .debug_line     0x00000000 defined   .debug_line     local   section 
+     80 .debug_line     0x00000505 defined   .debug_line     local   section 
+     81 .debug_line     0x0000064f defined   .debug_line     local   section 
+     82 .debug_abbrev   0x000005b5 defined   .debug_abbrev   local   section 
+     83 .debug_abbrev   0x00000237 defined   .debug_abbrev   local   section 
+     84 .debug_abbrev   0x00000000 defined   .debug_abbrev   local   section 
+     85 .debug_str      0x00000238 defined   .debug_str      local   section 
+     86 .debug_abbrev   0x00000351 defined   .debug_abbrev   local   section 
+     87 .debug_str      0x000005a8 defined   .debug_str      local   section 
+     88 .debug_abbrev   0x0000062c defined   .debug_abbrev   local   section 
+     89 .debug_aranges  0x00000000 defined   .debug_aranges  local   section 
+     90 .debug_pubtypes 0x00000109 defined   .debug_pubtypes local   section 
+     91 .debug_pubtypes 0x0000035b defined   .debug_pubtypes local   section 
+     92 copy_decompr... 0x00000000 absolute  N/A             local   file    
+     93 .text:decomp... 0x00009920 defined   .text           local   section 
+     94 .debug_info     0x00001c84 defined   .debug_info     local   section 
+     95 .debug_info     0x00000110 defined   .debug_info     local   section 
+     96 .debug_info     0x00001bb1 defined   .debug_info     local   section 
+     97 .debug_info     0x00000a6a defined   .debug_info     local   section 
+     98 .debug_info     0x00001c3e defined   .debug_info     local   section 
+     99 .debug_line     0x000006dd defined   .debug_line     local   section 
+    100 .debug_line     0x00000040 defined   .debug_line     local   section 
+    101 .debug_line     0x0000055d defined   .debug_line     local   section 
+    102 .debug_line     0x0000024b defined   .debug_line     local   section 
+    103 .debug_line     0x0000057d defined   .debug_line     local   section 
+    104 .debug_abbrev   0x00000966 defined   .debug_abbrev   local   section 
+    105 .debug_abbrev   0x00000069 defined   .debug_abbrev   local   section 
+    106 .debug_str      0x0000034e defined   .debug_str      local   section 
+    107 .debug_abbrev   0x00000406 defined   .debug_abbrev   local   section 
+    108 .debug_str      0x00000000 defined   .debug_str      local   section 
+    109 .debug_abbrev   0x000000d2 defined   .debug_abbrev   local   section 
+    110 .debug_str      0x00000464 defined   .debug_str      local   section 
+    111 .debug_abbrev   0x00000478 defined   .debug_abbrev   local   section 
+    112 .debug_aranges  0x00000020 defined   .debug_aranges  local   section 
+    113 .debug_pubtypes 0x00000210 defined   .debug_pubtypes local   section 
+    114 .debug_pubtypes 0x00000000 defined   .debug_pubtypes local   section 
+    115 .debug_pubtypes 0x00000307 defined   .debug_pubtypes local   section 
+    116 copy_decompr... 0x00000000 absolute  N/A             local   file    
+    117 __TI_decompr... 0x00009020 defined   .text           local   function
+    118 $C$L1           0x00009028 defined   .text           local   function
+    119 $C$L2           0x00009030 defined   .text           local   function
+    120 $C$L3           0x000090b0 defined   .text           local   function
+    121 $C$L4           0x000090c8 defined   .text           local   function
+    122 $C$L8           0x00009140 defined   .text           local   function
+    123 $C$L9           0x00009174 defined   .text           local   function
+    124 $C$L10          0x00009184 defined   .text           local   function
+    125 .text:__TI_d... 0x00009020 defined   .text           local   section 
+    126 .text:decomp... 0x00009940 defined   .text           local   section 
+    127 .debug_info     0x00000e02 defined   .debug_info     local   section 
+    128 .debug_info     0x00000b10 defined   .debug_info     local   section 
+    129 .debug_info     0x000003ef defined   .debug_info     local   section 
+    130 .debug_info     0x00000fd9 defined   .debug_info     local   section 
+    131 .debug_info     0x00001d69 defined   .debug_info     local   section 
+    132 .debug_line     0x00000605 defined   .debug_line     local   section 
+    133 .debug_line     0x000002b9 defined   .debug_line     local   section 
+    134 .debug_line     0x000000e4 defined   .debug_line     local   section 
+    135 .debug_line     0x0000031b defined   .debug_line     local   section 
+    136 .debug_line     0x000005c1 defined   .debug_line     local   section 
+    137 .debug_abbrev   0x00000557 defined   .debug_abbrev   local   section 
+    138 .debug_abbrev   0x000004c0 defined   .debug_abbrev   local   section 
+    139 .debug_abbrev   0x0000019f defined   .debug_abbrev   local   section 
+    140 .debug_str      0x00000182 defined   .debug_str      local   section 
+    141 .debug_abbrev   0x00000213 defined   .debug_abbrev   local   section 
+    142 .debug_str      0x0000050f defined   .debug_str      local   section 
+    143 .debug_abbrev   0x0000049c defined   .debug_abbrev   local   section 
+    144 .debug_aranges  0x00000100 defined   .debug_aranges  local   section 
+    145 .debug_aranges  0x00000060 defined   .debug_aranges  local   section 
+    146 .debug_pubtypes 0x000000bc defined   .debug_pubtypes local   section 
+    147 .debug_pubtypes 0x0000033e defined   .debug_pubtypes local   section 
+    148 copy_zero_in... 0x00000000 absolute  N/A             local   file    
+    149 $C$L4           0x0000956e defined   .text           local   function
+    150 .text:decomp... 0x000094e0 defined   .text           local   section 
+    151 .debug_info     0x00001d95 defined   .debug_info     local   section 
+    152 .debug_info     0x0000025f defined   .debug_info     local   section 
+    153 .debug_info     0x00000abd defined   .debug_info     local   section 
+    154 .debug_line     0x000006fd defined   .debug_line     local   section 
+    155 .debug_line     0x0000008b defined   .debug_line     local   section 
+    156 .debug_line     0x00000285 defined   .debug_line     local   section 
+    157 .debug_abbrev   0x000009b2 defined   .debug_abbrev   local   section 
+    158 .debug_abbrev   0x000000f6 defined   .debug_abbrev   local   section 
+    159 .debug_str      0x000000c4 defined   .debug_str      local   section 
+    160 .debug_abbrev   0x0000017b defined   .debug_abbrev   local   section 
+    161 .debug_aranges  0x00000040 defined   .debug_aranges  local   section 
+    162 .debug_pubtypes 0x0000005e defined   .debug_pubtypes local   section 
+    163 exit.asm        0x00000000 absolute  N/A             local   file    
+    164 $C$L1           0x00009904 defined   .text           local   function
+    165 $C$RL0          0x0000960c defined   .text           local   function
+    166 $C$L2           0x00009620 defined   .text           local   function
+    167 $C$L3           0x00009630 defined   .text           local   function
+    168 $C$RL1          0x00009630 defined   .text           local   function
+    169 $C$L4           0x00009650 defined   .text           local   function
+    170 $C$RL2          0x00009650 defined   .text           local   function
+    171 .fardata        0x00009008 defined   .fardata        local   section 
+    172 .text:abort     0x00009900 defined   .text           local   section 
+    173 .text:exit      0x000095c0 defined   .text           local   section 
+    174 .debug_info     0x00002622 defined   .debug_info     local   section 
+    175 .debug_info     0x0000196c defined   .debug_info     local   section 
+    176 .debug_info     0x00001a93 defined   .debug_info     local   section 
+    177 .debug_info     0x00000888 defined   .debug_info     local   section 
+    178 .debug_line     0x00000825 defined   .debug_line     local   section 
+    179 .debug_line     0x000006b3 defined   .debug_line     local   section 
+    180 .debug_line     0x00000525 defined   .debug_line     local   section 
+    181 .debug_line     0x000001c0 defined   .debug_line     local   section 
+    182 .debug_abbrev   0x00000ba3 defined   .debug_abbrev   local   section 
+    183 .debug_abbrev   0x000008d2 defined   .debug_abbrev   local   section 
+    184 .debug_abbrev   0x000008fb defined   .debug_abbrev   local   section 
+    185 .debug_abbrev   0x00000383 defined   .debug_abbrev   local   section 
+    186 .debug_aranges  0x000001a0 defined   .debug_aranges  local   section 
+    187 .debug_aranges  0x000000c0 defined   .debug_aranges  local   section 
+    188 memcpy64.asm    0x00000000 absolute  N/A             local   file    
+    189 .text:memcpy    0x00009740 defined   .text           local   section 
+    190 .debug_info     0x00000994 defined   .debug_info     local   section 
+    191 .debug_line     0x000001fe defined   .debug_line     local   section 
+    192 .debug_abbrev   0x00000438 defined   .debug_abbrev   local   section 
+    193 .debug_aranges  0x000000e0 defined   .debug_aranges  local   section 
+    194 args_main.asm   0x00000000 absolute  N/A             local   file    
+    195 .text:_args_... 0x000098c0 defined   .text           local   section 
+    196 .debug_info     0x00000792 defined   .debug_info     local   section 
+    197 .debug_line     0x0000017e defined   .debug_line     local   section 
+    198 .debug_abbrev   0x000002f4 defined   .debug_abbrev   local   section 
+    199 .debug_aranges  0x000000a0 defined   .debug_aranges  local   section 
+    200 autoinit.asm    0x00000000 absolute  N/A             local   file    
+    201 $C$RL0          0x00009324 defined   .text           local   function
+    202 $C$L1           0x00009344 defined   .text           local   function
+    203 $C$L2           0x00009382 defined   .text           local   function
+    204 $C$RL1          0x00009394 defined   .text           local   function
+    205 $C$L3           0x000093b4 defined   .text           local   function
+    206 .text:_auto_... 0x000092e0 defined   .text           local   section 
+    207 .debug_info     0x00000602 defined   .debug_info     local   section 
+    208 .debug_line     0x0000012e defined   .debug_line     local   section 
+    209 .debug_abbrev   0x00000260 defined   .debug_abbrev   local   section 
+    210 .debug_aranges  0x00000080 defined   .debug_aranges  local   section 
+    211 cpp_init.asm    0x00000000 absolute  N/A             local   file    
+    212 $C$L1           0x0000988c defined   .text           local   function
+    213 $C$RL0          0x00009890 defined   .text           local   function
+    214 $C$L2           0x000098a4 defined   .text           local   function
+    215 .text:__TI_c... 0x00009860 defined   .text           local   section 
+    216 .debug_info     0x0000141b defined   .debug_info     local   section 
+    217 .debug_line     0x0000040e defined   .debug_line     local   section 
+    218 .debug_abbrev   0x00000797 defined   .debug_abbrev   local   section 
+    219 .debug_aranges  0x00000160 defined   .debug_aranges  local   section 
+    220 cpy_tbl.asm     0x00000000 absolute  N/A             local   file    
+    221 $C$L1           0x00009414 defined   .text           local   function
+    222 $C$RL0          0x0000946c defined   .text           local   function
+    223 $C$L2           0x00009480 defined   .text           local   function
+    224 $C$RL1          0x00009488 defined   .text           local   function
+    225 $C$L3           0x000094a0 defined   .text           local   function
+    226 $C$L4           0x000094c0 defined   .text           local   function
+    227 .text:copy_in   0x000093e0 defined   .text           local   section 
+    228 .debug_info     0x0000213b defined   .debug_info     local   section 
+    229 .debug_info     0x00001129 defined   .debug_info     local   section 
+    230 .debug_info     0x0000274d defined   .debug_info     local   section 
+    231 .debug_line     0x0000071d defined   .debug_line     local   section 
+    232 .debug_line     0x0000037e defined   .debug_line     local   section 
+    233 .debug_line     0x0000076e defined   .debug_line     local   section 
+    234 .debug_abbrev   0x00000a10 defined   .debug_abbrev   local   section 
+    235 .debug_abbrev   0x00000661 defined   .debug_abbrev   local   section 
+    236 .debug_str      0x000008e0 defined   .debug_str      local   section 
+    237 .debug_abbrev   0x00000a95 defined   .debug_abbrev   local   section 
+    238 .debug_aranges  0x00000120 defined   .debug_aranges  local   section 
+    239 .debug_pubtypes 0x00000670 defined   .debug_pubtypes local   section 
+    240 tls.asm         0x00000000 absolute  N/A             local   file    
+    241 $C$L2           0x000096ec defined   .text           local   function
+    242 $C$RL1          0x00009710 defined   .text           local   function
+    243 $C$L3           0x0000972c defined   .text           local   function
+    244 .text:tls:in... 0x00009680 defined   .text           local   section 
+    245 .debug_info     0x0000227b defined   .debug_info     local   section 
+    246 .debug_info     0x000012b7 defined   .debug_info     local   section 
+    247 .debug_line     0x000007b3 defined   .debug_line     local   section 
+    248 .debug_line     0x000003c5 defined   .debug_line     local   section 
+    249 .debug_abbrev   0x00000ae0 defined   .debug_abbrev   local   section 
+    250 .debug_abbrev   0x00000703 defined   .debug_abbrev   local   section 
+    251 .debug_aranges  0x00000140 defined   .debug_aranges  local   section 
+    252 tls_get_tp.asm  0x00000000 absolute  N/A             local   file    
+    253 .debug_abbrev   0x00000c47 defined   .debug_abbrev   local   section 
+    254 .debug_info     0x000028db defined   .debug_info     local   section 
+    255 __TI_CINIT_Base 0x00009d84 defined   .cinit          global  none    
+    256 __TI_CINIT_L... 0x00009d94 defined   .cinit          global  none    
+    257 __TI_Handler... 0x00009d70 defined   .cinit          global  none    
+    258 __TI_Handler... 0x00009d7c defined   .cinit          global  none    
+    259 binit           0xffffffff absolute  N/A             global  none    
+    260 __binit__       0xffffffff absolute  N/A             global  none    
+    261 __TI_STACK_SIZE 0x00000400 absolute  N/A             global  none    
+    262 __TI_STACK_END  0x00009d60 defined   .stack          global  none    
+    263 __c_args__      0xffffffff absolute  N/A             global  none    
+    264 __TI_pprof_o... 0xffffffff absolute  N/A             global  none    
+    265 __TI_prof_da... 0xffffffff absolute  N/A             global  none    
+    266 __TI_prof_da... 0xffffffff absolute  N/A             global  none    
+    267 Array           0x00008000 defined   .far            global  object  
+    268 main            0x000091a0 defined   .text           global  function
+    269 _c_int00        0x000097e0 defined   .text           global  function
+    270 _stack          0x00009960 defined   .stack          global  object  
+    271 __TI_decompr... 0x00009920 defined   .text           global  function
+    272 __TI_decompr... 0x00009940 defined   .text           global  function
+    273 __TI_zero_init  0x000094e0 defined   .text           global  function
+    274 C$$EXIT         0x00009900 defined   .text           global  function
+    275 _dtors_ptr      0x0000900c defined   .fardata        global  object  
+    276 abort           0x00009900 defined   .text           global  function
+    277 _cleanup_ptr    0x00009008 defined   .fardata        global  object  
+    278 exit            0x000095c0 defined   .text           global  function
+    279 __TI_enable_... 0x00009010 defined   .fardata        global  object  
+    280 memcpy          0x00009740 defined   .text           global  function
+    281 _args_main      0x000098c0 defined   .text           global  function
+    282 _auto_init_elf  0x000092e0 defined   .text           global  function
+    283 __TI_cpp_init   0x00009860 defined   .text           global  function
+    284 copy_in         0x000093e0 defined   .text           global  function
+    285 __TI_tls_init   0x00009680 defined   .text           global  function
+    286 __TI_STATIC_... 0x00000000 defined   .bss            global  none    
+    287 __TI_args_main  0x00000001 absolute  N/A             global  none    
+    288 __TI_INITARR... 0x00000000 undefined N/A             weak    none    
+    289 __TI_INITARR... 0x00000000 undefined N/A             weak    none    
+    290 __TI_TLS_INI... 0x00000000 undefined N/A             weak    none    
+    291 __TI_TLS_INI... 0x00000000 undefined N/A             weak    none    
+
+ String Table ".strtab"
+
+    offset  string                                        
+    ------  ------                                        
+         0  ""                                            
+         1  ".neardata"                                   
+        11  ".rodata"                                     
+        19  ".bss"                                        
+        24  ".text"                                       
+        30  ".const"                                      
+        37  ".data"                                       
+        43  ".fardata"                                    
+        52  ".cinit"                                      
+        59  ".init_array"                                 
+        71  ".stack"                                      
+        78  ".sysmem"                                     
+        86  ".far"                                        
+        91  ".switch"                                     
+        99  ".cio"                                        
+       104  ".ppinfo"                                     
+       112  ".ppdata"                                     
+       120  ".debug_info"                                 
+       132  ".debug_line"                                 
+       144  ".debug_aranges"                              
+       159  ".debug_abbrev"                               
+       173  ".debug_str"                                  
+       184  ".debug_pubtypes"                             
+       200  ".debug_frame"                                
+       213  "5290810"                                     
+       221  "$C$DW$L$main$2$B"                            
+       238  "$C$L1"                                       
+       244  "$C$L2"                                       
+       250  "$C$DW$L$main$2$E"                            
+       267  "$C$DW$L$main$4$B"                            
+       284  "$C$L3"                                       
+       290  "$C$DW$L$main$5$B"                            
+       307  "$C$L4"                                       
+       313  "$C$DW$L$main$4$E"                            
+       330  "$C$DW$L$main$6$B"                            
+       347  "$C$DW$L$main$5$E"                            
+       364  "$C$DW$L$main$7$B"                            
+       381  "$C$DW$L$main$6$E"                            
+       398  "$C$DW$L$main$8$B"                            
+       415  "$C$L5"                                       
+       421  "$C$DW$L$main$7$E"                            
+       438  "$C$DW$L$main$9$B"                            
+       455  "$C$L6"                                       
+       461  "$C$DW$L$main$8$E"                            
+       478  "$C$DW$L$main$10$B"                           
+       496  "$C$DW$L$main$9$E"                            
+       513  "$C$L7"                                       
+       519  "$C$DW$L$main$10$E"                           
+       537  "boot.asm"                                    
+       546  "$C$RL0"                                      
+       553  "$C$RL1"                                      
+       560  "$C$RL2"                                      
+       567  ".text:_c_int00"                              
+       582  "copy_decompress_none.asm"                    
+       607  ".text:decompress:none:__TI_decompress_none"  
+       650  "copy_decompress_rle.asm"                     
+       674  "__TI_decompress_rle_core"                    
+       699  "$C$L8"                                       
+       705  "$C$L9"                                       
+       711  "$C$L10"                                      
+       718  ".text:__TI_decompress_rle_core"              
+       749  ".text:decompress:rle24:__TI_decompress_rle24"
+       794  "copy_zero_init.asm"                          
+       813  ".text:decompress:ZI:__TI_zero_init"          
+       848  "exit.asm"                                    
+       857  ".text:abort"                                 
+       869  ".text:exit"                                  
+       880  "memcpy64.asm"                                
+       893  ".text:memcpy"                                
+       906  "args_main.asm"                               
+       920  ".text:_args_main"                            
+       937  "autoinit.asm"                                
+       950  ".text:_auto_init_elf"                        
+       971  "cpp_init.asm"                                
+       984  ".text:__TI_cpp_init"                         
+      1004  "cpy_tbl.asm"                                 
+      1016  ".text:copy_in"                               
+      1030  "tls.asm"                                     
+      1038  ".text:tls:init:__TI_tls_init"                
+      1067  "tls_get_tp.asm"                              
+      1082  "__TI_CINIT_Base"                             
+      1098  "__TI_CINIT_Limit"                            
+      1115  "__TI_Handler_Table_Base"                     
+      1139  "__TI_Handler_Table_Limit"                    
+      1164  "binit"                                       
+      1170  "__binit__"                                   
+      1180  "__TI_STACK_SIZE"                             
+      1196  "__TI_STACK_END"                              
+      1211  "__c_args__"                                  
+      1222  "__TI_pprof_out_hndl"                         
+      1242  "__TI_prof_data_start"                        
+      1263  "__TI_prof_data_size"                         
+      1283  "Array"                                       
+      1289  "main"                                        
+      1294  "_c_int00"                                    
+      1303  "_stack"                                      
+      1310  "__TI_decompress_none"                        
+      1331  "__TI_decompress_rle24"                       
+      1353  "__TI_zero_init"                              
+      1368  "C$$EXIT"                                     
+      1376  "_dtors_ptr"                                  
+      1387  "abort"                                       
+      1393  "_cleanup_ptr"                                
+      1406  "exit"                                        
+      1411  "__TI_enable_exit_profile_output"             
+      1443  "memcpy"                                      
+      1450  "_args_main"                                  
+      1461  "_auto_init_elf"                              
+      1476  "__TI_cpp_init"                               
+      1490  "copy_in"                                     
+      1498  "__TI_tls_init"                               
+      1512  "__TI_STATIC_BASE"                            
+      1529  "__TI_args_main"                              
+      1544  "__TI_INITARRAY_Base"                         
+      1564  "__TI_INITARRAY_Limit"                        
+      1585  "__TI_TLS_INIT_Base"                          
+      1604  "__TI_TLS_INIT_Limit"                         
+
+ String Table ".shstrtab"
+
+    offset  string              
+    ------  ------              
+         0  ""                  
+         1  ".neardata"         
+        11  ".rodata"           
+        19  ".bss"              
+        24  ".text"             
+        30  ".const"            
+        37  ".data"             
+        43  ".fardata"          
+        52  ".cinit"            
+        59  ".init_array"       
+        71  ".stack"            
+        78  ".sysmem"           
+        86  ".far"              
+        91  ".switch"           
+        99  ".cio"              
+       104  ".ppinfo"           
+       112  ".ppdata"           
+       120  ".debug_info"       
+       132  ".debug_line"       
+       144  ".debug_aranges"    
+       159  ".debug_abbrev"     
+       173  ".debug_str"        
+       184  ".debug_pubtypes"   
+       200  ".debug_frame"      
+       213  ".c6xabi.attributes"
+       232  ".symtab"           
+       240  ".TI.section.flags" 
+       258  ".strtab"           
+       266  ".shstrtab"         
+
+ DWARF Debugging Information Entries in Section 17 (".debug_info")
+
+    ----------------------------
+    DIE Table at Offset 00000000
+    ----------------------------
+
+    Length:                0x10c
+    Version:                   3
+    .debug_abbrev Offset:      0
+    Address Size:              4
+
+
+    0000000b   1 DW_TAG_compile_unit (.text)
+    0000000c        DW_AT_name       boot.c
+    00000013        DW_AT_stmt_list  .debug_line + 0x0
+    00000017        DW_AT_low_pc     0x97e0
+    0000001b        DW_AT_high_pc    0x9844
+    0000001f        DW_AT_language   DW_LANG_C
+    00000020        DW_AT_comp_dir   /tmp/TI_MKLIBr78rCW/SRC
+    00000038        DW_AT_producer   TMS320C6x Compressor Unix v7.4
+                                     .4 Copyright (c) 1996-2013 Tex
+                                     as Instruments Incorporated
+    00000090        DW_AT_TI_version 1
+    00000091   2    DW_TAG_subprogram (.text)
+    00000092           DW_AT_sibling           (null)
+    00000096           DW_AT_name              _c_int00
+    0000009f           DW_AT_low_pc            0x97e0
+    000000a3           DW_AT_high_pc           0x9844
+    000000a7           DW_AT_decl_column       25
+    000000a8           DW_AT_decl_file         1
+    000000a9           DW_AT_decl_line         86
+    000000aa           DW_AT_external          true
+    000000ab           DW_AT_frame_base        DW_OP_breg31 0
+    000000ae           DW_AT_TI_symbol_name    _c_int00
+    000000b7           DW_AT_TI_begin_file     boot.c
+    000000be           DW_AT_TI_begin_line     86
+    000000bf           DW_AT_TI_begin_column   25
+    000000c0           DW_AT_TI_end_file       boot.c
+    000000c7           DW_AT_TI_end_line       157
+    000000c8           DW_AT_TI_end_column     1
+    000000c9           DW_AT_TI_skeletal       true
+    000000ca           DW_AT_TI_reserved_11    TI Library
+    000000d5           DW_AT_TI_interrupt      true
+    000000d6           DW_AT_TI_max_frame_size 0
+    000000d7   3       DW_TAG_TI_reserved_3 (.text)
+    000000d8              DW_AT_name          _auto_init_elf
+    000000e7              DW_AT_low_pc        0x980c
+    000000eb              DW_AT_TI_reserved_9 true
+    000000ec   3       DW_TAG_TI_reserved_3 (.text)
+    000000ed              DW_AT_name          _args_main
+    000000f8              DW_AT_low_pc        0x9820
+    000000fc              DW_AT_TI_reserved_9 true
+    000000fd   3       DW_TAG_TI_reserved_3 (.text)
+    000000fe              DW_AT_name          exit
+    00000103              DW_AT_low_pc        0x9830
+    00000107              DW_AT_TI_reserved_9 true
+    00000108   4       DW_TAG_TI_reserved_3 (.text)
+    00000109              DW_AT_low_pc        0x983c
+    0000010d              DW_AT_TI_reserved_8 true
+
+    ----------------------------
+    DIE Table at Offset 00000110
+    ----------------------------
+
+    Length:                0x14b
+    Version:                   3
+    .debug_abbrev Offset:    105
+    Address Size:              4
+
+
+    0000011b   2 DW_TAG_compile_unit (.text)
+    0000011c        DW_AT_name       copy_decompress_none.c
+    00000133        DW_AT_stmt_list  .debug_line + 0x40
+    00000137        DW_AT_low_pc     0x9920
+    0000013b        DW_AT_high_pc    0x993c
+    0000013f        DW_AT_language   DW_LANG_C
+    00000140        DW_AT_comp_dir   /tmp/TI_MKLIBr78rCW/SRC
+    00000158        DW_AT_producer   TMS320C6x Compressor Unix v7.4
+                                     .4 Copyright (c) 1996-2013 Tex
+                                     as Instruments Incorporated
+    000001b0        DW_AT_TI_version 1
+    000001b1   3    DW_TAG_subprogram (.text)
+    000001b2           DW_AT_sibling           (null)
+    000001b6           DW_AT_name              __TI_decompress_none
+    000001cb           DW_AT_low_pc            0x9920
+    000001cf           DW_AT_high_pc           0x993c
+    000001d3           DW_AT_decl_column       6
+    000001d4           DW_AT_decl_file         1
+    000001d5           DW_AT_decl_line         85
+    000001d6           DW_AT_external          true
+    000001d7           DW_AT_frame_base        DW_OP_breg31 8
+    000001da           DW_AT_TI_symbol_name    __TI_decompress_none
+    000001ef           DW_AT_TI_begin_file     copy_decompress_none.c
+    00000206           DW_AT_TI_begin_line     85
+    00000207           DW_AT_TI_begin_column   6
+    00000208           DW_AT_TI_end_file       copy_decompress_none.c
+    0000021f           DW_AT_TI_end_line       97
+    00000220           DW_AT_TI_end_column     1
+    00000221           DW_AT_TI_skeletal       true
+    00000222           DW_AT_TI_reserved_11    TI Library
+    0000022d           DW_AT_TI_max_frame_size 8
+    0000022e   1       DW_TAG_formal_parameter (.text)
+    0000022f              DW_AT_location       DW_OP_reg4
+    00000231              DW_AT_name           inbuf
+    00000237              DW_AT_TI_symbol_name inbuf
+    00000241   1       DW_TAG_formal_parameter (.text)
+    00000242              DW_AT_location       DW_OP_reg20
+    00000244              DW_AT_name           outbuf
+    0000024b              DW_AT_TI_symbol_name outbuf
+    00000256   4       DW_TAG_TI_reserved_3 (.text)
+    00000257              DW_AT_low_pc        0x9924
+    0000025b              DW_AT_TI_reserved_8 true
+    0000025c              DW_AT_TI_reserved_9 true
+
+    ----------------------------
+    DIE Table at Offset 0000025f
+    ----------------------------
+
+    Length:                0x18c
+    Version:                   3
+    .debug_abbrev Offset:    246
+    Address Size:              4
+
+
+    0000026a   2 DW_TAG_compile_unit (.text)
+    0000026b        DW_AT_name       copy_zero_init.c
+    0000027c        DW_AT_stmt_list  .debug_line + 0x8b
+    00000280        DW_AT_low_pc     0x94e0
+    00000284        DW_AT_high_pc    0x95a8
+    00000288        DW_AT_language   DW_LANG_C
+    00000289        DW_AT_comp_dir   /tmp/TI_MKLIBr78rCW/SRC
+    000002a1        DW_AT_producer   TMS320C6x Compressor Unix v7.4
+                                     .4 Copyright (c) 1996-2013 Tex
+                                     as Instruments Incorporated
+    000002f9        DW_AT_TI_version 1
+    000002fa   3    DW_TAG_subprogram (.text)
+    000002fb           DW_AT_sibling           (null)
+    000002ff           DW_AT_name              __TI_zero_init
+    0000030e           DW_AT_low_pc            0x94e0
+    00000312           DW_AT_high_pc           0x95a8
+    00000316           DW_AT_decl_column       6
+    00000317           DW_AT_decl_file         1
+    00000318           DW_AT_decl_line         84
+    00000319           DW_AT_external          true
+    0000031a           DW_AT_frame_base        DW_OP_breg31 0
+    0000031d           DW_AT_TI_symbol_name    __TI_zero_init
+    0000032c           DW_AT_TI_begin_file     copy_zero_init.c
+    0000033d           DW_AT_TI_begin_line     84
+    0000033e           DW_AT_TI_begin_column   6
+    0000033f           DW_AT_TI_end_file       copy_zero_init.c
+    00000350           DW_AT_TI_end_line       99
+    00000351           DW_AT_TI_end_column     1
+    00000352           DW_AT_TI_skeletal       true
+    00000353           DW_AT_TI_reserved_11    TI Library
+    0000035e           DW_AT_TI_max_frame_size 0
+    0000035f   1       DW_TAG_formal_parameter (.text)
+    00000360              DW_AT_location       DW_OP_reg4
+    00000362              DW_AT_name           inbuf
+    00000368              DW_AT_TI_symbol_name inbuf
+    00000372   1       DW_TAG_formal_parameter (.text)
+    00000373              DW_AT_location       DW_OP_reg20
+    00000375              DW_AT_name           outbuf
+    0000037c              DW_AT_TI_symbol_name outbuf
+    00000387   5       DW_TAG_TI_reserved_3 (.text)
+    00000388              DW_AT_low_pc        0x956e
+    0000038c              DW_AT_TI_reserved_8 true
+    0000038d   4       DW_TAG_TI_reserved_1 (.text)
+    0000038e              DW_AT_sibling       (null)
+    00000392              DW_AT_name          /tmp/TI_MKLIBr78rCW/OBJ/copy_z
+                                              ero_init.asm:$C$L2:1:137168478
+                                              2
+    000003d0              DW_AT_TI_begin_file copy_zero_init.c
+    000003e1              DW_AT_TI_begin_line 156
+    000003e2              DW_AT_TI_end_line   161
+    000003e3   6          DW_TAG_TI_reserved_2 (.text)
+    000003e4                 DW_AT_low_pc  0x9560
+    000003e8                 DW_AT_high_pc 0x956c
+
+    ----------------------------
+    DIE Table at Offset 000003ef
+    ----------------------------
+
+    Length:                0x168
+    Version:                   3
+    .debug_abbrev Offset:    415
+    Address Size:              4
+
+
+    000003fa   2 DW_TAG_compile_unit (.text)
+    000003fb        DW_AT_name       copy_decompress_rle.c
+    00000411        DW_AT_stmt_list  .debug_line + 0xe4
+    00000415        DW_AT_low_pc     0x9940
+    00000419        DW_AT_high_pc    0x9950
+    0000041d        DW_AT_language   DW_LANG_C
+    0000041e        DW_AT_comp_dir   /tmp/TI_MKLIBr78rCW/SRC
+    00000436        DW_AT_producer   TMS320C6x Compressor Unix v7.4
+                                     .4 Copyright (c) 1996-2013 Tex
+                                     as Instruments Incorporated
+    0000048e        DW_AT_TI_version 1
+    0000048f   3    DW_TAG_subprogram (.text)
+    00000490           DW_AT_sibling           (null)
+    00000494           DW_AT_name              __TI_decompress_rle24
+    000004aa           DW_AT_low_pc            0x9940
+    000004ae           DW_AT_high_pc           0x9950
+    000004b2           DW_AT_decl_column       6
+    000004b3           DW_AT_decl_file         1
+    000004b4           DW_AT_decl_line         100
+    000004b5           DW_AT_external          true
+    000004b6           DW_AT_frame_base        DW_OP_breg31 0
+    000004b9           DW_AT_TI_symbol_name    __TI_decompress_rle24
+    000004cf           DW_AT_TI_begin_file     copy_decompress_rle.c
+    000004e5           DW_AT_TI_begin_line     100
+    000004e6           DW_AT_TI_begin_column   6
+    000004e7           DW_AT_TI_end_file       copy_decompress_rle.c
+    000004fd           DW_AT_TI_end_line       103
+    000004fe           DW_AT_TI_end_column     1
+    000004ff           DW_AT_TI_skeletal       true
+    00000500           DW_AT_TI_reserved_11    TI Library
+    0000050b           DW_AT_TI_max_frame_size 0
+    0000050c   1       DW_TAG_formal_parameter (.text)
+    0000050d              DW_AT_location       DW_OP_reg4
+    0000050f              DW_AT_name           inbuf
+    00000515              DW_AT_TI_symbol_name inbuf
+    0000051f   1       DW_TAG_formal_parameter (.text)
+    00000520              DW_AT_location       DW_OP_reg20
+    00000522              DW_AT_name           outbuf
+    00000529              DW_AT_TI_symbol_name outbuf
+    00000534   4       DW_TAG_TI_reserved_3 (.text)
+    00000535              DW_AT_name          __TI_decompress_rle_core
+    0000054e              DW_AT_low_pc        0x9944
+    00000552              DW_AT_TI_reserved_9 true
+    00000553   5       DW_TAG_TI_reserved_3 (.text)
+    00000554              DW_AT_low_pc        0x994c
+    00000558              DW_AT_TI_reserved_8 true
+
+    ----------------------------
+    DIE Table at Offset 0000055b
+    ----------------------------
+
+    Length:                0xa3
+    Version:                  3
+    .debug_abbrev Offset:   567
+    Address Size:             4
+
+
+    00000566   1 DW_TAG_compile_unit
+    00000567        DW_AT_name       boot.c
+    0000056e        DW_AT_stmt_list  .debug_line + 0x354
+    00000572        DW_AT_language   DW_LANG_C
+    00000573        DW_AT_comp_dir   /tmp/TI_MKLIBr78rCW/SRC
+    0000058b        DW_AT_producer   TMS320C6x Compressor Unix v7.4
+                                     .4 Copyright (c) 1996-2013 Tex
+                                     as Instruments Incorporated
+    000005e3        DW_AT_TI_version 1
+    000005e4   2    DW_TAG_variable (.stack)
+    000005e5           DW_AT_location       DW_OP_addr 0x00009960
+    000005eb           DW_AT_name           _stack
+    000005f2           DW_AT_decl_column    6
+    000005f3           DW_AT_decl_file      1
+    000005f4           DW_AT_decl_line      74
+    000005f5           DW_AT_external       true
+    000005f6           DW_AT_TI_symbol_name _stack
+
+    ----------------------------
+    DIE Table at Offset 00000602
+    ----------------------------
+
+    Length:                0x18c
+    Version:                   3
+    .debug_abbrev Offset:    608
+    Address Size:              4
+
+
+    0000060d   1 DW_TAG_compile_unit (.text)
+    0000060e        DW_AT_name       autoinit.c
+    00000619        DW_AT_stmt_list  .debug_line + 0x12e
+    0000061d        DW_AT_low_pc     0x92e0
+    00000621        DW_AT_high_pc    0x93d8
+    00000625        DW_AT_language   DW_LANG_C
+    00000626        DW_AT_comp_dir   /tmp/TI_MKLIBr78rCW/SRC
+    0000063e        DW_AT_producer   TMS320C6x Compressor Unix v7.4
+                                     .4 Copyright (c) 1996-2013 Tex
+                                     as Instruments Incorporated
+    00000696        DW_AT_TI_version 1
+    00000697   2    DW_TAG_subprogram (.text)
+    00000698           DW_AT_sibling           (null)
+    0000069c           DW_AT_name              _auto_init_elf
+    000006ab           DW_AT_low_pc            0x92e0
+    000006af           DW_AT_high_pc           0x93d8
+    000006b3           DW_AT_decl_column       6
+    000006b4           DW_AT_decl_file         1
+    000006b5           DW_AT_decl_line         109
+    000006b6           DW_AT_external          true
+    000006b7           DW_AT_frame_base        DW_OP_breg31 24
+    000006ba           DW_AT_TI_symbol_name    _auto_init_elf
+    000006c9           DW_AT_TI_begin_file     autoinit.c
+    000006d4           DW_AT_TI_begin_line     109
+    000006d5           DW_AT_TI_begin_column   6
+    000006d6           DW_AT_TI_end_file       autoinit.c
+    000006e1           DW_AT_TI_end_line       163
+    000006e2           DW_AT_TI_end_column     1
+    000006e3           DW_AT_TI_skeletal       true
+    000006e4           DW_AT_TI_reserved_11    TI Library
+    000006ef           DW_AT_TI_max_frame_size 24
+    000006f0   5       DW_TAG_TI_reserved_3 (.text)
+    000006f1              DW_AT_name          copy_in
+    000006f9              DW_AT_low_pc        0x9300
+    000006fd              DW_AT_TI_reserved_9 true
+    000006fe   7       DW_TAG_TI_reserved_3 (.text)
+    000006ff              DW_AT_low_pc         0x938c
+    00000703              DW_AT_TI_reserved_9  true
+    00000704              DW_AT_TI_reserved_10 true
+    00000705   5       DW_TAG_TI_reserved_3 (.text)
+    00000706              DW_AT_name          __TI_tls_init
+    00000714              DW_AT_low_pc        0x93b4
+    00000718              DW_AT_TI_reserved_9 true
+    00000719   5       DW_TAG_TI_reserved_3 (.text)
+    0000071a              DW_AT_name          __TI_cpp_init
+    00000728              DW_AT_low_pc        0x93bc
+    0000072c              DW_AT_TI_reserved_9 true
+    0000072d   6       DW_TAG_TI_reserved_3 (.text)
+    0000072e              DW_AT_low_pc        0x93cc
+    00000732              DW_AT_TI_reserved_8 true
+    00000733   3       DW_TAG_TI_reserved_1 (.text)
+    00000734              DW_AT_sibling       (null)
+    00000738              DW_AT_name          /tmp/TI_MKLIBr78rCW/OBJ/autoin
+                                              it.asm:$C$L2:1:1371684779
+    00000770              DW_AT_TI_begin_file autoinit.c
+    0000077b              DW_AT_TI_begin_line 138
+    0000077c              DW_AT_TI_end_line   147
+    0000077d   4          DW_TAG_TI_reserved_2 (.text)
+    0000077e                 DW_AT_low_pc  0x9382
+    00000782                 DW_AT_high_pc 0x9394
+    00000786   4          DW_TAG_TI_reserved_2 (.text)
+    00000787                 DW_AT_low_pc  0x9394
+    0000078b                 DW_AT_high_pc 0x93b4
+
+    ----------------------------
+    DIE Table at Offset 00000792
+    ----------------------------
+
+    Length:                0xf2
+    Version:                  3
+    .debug_abbrev Offset:   756
+    Address Size:             4
+
+
+    0000079d   1 DW_TAG_compile_unit (.text)
+    0000079e        DW_AT_name       args_main.c
+    000007aa        DW_AT_stmt_list  .debug_line + 0x17e
+    000007ae        DW_AT_low_pc     0x98c0
+    000007b2        DW_AT_high_pc    0x98f4
+    000007b6        DW_AT_language   DW_LANG_C
+    000007b7        DW_AT_comp_dir   /tmp/TI_MKLIBr78rCW/SRC
+    000007cf        DW_AT_producer   TMS320C6x Compressor Unix v7.4
+                                     .4 Copyright (c) 1996-2013 Tex
+                                     as Instruments Incorporated
+    00000827        DW_AT_TI_version 1
+    00000828   2    DW_TAG_subprogram (.text)
+    00000829           DW_AT_sibling           (null)
+    0000082d           DW_AT_name              _args_main
+    00000838           DW_AT_low_pc            0x98c0
+    0000083c           DW_AT_high_pc           0x98f4
+    00000840           DW_AT_decl_column       5
+    00000841           DW_AT_decl_file         1
+    00000842           DW_AT_decl_line         71
+    00000843           DW_AT_external          true
+    00000844           DW_AT_frame_base        DW_OP_breg31 8
+    00000847           DW_AT_TI_symbol_name    _args_main
+    00000852           DW_AT_TI_begin_file     args_main.c
+    0000085e           DW_AT_TI_begin_line     71
+    0000085f           DW_AT_TI_begin_column   5
+    00000860           DW_AT_TI_end_file       args_main.c
+    0000086c           DW_AT_TI_end_line       92
+    0000086d           DW_AT_TI_end_column     1
+    0000086e           DW_AT_TI_skeletal       true
+    0000086f           DW_AT_TI_reserved_11    TI Library
+    0000087a           DW_AT_TI_max_frame_size 8
+    0000087f   3       DW_TAG_TI_reserved_3 (.text)
+    00000880              DW_AT_low_pc        0x98d6
+    00000884              DW_AT_TI_reserved_8 true
+    00000885              DW_AT_TI_reserved_9 true
+
+    ----------------------------
+    DIE Table at Offset 00000888
+    ----------------------------
+
+    Length:                0x108
+    Version:                   3
+    .debug_abbrev Offset:    899
+    Address Size:              4
+
+
+    00000893   2 DW_TAG_compile_unit (.text)
+    00000894        DW_AT_name       exit.c
+    0000089b        DW_AT_stmt_list  .debug_line + 0x1c0
+    0000089f        DW_AT_low_pc     0x95c0
+    000008a3        DW_AT_high_pc    0x9668
+    000008a7        DW_AT_language   DW_LANG_C
+    000008a8        DW_AT_comp_dir   /tmp/TI_MKLIBr78rCW/SRC
+    000008c0        DW_AT_producer   TMS320C6x Compressor Unix v7.4
+                                     .4 Copyright (c) 1996-2013 Tex
+                                     as Instruments Incorporated
+    00000918        DW_AT_TI_version 1
+    00000919   3    DW_TAG_subprogram (.text)
+    0000091a           DW_AT_sibling           (null)
+    0000091e           DW_AT_name              exit
+    00000923           DW_AT_low_pc            0x95c0
+    00000927           DW_AT_high_pc           0x9668
+    0000092b           DW_AT_decl_column       19
+    0000092c           DW_AT_decl_file         1
+    0000092d           DW_AT_decl_line         58
+    0000092e           DW_AT_external          true
+    0000092f           DW_AT_frame_base        DW_OP_breg31 8
+    00000932           DW_AT_TI_symbol_name    exit
+    00000937           DW_AT_TI_begin_file     exit.c
+    0000093e           DW_AT_TI_begin_line     58
+    0000093f           DW_AT_TI_begin_column   19
+    00000940           DW_AT_TI_end_file       exit.c
+    00000947           DW_AT_TI_end_line       103
+    00000948           DW_AT_TI_end_column     1
+    00000949           DW_AT_TI_skeletal       true
+    0000094a           DW_AT_TI_reserved_11    TI Library
+    00000955           DW_AT_TI_max_frame_size 8
+    00000956   1       DW_TAG_formal_parameter (.text)
+    00000957              DW_AT_location       DW_OP_reg4
+    00000959              DW_AT_name           status
+    00000960              DW_AT_TI_symbol_name status
+    0000096b   5       DW_TAG_TI_reserved_3 (.text)
+    0000096c              DW_AT_low_pc         0x95f0
+    00000970              DW_AT_TI_reserved_9  true
+    00000971              DW_AT_TI_reserved_10 true
+    00000972   5       DW_TAG_TI_reserved_3 (.text)
+    00000973              DW_AT_low_pc         0x9624
+    00000977              DW_AT_TI_reserved_9  true
+    00000978              DW_AT_TI_reserved_10 true
+    00000979   5       DW_TAG_TI_reserved_3 (.text)
+    0000097a              DW_AT_low_pc         0x9644
+    0000097e              DW_AT_TI_reserved_9  true
+    0000097f              DW_AT_TI_reserved_10 true
+    00000980   4       DW_TAG_TI_reserved_3 (.text)
+    00000981              DW_AT_name          abort
+    00000987              DW_AT_low_pc        0x9650
+    0000098b              DW_AT_TI_reserved_9 true
+    0000098c   6       DW_TAG_TI_reserved_3 (.text)
+    0000098d              DW_AT_low_pc        0x9656
+    00000991              DW_AT_TI_reserved_8 true
+
+    ----------------------------
+    DIE Table at Offset 00000994
+    ----------------------------
+
+    Length:                0xd2
+    Version:                  3
+    .debug_abbrev Offset:  1080
+    Address Size:             4
+
+
+    0000099f   1 DW_TAG_compile_unit (.text)
+    000009a0        DW_AT_name       memcpy64.asm
+    000009ad        DW_AT_stmt_list  .debug_line + 0x1fe
+    000009b1        DW_AT_low_pc     0x9740
+    000009b5        DW_AT_high_pc    0x97d8
+    000009b9        DW_AT_comp_dir   /tmp/TI_MKLIBr78rCW/SRC
+    000009d1        DW_AT_producer   TMS320C6x Compressor Unix v7.4
+                                     .4 Copyright (c) 1996-2013 Tex
+                                     as Instruments Incorporated
+    00000a29        DW_AT_TI_version 1
+    00000a2a   2    DW_TAG_subprogram (.text)
+    00000a2b           DW_AT_sibling        (null)
+    00000a2f           DW_AT_name           memcpy
+    00000a36           DW_AT_low_pc         0x9740
+    00000a3a           DW_AT_high_pc        0x97d8
+    00000a3e           DW_AT_external       true
+    00000a3f           DW_AT_frame_base     DW_OP_breg31 0
+    00000a42           DW_AT_TI_symbol_name memcpy
+    00000a49           DW_AT_TI_asm         true
+    00000a4a           DW_AT_TI_skeletal    true
+    00000a4b           DW_AT_TI_reserved_11 TI Library
+    00000a56   3       DW_TAG_TI_reserved_3 (.text)
+    00000a57              DW_AT_name          B3
+    00000a5a              DW_AT_low_pc        0x9784
+    00000a5e              DW_AT_TI_reserved_8 true
+    00000a5f   3       DW_TAG_TI_reserved_3 (.text)
+    00000a60              DW_AT_name          B3
+    00000a63              DW_AT_low_pc        0x97d4
+    00000a67              DW_AT_TI_reserved_8 true
+
+    ----------------------------
+    DIE Table at Offset 00000a6a
+    ----------------------------
+
+    Length:                0x4f
+    Version:                  3
+    .debug_abbrev Offset:   210
+    Address Size:             4
+
+
+    00000a75   1 DW_TAG_compile_unit
+    00000a76        DW_AT_name       copy_decompress_none.c
+    00000a7a        DW_AT_stmt_list  .debug_line + 0x24b
+    00000a7e        DW_AT_language   DW_LANG_C
+    00000a7f        DW_AT_comp_dir   /tmp/TI_MKLIBr78rCW/SRC
+    00000a83        DW_AT_producer   TMS320C6x Compressor Unix v7.4
+                                     .4 Copyright (c) 1996-2013 Tex
+                                     as Instruments Incorporated
+    00000a87        DW_AT_TI_version 1
+
+    ----------------------------
+    DIE Table at Offset 00000abd
+    ----------------------------
+
+    Length:                0x4f
+    Version:                  3
+    .debug_abbrev Offset:   379
+    Address Size:             4
+
+
+    00000ac8   1 DW_TAG_compile_unit
+    00000ac9        DW_AT_name       copy_zero_init.c
+    00000acd        DW_AT_stmt_list  .debug_line + 0x285
+    00000ad1        DW_AT_language   DW_LANG_C
+    00000ad2        DW_AT_comp_dir   /tmp/TI_MKLIBr78rCW/SRC
+    00000ad6        DW_AT_producer   TMS320C6x Compressor Unix v7.4
+                                     .4 Copyright (c) 1996-2013 Tex
+                                     as Instruments Incorporated
+    00000ada        DW_AT_TI_version 1
+
+    ----------------------------
+    DIE Table at Offset 00000b10
+    ----------------------------
+
+    Length:                0x2ee
+    Version:                   3
+    .debug_abbrev Offset:   1216
+    Address Size:              4
+
+
+    00000b1b   2 DW_TAG_compile_unit (.text)
+    00000b1c        DW_AT_name       copy_decompress_rle.c
+    00000b32        DW_AT_stmt_list  .debug_line + 0x2b9
+    00000b36        DW_AT_low_pc     0x9020
+    00000b3a        DW_AT_high_pc    0x9188
+    00000b3e        DW_AT_language   DW_LANG_C
+    00000b3f        DW_AT_comp_dir   /tmp/TI_MKLIBr78rCW/SRC
+    00000b57        DW_AT_producer   TMS320C6x Compressor Unix v7.4
+                                     .4 Copyright (c) 1996-2013 Tex
+                                     as Instruments Incorporated
+    00000baf        DW_AT_TI_version 1
+    00000bb0   3    DW_TAG_subprogram (.text)
+    00000bb1           DW_AT_sibling           (null)
+    00000bb5           DW_AT_name              __TI_decompress_rle_core
+    00000bce           DW_AT_low_pc            0x9020
+    00000bd2           DW_AT_high_pc           0x9188
+    00000bd6           DW_AT_decl_column       13
+    00000bd7           DW_AT_decl_file         1
+    00000bd8           DW_AT_decl_line         105
+    00000bd9           DW_AT_frame_base        DW_OP_breg31 0
+    00000bdc           DW_AT_TI_symbol_name    __TI_decompress_rle_core
+    00000bf5           DW_AT_TI_begin_file     copy_decompress_rle.c
+    00000c0b           DW_AT_TI_begin_line     105
+    00000c0c           DW_AT_TI_begin_column   13
+    00000c0d           DW_AT_TI_end_file       copy_decompress_rle.c
+    00000c23           DW_AT_TI_end_line       176
+    00000c24           DW_AT_TI_end_column     1
+    00000c25           DW_AT_TI_skeletal       true
+    00000c26           DW_AT_TI_reserved_11    TI Library
+    00000c31           DW_AT_TI_max_frame_size 0
+    00000c32   1       DW_TAG_formal_parameter (.text)
+    00000c33              DW_AT_location       DW_OP_reg4
+    00000c35              DW_AT_name           inbuf
+    00000c3b              DW_AT_TI_symbol_name inbuf
+    00000c45   1       DW_TAG_formal_parameter (.text)
+    00000c46              DW_AT_location       DW_OP_reg20
+    00000c48              DW_AT_name           outbuf
+    00000c4f              DW_AT_TI_symbol_name outbuf
+    00000c5a   1       DW_TAG_formal_parameter (.text)
+    00000c5b              DW_AT_location       DW_OP_reg6
+    00000c5d              DW_AT_name           is_rle24
+    00000c66              DW_AT_TI_symbol_name is_rle24
+    00000c73   7       DW_TAG_TI_reserved_3 (.text)
+    00000c74              DW_AT_low_pc        0x9078
+    00000c78              DW_AT_TI_reserved_8 true
+    00000c79   4       DW_TAG_TI_reserved_1 (.text)
+    00000c7a              DW_AT_sibling       (null)
+    00000c7e              DW_AT_name          /tmp/TI_MKLIBr78rCW/OBJ/copy_d
+                                              ecompress_rle.asm:$C$L1:1:1371
+                                              684783
+    00000cc1              DW_AT_TI_begin_file copy_decompress_rle.c
+    00000cd7              DW_AT_TI_begin_line 115
+    00000cd8              DW_AT_TI_end_line   297
+    00000cda   6          DW_TAG_TI_reserved_2 (.text)
+    00000cdb                 DW_AT_low_pc  0x9028
+    00000cdf                 DW_AT_high_pc 0x9030
+    00000ce3   6          DW_TAG_TI_reserved_2 (.text)
+    00000ce4                 DW_AT_low_pc  0x9048
+    00000ce8                 DW_AT_high_pc 0x905a
+    00000cec   6          DW_TAG_TI_reserved_2 (.text)
+    00000ced                 DW_AT_low_pc  0x905a
+    00000cf1                 DW_AT_high_pc 0x9088
+    00000cf5   6          DW_TAG_TI_reserved_2 (.text)
+    00000cf6                 DW_AT_low_pc  0x9088
+    00000cfa                 DW_AT_high_pc 0x90b0
+    00000cfe   6          DW_TAG_TI_reserved_2 (.text)
+    00000cff                 DW_AT_low_pc  0x90b0
+    00000d03                 DW_AT_high_pc 0x90c8
+    00000d07   6          DW_TAG_TI_reserved_2 (.text)
+    00000d08                 DW_AT_low_pc  0x90c8
+    00000d0c                 DW_AT_high_pc 0x9120
+    00000d10   6          DW_TAG_TI_reserved_2 (.text)
+    00000d11                 DW_AT_low_pc  0x9136
+    00000d15                 DW_AT_high_pc 0x9140
+    00000d19   6          DW_TAG_TI_reserved_2 (.text)
+    00000d1a                 DW_AT_low_pc  0x9140
+    00000d1e                 DW_AT_high_pc 0x9174
+    00000d22   5          DW_TAG_TI_reserved_1 (.text)
+    00000d23                 DW_AT_sibling       .debug_info(17) + 0xd8c
+    00000d27                 DW_AT_name          /tmp/TI_MKLIBr78rCW/OBJ/copy_d
+                                                 ecompress_rle.asm:$C$L6:2:1371
+                                                 684783
+    00000d6a                 DW_AT_TI_begin_file copy_decompress_rle.c
+    00000d80                 DW_AT_TI_begin_line 233
+    00000d81                 DW_AT_TI_end_line   238
+    00000d82   6             DW_TAG_TI_reserved_2 (.text)
+    00000d83                    DW_AT_low_pc  0x9128
+    00000d87                    DW_AT_high_pc 0x9136
+    00000d8c   5          DW_TAG_TI_reserved_1 (.text)
+    00000d8d                 DW_AT_sibling       (null)
+    00000d91                 DW_AT_name          /tmp/TI_MKLIBr78rCW/OBJ/copy_d
+                                                 ecompress_rle.asm:$C$L2:2:1371
+                                                 684783
+    00000dd4                 DW_AT_TI_begin_file copy_decompress_rle.c
+    00000dea                 DW_AT_TI_begin_line 115
+    00000deb                 DW_AT_TI_end_line   173
+    00000dec   6             DW_TAG_TI_reserved_2 (.text)
+    00000ded                    DW_AT_low_pc  0x9030
+    00000df1                    DW_AT_high_pc 0x9048
+    00000df5   6             DW_TAG_TI_reserved_2 (.text)
+    00000df6                    DW_AT_low_pc  0x9174
+    00000dfa                    DW_AT_high_pc 0x9184
+
+    ----------------------------
+    DIE Table at Offset 00000e02
+    ----------------------------
+
+    Length:                0x1d3
+    Version:                   3
+    .debug_abbrev Offset:   1367
+    Address Size:              4
+
+
+    00000e0d   5 DW_TAG_compile_unit
+    00000e0e        DW_AT_name       copy_decompress_rle.c
+    00000e24        DW_AT_stmt_list  .debug_line + 0x605
+    00000e28        DW_AT_language   DW_LANG_C
+    00000e29        DW_AT_comp_dir   /tmp/TI_MKLIBr78rCW/SRC
+    00000e41        DW_AT_producer   TMS320C6x Compressor Unix v7.4
+                                     .4 Copyright (c) 1996-2013 Tex
+                                     as Instruments Incorporated
+    00000e99        DW_AT_TI_version 1
+    00000e9a   7    DW_TAG_subprogram
+    00000e9b           DW_AT_sibling        .debug_info(17) + 0xebe
+    00000e9f           DW_AT_name           _itoll
+    00000ea6           DW_AT_declaration    true
+    00000ea7           DW_AT_external       true
+    00000ea8           DW_AT_TI_symbol_name _itoll
+    00000eb3   1       DW_TAG_formal_parameter
+          
+    00000eb8   1       DW_TAG_formal_parameter
+          
+    00000ebe   8    DW_TAG_subprogram
+    00000ebf           DW_AT_sibling        .debug_info(17) + 0xedd
+    00000ec3           DW_AT_name           _amem2
+    00000eca           DW_AT_declaration    true
+    00000ecb           DW_AT_external       true
+    00000ecc           DW_AT_TI_symbol_name _amem2
+    00000ed7   2       DW_TAG_formal_parameter
+          
+    00000edd   8    DW_TAG_subprogram
+    00000ede           DW_AT_sibling        .debug_info(17) + 0xefc
+    00000ee2           DW_AT_name           _amem4
+    00000ee9           DW_AT_declaration    true
+    00000eea           DW_AT_external       true
+    00000eeb           DW_AT_TI_symbol_name _amem4
+    00000ef6   2       DW_TAG_formal_parameter
+          
+    00000efc   8    DW_TAG_subprogram
+    00000efd           DW_AT_sibling        .debug_info(17) + 0xf1b
+    00000f01           DW_AT_name           _amem8
+    00000f08           DW_AT_declaration    true
+    00000f09           DW_AT_external       true
+    00000f0a           DW_AT_TI_symbol_name _amem8
+    00000f15   2       DW_TAG_formal_parameter
+          
+    00000f1b   8    DW_TAG_subprogram
+    00000f1c           DW_AT_sibling        .debug_info(17) + 0xf38
+    00000f20           DW_AT_name           _mem4
+    00000f26           DW_AT_declaration    true
+    00000f27           DW_AT_external       true
+    00000f28           DW_AT_TI_symbol_name _mem4
+    00000f32   2       DW_TAG_formal_parameter
+          
+    00000f38   8    DW_TAG_subprogram
+    00000f39           DW_AT_sibling        .debug_info(17) + 0xf55
+    00000f3d           DW_AT_name           _mem8
+    00000f43           DW_AT_declaration    true
+    00000f44           DW_AT_external       true
+    00000f45           DW_AT_TI_symbol_name _mem8
+    00000f4f   2       DW_TAG_formal_parameter
+          
+    00000f55   7    DW_TAG_subprogram
+    00000f56           DW_AT_sibling        .debug_info(17) + 0xf79
+    00000f5a           DW_AT_name           _pack2
+    00000f61           DW_AT_declaration    true
+    00000f62           DW_AT_external       true
+    00000f63           DW_AT_TI_symbol_name _pack2
+    00000f6e   1       DW_TAG_formal_parameter
+          
+    00000f73   1       DW_TAG_formal_parameter
+          
+    00000f79   7    DW_TAG_subprogram
+    00000f7a           DW_AT_name           _packl4
+    00000f82           DW_AT_declaration    true
+    00000f83           DW_AT_external       true
+    00000f84           DW_AT_TI_symbol_name _packl4
+    00000f94   1       DW_TAG_formal_parameter
+          
+    00000f99   1       DW_TAG_formal_parameter
+          
+
+    ----------------------------
+    DIE Table at Offset 00000fd9
+    ----------------------------
+
+    Length:                0x42
+    Version:                  3
+    .debug_abbrev Offset:   531
+    Address Size:             4
+
+
+    00000fe4   1 DW_TAG_compile_unit
+    00000fe5        DW_AT_name       copy_decompress_rle.c
+    00000fe9        DW_AT_stmt_list  .debug_line + 0x31b
+    00000fed        DW_AT_language   DW_LANG_C
+    00000fee        DW_AT_comp_dir   /tmp/TI_MKLIBr78rCW/SRC
+    00000ff2        DW_AT_producer   TMS320C6x Compressor Unix v7.4
+                                     .4 Copyright (c) 1996-2013 Tex
+                                     as Instruments Incorporated
+    00000ff6        DW_AT_TI_version 1
+
+    ----------------------------
+    DIE Table at Offset 0000101f
+    ----------------------------
+
+    Length:                0x106
+    Version:                   3
+    .debug_abbrev Offset:   1461
+    Address Size:              4
+
+
+    0000102a   3 DW_TAG_compile_unit
+    0000102b        DW_AT_name       boot.c
+    00001032        DW_AT_stmt_list  .debug_line + 0x625
+    00001036        DW_AT_language   DW_LANG_C
+    00001037        DW_AT_comp_dir   /tmp/TI_MKLIBr78rCW/SRC
+    0000104f        DW_AT_producer   TMS320C6x Compressor Unix v7.4
+                                     .4 Copyright (c) 1996-2013 Tex
+                                     as Instruments Incorporated
+    000010a7        DW_AT_TI_version 1
+    000010ca   6    DW_TAG_subprogram
+    000010cb           DW_AT_name           _auto_init_elf
+    000010da           DW_AT_decl_column    17
+    000010db           DW_AT_decl_file      1
+    000010dc           DW_AT_decl_line      47
+    000010dd           DW_AT_declaration    true
+    000010de           DW_AT_external       true
+    000010df           DW_AT_TI_symbol_name _auto_init_elf
+    000010ee   5    DW_TAG_subprogram
+    000010ef           DW_AT_name           _args_main
+    000010fa           DW_AT_decl_column    16
+    000010fb           DW_AT_decl_file      1
+    000010fc           DW_AT_decl_line      51
+    000010fd           DW_AT_declaration    true
+    000010fe           DW_AT_external       true
+    000010ff           DW_AT_TI_symbol_name _args_main
+    0000110e   7    DW_TAG_subprogram
+    0000110f           DW_AT_sibling        (null)
+    00001113           DW_AT_name           exit
+    00001118           DW_AT_decl_column    17
+    00001119           DW_AT_decl_file      1
+    0000111a           DW_AT_decl_line      52
+    0000111b           DW_AT_declaration    true
+    0000111c           DW_AT_external       true
+    0000111d           DW_AT_TI_symbol_name exit
+    00001122   8       DW_TAG_formal_parameter
+          
+
+    ----------------------------
+    DIE Table at Offset 00001129
+    ----------------------------
+
+    Length:                0x18a
+    Version:                   3
+    .debug_abbrev Offset:   1633
+    Address Size:              4
+
+
+    00001134   2 DW_TAG_compile_unit (.text)
+    00001135        DW_AT_name       cpy_tbl.c
+    0000113f        DW_AT_stmt_list  .debug_line + 0x37e
+    00001143        DW_AT_low_pc     0x93e0
+    00001147        DW_AT_high_pc    0x94d4
+    0000114b        DW_AT_language   DW_LANG_C
+    0000114c        DW_AT_comp_dir   /tmp/TI_MKLIBr78rCW/SRC
+    00001164        DW_AT_producer   TMS320C6x Compressor Unix v7.4
+                                     .4 Copyright (c) 1996-2013 Tex
+                                     as Instruments Incorporated
+    000011bc        DW_AT_TI_version 1
+    000011bd   3    DW_TAG_subprogram (.text)
+    000011be           DW_AT_sibling           (null)
+    000011c2           DW_AT_name              copy_in
+    000011ca           DW_AT_low_pc            0x93e0
+    000011ce           DW_AT_high_pc           0x94d4
+    000011d2           DW_AT_decl_column       6
+    000011d3           DW_AT_decl_file         1
+    000011d4           DW_AT_decl_line         55
+    000011d5           DW_AT_external          true
+    000011d6           DW_AT_frame_base        DW_OP_breg31 16
+    000011d9           DW_AT_TI_symbol_name    copy_in
+    000011e1           DW_AT_TI_begin_file     cpy_tbl.c
+    000011eb           DW_AT_TI_begin_line     55
+    000011ec           DW_AT_TI_begin_column   6
+    000011ed           DW_AT_TI_end_file       cpy_tbl.c
+    000011f7           DW_AT_TI_end_line       88
+    000011f8           DW_AT_TI_end_column     1
+    000011f9           DW_AT_TI_skeletal       true
+    000011fa           DW_AT_TI_reserved_11    TI Library
+    00001205           DW_AT_TI_max_frame_size 16
+    00001206   1       DW_TAG_formal_parameter (.text)
+    00001207              DW_AT_location       DW_OP_reg4
+    00001209              DW_AT_name           tp
+    0000120c              DW_AT_TI_symbol_name tp
+    00001213   6       DW_TAG_TI_reserved_3 (.text)
+    00001214              DW_AT_name          memcpy
+    0000121b              DW_AT_low_pc        0x9420
+    0000121f              DW_AT_TI_reserved_9 true
+    00001220   8       DW_TAG_TI_reserved_3 (.text)
+    00001221              DW_AT_low_pc         0x9464
+    00001225              DW_AT_TI_reserved_9  true
+    00001226              DW_AT_TI_reserved_10 true
+    00001227   7       DW_TAG_TI_reserved_3 (.text)
+    00001228              DW_AT_low_pc        0x94c4
+    0000122c              DW_AT_TI_reserved_8 true
+    0000122d   4       DW_TAG_TI_reserved_1 (.text)
+    0000122e              DW_AT_sibling       (null)
+    00001232              DW_AT_name          /tmp/TI_MKLIBr78rCW/OBJ/cpy_tb
+                                              l.asm:$C$L1:1:1371684826
+    00001269              DW_AT_TI_begin_file cpy_tbl.c
+    00001273              DW_AT_TI_begin_line 59
+    00001274              DW_AT_TI_end_line   87
+    00001275   5          DW_TAG_TI_reserved_2 (.text)
+    00001276                 DW_AT_low_pc  0x9414
+    0000127a                 DW_AT_high_pc 0x9432
+    0000127e   5          DW_TAG_TI_reserved_2 (.text)
+    0000127f                 DW_AT_low_pc  0x9480
+    00001283                 DW_AT_high_pc 0x9488
+    00001287   5          DW_TAG_TI_reserved_2 (.text)
+    00001288                 DW_AT_low_pc  0x9458
+    0000128c                 DW_AT_high_pc 0x946c
+    00001290   5          DW_TAG_TI_reserved_2 (.text)
+    00001291                 DW_AT_low_pc  0x9432
+    00001295                 DW_AT_high_pc 0x9458
+    00001299   5          DW_TAG_TI_reserved_2 (.text)
+    0000129a                 DW_AT_low_pc  0x946c
+    0000129e                 DW_AT_high_pc 0x9480
+    000012a2   5          DW_TAG_TI_reserved_2 (.text)
+    000012a3                 DW_AT_low_pc  0x9488
+    000012a7                 DW_AT_high_pc 0x94a0
+    000012ab   5          DW_TAG_TI_reserved_2 (.text)
+    000012ac                 DW_AT_low_pc  0x94a0
+    000012b0                 DW_AT_high_pc 0x94c0
+
+    ----------------------------
+    DIE Table at Offset 000012b7
+    ----------------------------
+
+    Length:                0x160
+    Version:                   3
+    .debug_abbrev Offset:   1795
+    Address Size:              4
+
+
+    000012c2   2 DW_TAG_compile_unit (.text)
+    000012c3        DW_AT_name       tls.c
+    000012c9        DW_AT_stmt_list  .debug_line + 0x3c5
+    000012cd        DW_AT_low_pc     0x9680
+    000012d1        DW_AT_high_pc    0x9740
+    000012d5        DW_AT_language   DW_LANG_C
+    000012d6        DW_AT_comp_dir   /tmp/TI_MKLIBr78rCW/SRC
+    000012ee        DW_AT_producer   TMS320C6x Compressor Unix v7.4
+                                     .4 Copyright (c) 1996-2013 Tex
+                                     as Instruments Incorporated
+    00001346        DW_AT_TI_version 1
+    00001347   3    DW_TAG_subprogram (.text)
+    00001348           DW_AT_sibling           (null)
+    0000134c           DW_AT_name              __TI_tls_init
+    0000135a           DW_AT_low_pc            0x9680
+    0000135e           DW_AT_high_pc           0x9740
+    00001362           DW_AT_decl_column       6
+    00001363           DW_AT_decl_file         1
+    00001364           DW_AT_decl_line         64
+    00001365           DW_AT_external          true
+    00001366           DW_AT_frame_base        DW_OP_breg31 32
+    00001369           DW_AT_TI_symbol_name    __TI_tls_init
+    00001377           DW_AT_TI_begin_file     tls.c
+    0000137d           DW_AT_TI_begin_line     64
+    0000137e           DW_AT_TI_begin_column   6
+    0000137f           DW_AT_TI_end_file       tls.c
+    00001385           DW_AT_TI_end_line       108
+    00001386           DW_AT_TI_end_column     1
+    00001387           DW_AT_TI_skeletal       true
+    00001388           DW_AT_TI_reserved_11    TI Library
+    00001393           DW_AT_TI_max_frame_size 32
+    00001394   1       DW_TAG_formal_parameter (.text)
+    00001395              DW_AT_location       DW_OP_reg4
+    00001397              DW_AT_name           TLS_block_addr
+    000013a6              DW_AT_TI_symbol_name TLS_block_addr
+    000013b9   7       DW_TAG_TI_reserved_3 (.text)
+    000013ba              DW_AT_low_pc         0x9704
+    000013be              DW_AT_TI_reserved_9  true
+    000013bf              DW_AT_TI_reserved_10 true
+    000013c0   6       DW_TAG_TI_reserved_3 (.text)
+    000013c1              DW_AT_low_pc        0x9734
+    000013c5              DW_AT_TI_reserved_8 true
+    000013c6   4       DW_TAG_TI_reserved_1 (.text)
+    000013c7              DW_AT_sibling       (null)
+    000013cb              DW_AT_name          /tmp/TI_MKLIBr78rCW/OBJ/tls.as
+                                              m:$C$L2:1:1371684819
+    000013fe              DW_AT_TI_begin_file tls.c
+    00001404              DW_AT_TI_begin_line 84
+    00001405              DW_AT_TI_end_line   106
+    00001406   5          DW_TAG_TI_reserved_2 (.text)
+    00001407                 DW_AT_low_pc  0x96ec
+    0000140b                 DW_AT_high_pc 0x9710
+    0000140f   5          DW_TAG_TI_reserved_2 (.text)
+    00001410                 DW_AT_low_pc  0x9710
+    00001414                 DW_AT_high_pc 0x972c
+
+    ----------------------------
+    DIE Table at Offset 0000141b
+    ----------------------------
+
+    Length:                0x15b
+    Version:                   3
+    .debug_abbrev Offset:   1943
+    Address Size:              4
+
+
+    00001426   1 DW_TAG_compile_unit (.text)
+    00001427        DW_AT_name       cpp_init.c
+    00001432        DW_AT_stmt_list  .debug_line + 0x40e
+    00001436        DW_AT_low_pc     0x9860
+    0000143a        DW_AT_high_pc    0x98b8
+    0000143e        DW_AT_language   DW_LANG_C
+    0000143f        DW_AT_comp_dir   /tmp/TI_MKLIBr78rCW/SRC
+    00001457        DW_AT_producer   TMS320C6x Compressor Unix v7.4
+                                     .4 Copyright (c) 1996-2013 Tex
+                                     as Instruments Incorporated
+    000014af        DW_AT_TI_version 1
+    000014b0   2    DW_TAG_subprogram (.text)
+    000014b1           DW_AT_sibling           (null)
+    000014b5           DW_AT_name              __TI_cpp_init
+    000014c3           DW_AT_low_pc            0x9860
+    000014c7           DW_AT_high_pc           0x98b8
+    000014cb           DW_AT_decl_column       6
+    000014cc           DW_AT_decl_file         1
+    000014cd           DW_AT_decl_line         56
+    000014ce           DW_AT_external          true
+    000014cf           DW_AT_frame_base        DW_OP_breg31 16
+    000014d2           DW_AT_TI_symbol_name    __TI_cpp_init
+    000014e0           DW_AT_TI_begin_file     cpp_init.c
+    000014eb           DW_AT_TI_begin_line     56
+    000014ec           DW_AT_TI_begin_column   6
+    000014ed           DW_AT_TI_end_file       cpp_init.c
+    000014f8           DW_AT_TI_end_line       86
+    000014f9           DW_AT_TI_end_column     1
+    000014fa           DW_AT_TI_skeletal       true
+    000014fb           DW_AT_TI_reserved_11    TI Library
+    00001506           DW_AT_TI_max_frame_size 16
+    00001507   6       DW_TAG_TI_reserved_3 (.text)
+    00001508              DW_AT_low_pc         0x988a
+    0000150c              DW_AT_TI_reserved_9  true
+    0000150d              DW_AT_TI_reserved_10 true
+    0000150e   6       DW_TAG_TI_reserved_3 (.text)
+    0000150f              DW_AT_low_pc         0x98a0
+    00001513              DW_AT_TI_reserved_9  true
+    00001514              DW_AT_TI_reserved_10 true
+    00001515   5       DW_TAG_TI_reserved_3 (.text)
+    00001516              DW_AT_low_pc        0x98a8
+    0000151a              DW_AT_TI_reserved_8 true
+    0000151b   3       DW_TAG_TI_reserved_1 (.text)
+    0000151c              DW_AT_sibling       (null)
+    00001520              DW_AT_name          /tmp/TI_MKLIBr78rCW/OBJ/cpp_in
+                                              it.asm:$C$L1:1:1371684780
+    00001558              DW_AT_TI_begin_file cpp_init.c
+    00001563              DW_AT_TI_begin_line 81
+    00001564              DW_AT_TI_end_line   82
+    00001565   4          DW_TAG_TI_reserved_2 (.text)
+    00001566                 DW_AT_low_pc  0x988c
+    0000156a                 DW_AT_high_pc 0x9890
+    0000156e   4          DW_TAG_TI_reserved_2 (.text)
+    0000156f                 DW_AT_low_pc  0x9890
+    00001573                 DW_AT_high_pc 0x98a4
+
+    ----------------------------
+    DIE Table at Offset 0000157a
+    ----------------------------
+
+    Length:                0x35a
+    Version:                   3
+    .debug_abbrev Offset:   2077
+    Address Size:              4
+
+
+    00001585   2 DW_TAG_compile_unit (.text)
+    00001586        DW_AT_name       tests/inputs/main/bsort100/bso
+                                     rt100.c
+    000015ac        DW_AT_stmt_list  .debug_line + 0x458
+    000015b0        DW_AT_low_pc     0x91a0
+    000015b4        DW_AT_high_pc    0x92dc
+    000015b8        DW_AT_language   DW_LANG_C
+    000015b9        DW_AT_comp_dir   C:\Users\Runqing Xu\Projects\w
+                                     cet
+    000015db        DW_AT_producer   TMS320C6x Compressor PC v7.4.4
+                                      Copyright (c) 1996-2013 Texas
+                                      Instruments Incorporated
+    00001631        DW_AT_TI_version 1
+    00001632   3    DW_TAG_subprogram (.text)
+    00001633           DW_AT_sibling           (null)
+    00001637           DW_AT_name              main
+    0000163c           DW_AT_low_pc            0x91a0
+    00001640           DW_AT_high_pc           0x92dc
+    00001644           DW_AT_decl_column       1
+    00001645           DW_AT_decl_file         1
+    00001646           DW_AT_decl_line         45
+    00001647           DW_AT_external          true
+    00001648           DW_AT_TI_symbol_name    main
+    0000164d           DW_AT_TI_begin_file     tests/inputs/main/bsort100/bso
+                                               rt100.c
+    00001673           DW_AT_TI_begin_line     45
+    00001674           DW_AT_TI_begin_column   1
+    00001675           DW_AT_TI_end_file       tests/inputs/main/bsort100/bso
+                                               rt100.c
+    0000169b           DW_AT_TI_end_line       83
+    0000169c           DW_AT_TI_end_column     1
+    0000169d           DW_AT_TI_max_frame_size 16
+    000016a2   1       DW_TAG_lexical_block (.text)
+    000016a3              DW_AT_sibling .debug_info(17) + 0x16d6
+    000016a7              DW_AT_low_pc  0x91a2
+    000016ab              DW_AT_high_pc 0x91f4
+    000016af   4          DW_TAG_variable (.text)
+    000016b0                 DW_AT_location       DW_OP_breg31 4
+    000016b3                 DW_AT_name           Index
+    000016b9                 DW_AT_TI_symbol_name Index
+    000016c3   4          DW_TAG_variable (.text)
+    000016c4                 DW_AT_location       DW_OP_breg31 8
+    000016c7                 DW_AT_name           fact
+    000016cc                 DW_AT_TI_symbol_name fact
+    000016d6   1       DW_TAG_lexical_block (.text)
+    000016d7              DW_AT_sibling .debug_info(17) + 0x172c
+    000016db              DW_AT_low_pc  0x91f4
+    000016df              DW_AT_high_pc 0x92d0
+    000016e3   4          DW_TAG_variable (.text)
+    000016e4                 DW_AT_location       DW_OP_breg31 4
+    000016e7                 DW_AT_name           Sorted
+    000016ee                 DW_AT_TI_symbol_name Sorted
+    000016f9   4          DW_TAG_variable (.text)
+    000016fa                 DW_AT_location       DW_OP_breg31 8
+    000016fd                 DW_AT_name           Temp
+    00001702                 DW_AT_TI_symbol_name Temp
+    0000170b   4          DW_TAG_variable (.text)
+    0000170c                 DW_AT_location       DW_OP_breg31 12
+    0000170f                 DW_AT_name           Index
+    00001715                 DW_AT_TI_symbol_name Index
+    0000171f   4          DW_TAG_variable (.text)
+    00001720                 DW_AT_location       DW_OP_breg31 16
+    00001723                 DW_AT_name           i
+    00001725                 DW_AT_TI_symbol_name i
+    0000172c   7       DW_TAG_TI_reserved_3 (.text)
+    0000172d              DW_AT_low_pc        0x92d8
+    00001731              DW_AT_TI_reserved_8 true
+    00001732   5       DW_TAG_TI_reserved_1 (.text)
+    00001733              DW_AT_sibling       .debug_info(17) + 0x1859
+    00001737              DW_AT_name          C:\\Users\\RUNQIN~1\\AppData\\
+                                              Local\\Temp\\5290810:$C$L3:1:1
+                                              670475073
+    0000177d              DW_AT_TI_begin_file tests/inputs/main/bsort100/bso
+                                              rt100.c
+    000017a3              DW_AT_TI_begin_line 66
+    000017a4              DW_AT_TI_end_line   79
+    000017a5   6          DW_TAG_TI_reserved_2 (.text)
+    000017a6                 DW_AT_low_pc  0x920c
+    000017aa                 DW_AT_high_pc 0x9220
+    000017ae   6          DW_TAG_TI_reserved_2 (.text)
+    000017af                 DW_AT_low_pc  0x92b0
+    000017b3                 DW_AT_high_pc 0x92b8
+    000017b7   6          DW_TAG_TI_reserved_2 (.text)
+    000017b8                 DW_AT_low_pc  0x92b8
+    000017bc                 DW_AT_high_pc 0x92d0
+    000017c0   5          DW_TAG_TI_reserved_1 (.text)
+    000017c1                 DW_AT_sibling       (null)
+    000017c5                 DW_AT_name          C:\\Users\\RUNQIN~1\\AppData\\
+                                                 Local\\Temp\\5290810:$C$L4:2:1
+                                                 670475073
+    0000180b                 DW_AT_TI_begin_file tests/inputs/main/bsort100/bso
+                                                 rt100.c
+    00001831                 DW_AT_TI_begin_line 68
+    00001832                 DW_AT_TI_end_line   76
+    00001833   6             DW_TAG_TI_reserved_2 (.text)
+    00001834                    DW_AT_low_pc  0x9220
+    00001838                    DW_AT_high_pc 0x9234
+    0000183c   6             DW_TAG_TI_reserved_2 (.text)
+    0000183d                    DW_AT_low_pc  0x9234
+    00001841                    DW_AT_high_pc 0x9258
+    00001845   6             DW_TAG_TI_reserved_2 (.text)
+    00001846                    DW_AT_low_pc  0x9258
+    0000184a                    DW_AT_high_pc 0x9298
+    0000184e   6             DW_TAG_TI_reserved_2 (.text)
+    0000184f                    DW_AT_low_pc  0x9298
+    00001853                    DW_AT_high_pc 0x92b0
+    00001859   5       DW_TAG_TI_reserved_1 (.text)
+    0000185a              DW_AT_sibling       (null)
+    0000185e              DW_AT_name          C:\\Users\\RUNQIN~1\\AppData\\
+                                              Local\\Temp\\5290810:$C$L1:1:1
+                                              670475073
+    000018a4              DW_AT_TI_begin_file tests/inputs/main/bsort100/bso
+                                              rt100.c
+    000018ca              DW_AT_TI_begin_line 57
+    000018cb              DW_AT_TI_end_line   59
+    000018cc   6          DW_TAG_TI_reserved_2 (.text)
+    000018cd                 DW_AT_low_pc  0x91c0
+    000018d1                 DW_AT_high_pc 0x91f4
+
+    ----------------------------
+    DIE Table at Offset 000018d8
+    ----------------------------
+
+    Length:                0x90
+    Version:                  3
+    .debug_abbrev Offset:   849
+    Address Size:             4
+
+
+    000018e3   1 DW_TAG_compile_unit
+    000018e4        DW_AT_stmt_list  .debug_line + 0x505
+    000018e8        DW_AT_language   DW_LANG_C
+    000018e9        DW_AT_comp_dir   /tmp/TI_MKLIBr78rCW/SRC
+    000018ed        DW_AT_producer   TMS320C6x Compressor Unix v7.4
+                                     .4 Copyright (c) 1996-2013 Tex
+                                     as Instruments Incorporated
+    000018f1        DW_AT_TI_version 1
+
+    ----------------------------
+    DIE Table at Offset 0000196c
+    ----------------------------
+
+    Length:                0x123
+    Version:                   3
+    .debug_abbrev Offset:   2258
+    Address Size:              4
+
+
+    00001977   1 DW_TAG_compile_unit
+    00001978        DW_AT_name       exit.c
+    0000197f        DW_AT_stmt_list  .debug_line + 0x6b3
+    00001983        DW_AT_language   DW_LANG_C
+    00001984        DW_AT_comp_dir   /tmp/TI_MKLIBr78rCW/SRC
+    0000199c        DW_AT_producer   TMS320C6x Compressor Unix v7.4
+                                     .4 Copyright (c) 1996-2013 Tex
+                                     as Instruments Incorporated
+    000019f4        DW_AT_TI_version 1
+    000019f5   2    DW_TAG_variable (.fardata)
+    000019f6           DW_AT_location       DW_OP_addr 0x00009008
+    000019fc           DW_AT_name           _cleanup_ptr
+    00001a09           DW_AT_decl_column    28
+    00001a0a           DW_AT_decl_file      1
+    00001a0b           DW_AT_decl_line      44
+    00001a0c           DW_AT_external       true
+    00001a0d           DW_AT_TI_symbol_name _cleanup_ptr
+    00001a1e   2    DW_TAG_variable (.fardata)
+    00001a1f           DW_AT_location       DW_OP_addr 0x0000900c
+    00001a25           DW_AT_name           _dtors_ptr
+    00001a30           DW_AT_decl_column    28
+    00001a31           DW_AT_decl_file      1
+    00001a32           DW_AT_decl_line      45
+    00001a33           DW_AT_external       true
+    00001a34           DW_AT_TI_symbol_name _dtors_ptr
+    00001a43   2    DW_TAG_variable (.fardata)
+    00001a44           DW_AT_location       DW_OP_addr 0x00009010
+    00001a4a           DW_AT_name           __TI_enable_exit_profile_outpu
+                                            t
+    00001a6a           DW_AT_decl_column    9
+    00001a6b           DW_AT_decl_file      1
+    00001a6c           DW_AT_decl_line      48
+    00001a6d           DW_AT_external       true
+    00001a6e           DW_AT_TI_symbol_name __TI_enable_exit_profile_outpu
+                                            t
+
+    ----------------------------
+    DIE Table at Offset 00001a93
+    ----------------------------
+
+    Length:                0x11a
+    Version:                   3
+    .debug_abbrev Offset:   2299
+    Address Size:              4
+
+
+    00001a9e   1 DW_TAG_compile_unit (.text)
+    00001a9f        DW_AT_name       exit.c
+    00001aa6        DW_AT_stmt_list  .debug_line + 0x525
+    00001aaa        DW_AT_low_pc     0x9900
+    00001aae        DW_AT_high_pc    0x9908
+    00001ab2        DW_AT_language   DW_LANG_C
+    00001ab3        DW_AT_comp_dir   /tmp/TI_MKLIBr78rCW/SRC
+    00001acb        DW_AT_producer   TMS320C6x Compressor Unix v7.4
+                                     .4 Copyright (c) 1996-2013 Tex
+                                     as Instruments Incorporated
+    00001b23        DW_AT_TI_version 1
+    00001b24   2    DW_TAG_subprogram (.text)
+    00001b25           DW_AT_sibling           (null)
+    00001b29           DW_AT_name              abort
+    00001b2f           DW_AT_low_pc            0x9900
+    00001b33           DW_AT_high_pc           0x9908
+    00001b37           DW_AT_decl_column       19
+    00001b38           DW_AT_decl_file         1
+    00001b39           DW_AT_decl_line         108
+    00001b3a           DW_AT_external          true
+    00001b3b           DW_AT_frame_base        DW_OP_breg31 0
+    00001b3e           DW_AT_TI_symbol_name    abort
+    00001b44           DW_AT_TI_begin_file     exit.c
+    00001b4b           DW_AT_TI_begin_line     108
+    00001b4c           DW_AT_TI_begin_column   19
+    00001b4d           DW_AT_TI_end_file       exit.c
+    00001b54           DW_AT_TI_end_line       128
+    00001b55           DW_AT_TI_end_column     1
+    00001b56           DW_AT_TI_skeletal       true
+    00001b57           DW_AT_TI_reserved_11    TI Library
+    00001b62           DW_AT_TI_max_frame_size 0
+    00001b63   3       DW_TAG_TI_reserved_1 (.text)
+    00001b64              DW_AT_sibling       (null)
+    00001b68              DW_AT_name          /tmp/TI_MKLIBr78rCW/OBJ/exit.a
+                                              sm:$C$L1:1:1371684826
+    00001b9c              DW_AT_TI_begin_file exit.c
+    00001ba3              DW_AT_TI_begin_line 127
+    00001ba4              DW_AT_TI_end_line   128
+    00001ba5   4          DW_TAG_TI_reserved_2 (.text)
+    00001ba6                 DW_AT_low_pc  0x9904
+    00001baa                 DW_AT_high_pc 0x9908
+
+    ----------------------------
+    DIE Table at Offset 00001bb1
+    ----------------------------
+
+    Length:                0x89
+    Version:                  3
+    .debug_abbrev Offset:  1030
+    Address Size:             4
+
+
+    00001bbc   1 DW_TAG_compile_unit
+    00001bbd        DW_AT_stmt_list  .debug_line + 0x55d
+    00001bc1        DW_AT_language   DW_LANG_C
+    00001bc2        DW_AT_comp_dir   /tmp/TI_MKLIBr78rCW/SRC
+    00001bc6        DW_AT_producer   TMS320C6x Compressor Unix v7.4
+                                     .4 Copyright (c) 1996-2013 Tex
+                                     as Instruments Incorporated
+    00001bca        DW_AT_TI_version 1
+
+    ----------------------------
+    DIE Table at Offset 00001c3e
+    ----------------------------
+
+    Length:                0x42
+    Version:                  3
+    .debug_abbrev Offset:  1144
+    Address Size:             4
+
+
+    00001c49   1 DW_TAG_compile_unit
+    00001c4a        DW_AT_name       /tmp/TI_MKLIBr78rCW/SRC/stddef
+                                     .h
+    00001c4e        DW_AT_stmt_list  .debug_line + 0x57d
+    00001c52        DW_AT_language   DW_LANG_C
+    00001c53        DW_AT_comp_dir   /tmp/TI_MKLIBr78rCW/SRC
+    00001c57        DW_AT_producer   TMS320C6x Compressor Unix v7.4
+                                     .4 Copyright (c) 1996-2013 Tex
+                                     as Instruments Incorporated
+    00001c5b        DW_AT_TI_version 1
+
+    ----------------------------
+    DIE Table at Offset 00001c84
+    ----------------------------
+
+    Length:                0xe1
+    Version:                  3
+    .debug_abbrev Offset:  2406
+    Address Size:             4
+
+
+    00001c8f   5 DW_TAG_compile_unit
+    00001c90        DW_AT_name       copy_decompress_none.c
+    00001ca7        DW_AT_stmt_list  .debug_line + 0x6dd
+    00001cab        DW_AT_language   DW_LANG_C
+    00001cac        DW_AT_comp_dir   /tmp/TI_MKLIBr78rCW/SRC
+    00001cc4        DW_AT_producer   TMS320C6x Compressor Unix v7.4
+                                     .4 Copyright (c) 1996-2013 Tex
+                                     as Instruments Incorporated
+    00001d1c        DW_AT_TI_version 1
+    00001d1d   7    DW_TAG_subprogram
+    00001d1e           DW_AT_name           memcpy
+    00001d25           DW_AT_declaration    true
+    00001d26           DW_AT_external       true
+    00001d27           DW_AT_TI_symbol_name memcpy
+    00001d36   2       DW_TAG_formal_parameter
+          
+    00001d3b   2       DW_TAG_formal_parameter
+          
+    00001d40   1       DW_TAG_formal_parameter
+          
+
+    ----------------------------
+    DIE Table at Offset 00001d69
+    ----------------------------
+
+    Length:                0x28
+    Version:                  3
+    .debug_abbrev Offset:  1180
+    Address Size:             4
+
+
+    00001d74   1 DW_TAG_compile_unit
+    00001d75        DW_AT_name       /tmp/TI_MKLIBr78rCW/SRC/string
+                                     .h
+    00001d79        DW_AT_stmt_list  .debug_line + 0x5c1
+    00001d7d        DW_AT_language   DW_LANG_C
+    00001d7e        DW_AT_comp_dir   /tmp/TI_MKLIBr78rCW/SRC
+    00001d82        DW_AT_producer   TMS320C6x Compressor Unix v7.4
+                                     .4 Copyright (c) 1996-2013 Tex
+                                     as Instruments Incorporated
+    00001d86        DW_AT_TI_version 1
+
+    ----------------------------
+    DIE Table at Offset 00001d95
+    ----------------------------
+
+    Length:                0x1c9
+    Version:                   3
+    .debug_abbrev Offset:   2482
+    Address Size:              4
+
+
+    00001da0   5 DW_TAG_compile_unit
+    00001da1        DW_AT_name       copy_zero_init.c
+    00001db2        DW_AT_stmt_list  .debug_line + 0x6fd
+    00001db6        DW_AT_language   DW_LANG_C
+    00001db7        DW_AT_comp_dir   /tmp/TI_MKLIBr78rCW/SRC
+    00001dcf        DW_AT_producer   TMS320C6x Compressor Unix v7.4
+                                     .4 Copyright (c) 1996-2013 Tex
+                                     as Instruments Incorporated
+    00001e27        DW_AT_TI_version 1
+    00001e28   7    DW_TAG_subprogram
+    00001e29           DW_AT_sibling        .debug_info(17) + 0x1e4c
+    00001e2d           DW_AT_name           _itoll
+    00001e34           DW_AT_declaration    true
+    00001e35           DW_AT_external       true
+    00001e36           DW_AT_TI_symbol_name _itoll
+    00001e41   1       DW_TAG_formal_parameter
+          
+    00001e46   1       DW_TAG_formal_parameter
+          
+    00001e4c   8    DW_TAG_subprogram
+    00001e4d           DW_AT_sibling        .debug_info(17) + 0x1e6b
+    00001e51           DW_AT_name           _amem2
+    00001e58           DW_AT_declaration    true
+    00001e59           DW_AT_external       true
+    00001e5a           DW_AT_TI_symbol_name _amem2
+    00001e65   2       DW_TAG_formal_parameter
+          
+    00001e6b   8    DW_TAG_subprogram
+    00001e6c           DW_AT_sibling        .debug_info(17) + 0x1e8a
+    00001e70           DW_AT_name           _amem4
+    00001e77           DW_AT_declaration    true
+    00001e78           DW_AT_external       true
+    00001e79           DW_AT_TI_symbol_name _amem4
+    00001e84   2       DW_TAG_formal_parameter
+          
+    00001e8a   8    DW_TAG_subprogram
+    00001e8b           DW_AT_sibling        .debug_info(17) + 0x1ea9
+    00001e8f           DW_AT_name           _amem8
+    00001e96           DW_AT_declaration    true
+    00001e97           DW_AT_external       true
+    00001e98           DW_AT_TI_symbol_name _amem8
+    00001ea3   2       DW_TAG_formal_parameter
+          
+    00001ea9   8    DW_TAG_subprogram
+    00001eaa           DW_AT_sibling        .debug_info(17) + 0x1ec6
+    00001eae           DW_AT_name           _mem4
+    00001eb4           DW_AT_declaration    true
+    00001eb5           DW_AT_external       true
+    00001eb6           DW_AT_TI_symbol_name _mem4
+    00001ec0   2       DW_TAG_formal_parameter
+          
+    00001ec6   8    DW_TAG_subprogram
+    00001ec7           DW_AT_sibling        .debug_info(17) + 0x1ee3
+    00001ecb           DW_AT_name           _mem8
+    00001ed1           DW_AT_declaration    true
+    00001ed2           DW_AT_external       true
+    00001ed3           DW_AT_TI_symbol_name _mem8
+    00001edd   2       DW_TAG_formal_parameter
+          
+    00001ee3   7    DW_TAG_subprogram
+    00001ee4           DW_AT_sibling        .debug_info(17) + 0x1f07
+    00001ee8           DW_AT_name           _pack2
+    00001eef           DW_AT_declaration    true
+    00001ef0           DW_AT_external       true
+    00001ef1           DW_AT_TI_symbol_name _pack2
+    00001efc   1       DW_TAG_formal_parameter
+          
+    00001f01   1       DW_TAG_formal_parameter
+          
+    00001f07   7    DW_TAG_subprogram
+    00001f08           DW_AT_name           _packl4
+    00001f10           DW_AT_declaration    true
+    00001f11           DW_AT_external       true
+    00001f12           DW_AT_TI_symbol_name _packl4
+    00001f22   1       DW_TAG_formal_parameter
+          
+    00001f27   1       DW_TAG_formal_parameter
+          
+
+    ----------------------------
+    DIE Table at Offset 00001f62
+    ----------------------------
+
+    Length:                0x1d5
+    Version:                   3
+    .debug_abbrev Offset:   1580
+    Address Size:              4
+
+
+    00001f6d   1 DW_TAG_compile_unit
+    00001f6e        DW_AT_name       /tmp/TI_MKLIBr78rCW/SRC/stdint
+                                     .h
+    00001f72        DW_AT_stmt_list  .debug_line + 0x64f
+    00001f76        DW_AT_language   DW_LANG_C
+    00001f77        DW_AT_comp_dir   /tmp/TI_MKLIBr78rCW/SRC
+    00001f7b        DW_AT_producer   TMS320C6x Compressor Unix v7.4
+                                     .4 Copyright (c) 1996-2013 Tex
+                                     as Instruments Incorporated
+    00001f7f        DW_AT_TI_version 1
+
+    ----------------------------
+    DIE Table at Offset 0000213b
+    ----------------------------
+
+    Length:                0x13c
+    Version:                   3
+    .debug_abbrev Offset:   2576
+    Address Size:              4
+
+
+    00002146   6 DW_TAG_compile_unit
+    00002147        DW_AT_name       cpy_tbl.c
+    00002151        DW_AT_stmt_list  .debug_line + 0x71d
+    00002155        DW_AT_language   DW_LANG_C
+    00002156        DW_AT_comp_dir   /tmp/TI_MKLIBr78rCW/SRC
+    0000216e        DW_AT_producer   TMS320C6x Compressor Unix v7.4
+                                     .4 Copyright (c) 1996-2013 Tex
+                                     as Instruments Incorporated
+    000021c6        DW_AT_TI_version 1
+    000021c7  10    DW_TAG_subprogram
+    000021c8           DW_AT_name           memcpy
+    000021cf           DW_AT_decl_column    22
+    000021d0           DW_AT_decl_file      1
+    000021d1           DW_AT_decl_line      86
+    000021d2           DW_AT_declaration    true
+    000021d3           DW_AT_external       true
+    000021d4           DW_AT_TI_symbol_name memcpy
+    000021e3   3       DW_TAG_formal_parameter
+          
+    000021e8   3       DW_TAG_formal_parameter
+          
+    000021ed   2       DW_TAG_formal_parameter
+          
+    00002240  11    DW_TAG_variable
+    00002241           DW_AT_name           __TI_Handler_Table_Base
+    00002259           DW_AT_decl_column    28
+    0000225a           DW_AT_decl_file      2
+    0000225b           DW_AT_decl_line      49
+    0000225c           DW_AT_declaration    true
+    0000225d           DW_AT_external       true
+    0000225e           DW_AT_TI_symbol_name __TI_Handler_Table_Base
+
+    ----------------------------
+    DIE Table at Offset 0000227b
+    ----------------------------
+
+    Length:                0x24f
+    Version:                   3
+    .debug_abbrev Offset:   2784
+    Address Size:              4
+
+
+    00002286   5 DW_TAG_compile_unit
+    00002287        DW_AT_name       tls.c
+    0000228d        DW_AT_stmt_list  .debug_line + 0x7b3
+    00002291        DW_AT_language   DW_LANG_C
+    00002292        DW_AT_comp_dir   /tmp/TI_MKLIBr78rCW/SRC
+    000022aa        DW_AT_producer   TMS320C6x Compressor Unix v7.4
+                                     .4 Copyright (c) 1996-2013 Tex
+                                     as Instruments Incorporated
+    00002302        DW_AT_TI_version 1
+    00002303  10    DW_TAG_subprogram
+    00002304           DW_AT_sibling        .debug_info(17) + 0x2324
+    00002308           DW_AT_name           _symval
+    00002310           DW_AT_declaration    true
+    00002311           DW_AT_external       true
+    00002312           DW_AT_TI_symbol_name _symval
+    0000231e   2       DW_TAG_formal_parameter
+          
+    00002324   9    DW_TAG_subprogram
+    00002325           DW_AT_name           __c6xabi_get_tp
+    00002335           DW_AT_declaration    true
+    00002336           DW_AT_external       true
+    00002337           DW_AT_TI_symbol_name __c6xabi_get_tp
+    00002385  11    DW_TAG_variable
+    00002386           DW_AT_name           __TI_Handler_Table_Base
+    0000239e           DW_AT_decl_column    25
+    0000239f           DW_AT_decl_file      1
+    000023a0           DW_AT_decl_line      47
+    000023a1           DW_AT_declaration    true
+    000023a2           DW_AT_external       true
+    000023a3           DW_AT_TI_symbol_name __TI_Handler_Table_Base
+    000023bf  11    DW_TAG_variable
+    000023c0           DW_AT_name           __TI_Handler_Table_Limit
+    000023d9           DW_AT_decl_column    25
+    000023da           DW_AT_decl_file      1
+    000023db           DW_AT_decl_line      50
+    000023dc           DW_AT_declaration    true
+    000023dd           DW_AT_external       true
+    000023de           DW_AT_TI_symbol_name __TI_Handler_Table_Limit
+    000023fb  12    DW_TAG_variable
+    000023fc           DW_AT_name           __TI_TLS_INIT_Base
+    0000240f           DW_AT_decl_column    34
+    00002410           DW_AT_decl_file      1
+    00002411           DW_AT_decl_line      54
+    00002412           DW_AT_declaration    true
+    00002413           DW_AT_external       true
+    00002414           DW_AT_TI_symbol_name __TI_TLS_INIT_Base
+    0000242b  12    DW_TAG_variable
+    0000242c           DW_AT_name           __TI_TLS_INIT_Limit
+    00002440           DW_AT_decl_column    34
+    00002441           DW_AT_decl_file      1
+    00002442           DW_AT_decl_line      55
+    00002443           DW_AT_declaration    true
+    00002444           DW_AT_external       true
+    00002445           DW_AT_TI_symbol_name __TI_TLS_INIT_Limit
+    0000245d  11    DW_TAG_variable
+    0000245e           DW_AT_name           __TI_TLS_BLOCK_SIZE
+    00002472           DW_AT_decl_column    19
+    00002473           DW_AT_decl_file      1
+    00002474           DW_AT_decl_line      116
+    00002475           DW_AT_declaration    true
+    00002476           DW_AT_external       true
+    00002477           DW_AT_TI_symbol_name __TI_TLS_BLOCK_SIZE
+    0000248f  12    DW_TAG_variable
+    00002490           DW_AT_name           __TI_TLS_MAIN_THREAD_Base
+    000024aa           DW_AT_decl_column    13
+    000024ab           DW_AT_decl_file      1
+    000024ac           DW_AT_decl_line      136
+    000024ad           DW_AT_declaration    true
+    000024ae           DW_AT_external       true
+    000024af           DW_AT_TI_symbol_name __TI_TLS_MAIN_THREAD_Base
+
+    ----------------------------
+    DIE Table at Offset 000024ce
+    ----------------------------
+
+    Length:                0xc8
+    Version:                  3
+    .debug_abbrev Offset:  2938
+    Address Size:             4
+
+
+    000024d9   1 DW_TAG_compile_unit
+    000024da        DW_AT_name       tests/inputs/main/bsort100/bso
+                                     rt100.c
+    00002500        DW_AT_stmt_list  .debug_line + 0x7dc
+    00002504        DW_AT_language   DW_LANG_C
+    00002505        DW_AT_comp_dir   C:\Users\Runqing Xu\Projects\w
+                                     cet
+    00002527        DW_AT_producer   TMS320C6x Compressor PC v7.4.4
+                                      Copyright (c) 1996-2013 Texas
+                                      Instruments Incorporated
+    0000257d        DW_AT_TI_version 1
+    0000257e   2    DW_TAG_variable (.far)
+    0000257f           DW_AT_location       DW_OP_addr 0x00008000
+    00002585           DW_AT_name           Array
+    0000258b           DW_AT_decl_column    17
+    0000258c           DW_AT_decl_file      1
+    0000258d           DW_AT_decl_line      39
+    0000258e           DW_AT_external       true
+    0000258f           DW_AT_TI_symbol_name Array
+
+    ----------------------------
+    DIE Table at Offset 0000259a
+    ----------------------------
+
+    Length:                0x84
+    Version:                  3
+    .debug_abbrev Offset:  2215
+    Address Size:             4
+
+
+    000025a5   1 DW_TAG_compile_unit
+    000025a6        DW_AT_stmt_list  .debug_line + 0x693
+    000025aa        DW_AT_language   DW_LANG_C
+    000025ab        DW_AT_comp_dir   C:\Users\Runqing Xu\Projects\w
+                                     cet
+    000025af        DW_AT_producer   TMS320C6x Compressor PC v7.4.4
+                                      Copyright (c) 1996-2013 Texas
+                                      Instruments Incorporated
+    000025b3        DW_AT_TI_version 1
+
+    ----------------------------
+    DIE Table at Offset 00002622
+    ----------------------------
+
+    Length:                0x127
+    Version:                   3
+    .debug_abbrev Offset:   2979
+    Address Size:              4
+
+
+    0000262d   5 DW_TAG_compile_unit
+    0000262e        DW_AT_name       exit.c
+    00002635        DW_AT_stmt_list  .debug_line + 0x825
+    00002639        DW_AT_language   DW_LANG_C
+    0000263a        DW_AT_comp_dir   /tmp/TI_MKLIBr78rCW/SRC
+    00002652        DW_AT_producer   TMS320C6x Compressor Unix v7.4
+                                     .4 Copyright (c) 1996-2013 Tex
+                                     as Instruments Incorporated
+    000026aa        DW_AT_TI_version 1
+    000026ab  11    DW_TAG_variable
+    000026ac           DW_AT_name           __TI_pprof_out_hndl
+    000026c0           DW_AT_decl_column    16
+    000026c1           DW_AT_decl_file      1
+    000026c2           DW_AT_decl_line      53
+    000026c3           DW_AT_declaration    true
+    000026c4           DW_AT_external       true
+    000026c5           DW_AT_TI_symbol_name __TI_pprof_out_hndl
+    000026dd  10    DW_TAG_subprogram
+    000026de           DW_AT_name           _symval
+    000026e6           DW_AT_declaration    true
+    000026e7           DW_AT_external       true
+    000026e8           DW_AT_TI_symbol_name _symval
+    000026f8   2       DW_TAG_formal_parameter
+          
+
+    ----------------------------
+    DIE Table at Offset 0000274d
+    ----------------------------
+
+    Length:                0xc9
+    Version:                  3
+    .debug_abbrev Offset:  2709
+    Address Size:             4
+
+
+    00002758   2 DW_TAG_compile_unit
+    00002759        DW_AT_name       /tmp/TI_MKLIBr78rCW/SRC/cpy_tb
+                                     l.h
+    0000275d        DW_AT_stmt_list  .debug_line + 0x76e
+    00002761        DW_AT_language   DW_LANG_C
+    00002762        DW_AT_comp_dir   /tmp/TI_MKLIBr78rCW/SRC
+    00002766        DW_AT_producer   TMS320C6x Compressor Unix v7.4
+                                     .4 Copyright (c) 1996-2013 Tex
+                                     as Instruments Incorporated
+    0000276a        DW_AT_TI_version 1
+
+    ----------------------------
+    DIE Table at Offset 0000281a
+    ----------------------------
+
+    Length:                0xbd
+    Version:                  3
+    .debug_abbrev Offset:  3104
+    Address Size:             4
+
+
+    00002825   2 DW_TAG_compile_unit
+    00002826        DW_AT_name       tests/inputs/main/bsort100/bso
+                                     rt100.c
+    0000284c        DW_AT_stmt_list  .debug_line + 0x868
+    00002850        DW_AT_language   DW_LANG_C
+    00002851        DW_AT_comp_dir   C:\Users\Runqing Xu\Projects\w
+                                     cet
+    00002873        DW_AT_producer   TMS320C6x Compressor PC v7.4.4
+                                      Copyright (c) 1996-2013 Texas
+                                      Instruments Incorporated
+    000028c9        DW_AT_TI_version 1
+
+    ----------------------------
+    DIE Table at Offset 000028db
+    ----------------------------
+
+    Length:                0x8e
+    Version:                  3
+    .debug_abbrev Offset:  3143
+    Address Size:             4
+
+
+    000028e6   1 DW_TAG_compile_unit
+    000028e7        DW_AT_name       __TI_internal
+    000028f5        DW_AT_comp_dir   C:\Users\Runqing Xu\Projects\w
+                                     cet
+    00002917        DW_AT_producer   TI TMS320C6x Linker PC v7.4.4 
+                                     Copyright (c) 1996-2013 Texas 
+                                     Instruments Incorporated
+    0000296c        DW_AT_TI_version 1

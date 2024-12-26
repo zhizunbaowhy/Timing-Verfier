@@ -1,0 +1,263 @@
+{
+    "file": "./tests/inputs/main/cnt/cnt.dinfo",
+    "loops": [
+        {
+            "line_in_dinfo": 746,
+            "src_file": "copy_zero_init.c",
+            "line_range": [
+                156,
+                161
+            ],
+            "tag_pc_range": [
+                [
+                    101216,
+                    101228
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 902,
+            "src_file": "autoinit.c",
+            "line_range": [
+                138,
+                147
+            ],
+            "tag_pc_range": [
+                [
+                    100738,
+                    100756
+                ],
+                [
+                    100756,
+                    100788
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1163,
+            "src_file": "copy_decompress_rle.c",
+            "line_range": [
+                115,
+                297
+            ],
+            "tag_pc_range": [
+                [
+                    100200,
+                    100208
+                ],
+                [
+                    100232,
+                    100250
+                ],
+                [
+                    100250,
+                    100296
+                ],
+                [
+                    100296,
+                    100336
+                ],
+                [
+                    100336,
+                    100360
+                ],
+                [
+                    100360,
+                    100448
+                ],
+                [
+                    100470,
+                    100480
+                ],
+                [
+                    100480,
+                    100532
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1195,
+            "src_file": "copy_decompress_rle.c",
+            "line_range": [
+                233,
+                238
+            ],
+            "tag_pc_range": [
+                [
+                    100456,
+                    100470
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1206,
+            "src_file": "copy_decompress_rle.c",
+            "line_range": [
+                115,
+                173
+            ],
+            "tag_pc_range": [
+                [
+                    100208,
+                    100232
+                ],
+                [
+                    100532,
+                    100548
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1432,
+            "src_file": "cpy_tbl.c",
+            "line_range": [
+                59,
+                87
+            ],
+            "tag_pc_range": [
+                [
+                    100884,
+                    100914
+                ],
+                [
+                    100992,
+                    101000
+                ],
+                [
+                    100952,
+                    100972
+                ],
+                [
+                    100914,
+                    100952
+                ],
+                [
+                    100972,
+                    100992
+                ],
+                [
+                    101000,
+                    101024
+                ],
+                [
+                    101024,
+                    101056
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1513,
+            "src_file": "tls.c",
+            "line_range": [
+                84,
+                106
+            ],
+            "tag_pc_range": [
+                [
+                    101612,
+                    101648
+                ],
+                [
+                    101648,
+                    101676
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1579,
+            "src_file": "cpp_init.c",
+            "line_range": [
+                81,
+                82
+            ],
+            "tag_pc_range": [
+                [
+                    102028,
+                    102032
+                ],
+                [
+                    102032,
+                    102052
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1641,
+            "src_file": "tests/inputs/main/cnt/cnt.c",
+            "line_range": [
+                66,
+                74
+            ],
+            "tag_pc_range": [
+                [
+                    99936,
+                    99940
+                ],
+                [
+                    100064,
+                    100096
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1654,
+            "src_file": "tests/inputs/main/cnt/cnt.c",
+            "line_range": [
+                67,
+                74
+            ],
+            "tag_pc_range": [
+                [
+                    99940,
+                    100064
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1664,
+            "src_file": "tests/inputs/main/cnt/cnt.c",
+            "line_range": [
+                50,
+                52
+            ],
+            "tag_pc_range": [
+                [
+                    99812,
+                    99814
+                ],
+                [
+                    99848,
+                    99876
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1677,
+            "src_file": "tests/inputs/main/cnt/cnt.c",
+            "line_range": [
+                51,
+                52
+            ],
+            "tag_pc_range": [
+                [
+                    99814,
+                    99848
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1794,
+            "src_file": "exit.c",
+            "line_range": [
+                127,
+                128
+            ],
+            "tag_pc_range": [
+                [
+                    102340,
+                    102344
+                ]
+            ]
+        }
+    ]
+}

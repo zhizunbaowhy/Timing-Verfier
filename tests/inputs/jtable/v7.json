@@ -1,0 +1,93 @@
+{
+    "version": "c6000_7.4.16",
+    "proc": [
+        {
+            "proc_name": "_c_int00",
+            "jtable": [
+                {
+                    "offset": "0x2c",
+                    "target_name": ["_auto_init_elf"]
+                },
+                {
+                    "offset": "0x40",
+                    "target_name": ["_args_main"]
+                },
+                {
+                    "offset": "0x50",
+                    "target_name": ["exit"]
+                }
+            ]
+        },
+        {
+            "proc_name": "_args_main",
+            "jtable" : [
+                {
+                    "offset": "0x16",
+                    "target_name": ["main"]
+                }
+            ]
+        },
+        {
+            "proc_name": "main",
+            "jtable" : [],
+            "ret_target": {
+                "target_name": "_c_int00",
+                "target_offset": "0x48"
+            }
+        },
+        {
+            "proc_name":"__TI_tls_init",
+            "jtable" : [
+                {
+                    "offset": "0x84",
+                    "target_name": ["__TI_decompress_rle24"]
+                }
+            ],
+            "ret_target" : {
+                "target_name": "_auto_init_elf",
+                "target_offset": "0xb4"
+            }
+        },
+        {
+            "proc_name": "_auto_init_elf",
+            "jtable" : [
+                {
+                    "offset": "0xac",
+                    "target_name": ["__TI_decompress_none"]
+                }
+            ]
+        },
+        {
+            "proc_name": "copy_in",
+            "jtable" : [
+                {
+                    "offset": "0x84",
+                    "target_name": ["__TI_decompress_rle24"]
+                }
+            ]
+        },
+        {
+            "proc_name": "__TI_decompress_rle_core",
+            "jtable": [],
+            "ret_target" : {
+                "target_name": "copy_in",
+                "target_offset": "0x8c"
+            }
+        },
+        {
+            "proc_name": "__c6xabi_divd",
+            "jtable": [],
+            "ret_inst_offset" : [
+                "0x190"
+            ]
+        },
+        {
+            "proc_name": "__c6xabi_divf",
+            "jtable": [],
+            "ret_inst_offset" : [
+                "0x124", "0x1d0", "0x268"
+            ]
+        }
+    ]
+        
+}

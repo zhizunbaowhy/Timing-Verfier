@@ -1,0 +1,199 @@
+{
+    "file": "./tests/inputs/fcall/jfdctint/jfdctint.dinfo",
+    "loops": [
+        {
+            "line_in_dinfo": 689,
+            "src_file": "copy_zero_init.c",
+            "line_range": [
+                156,
+                161
+            ],
+            "tag_pc_range": [
+                [
+                    35584,
+                    35596
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 845,
+            "src_file": "autoinit.c",
+            "line_range": [
+                138,
+                147
+            ],
+            "tag_pc_range": [
+                [
+                    35106,
+                    35124
+                ],
+                [
+                    35124,
+                    35156
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1106,
+            "src_file": "copy_decompress_rle.c",
+            "line_range": [
+                115,
+                297
+            ],
+            "tag_pc_range": [
+                [
+                    34568,
+                    34576
+                ],
+                [
+                    34600,
+                    34618
+                ],
+                [
+                    34618,
+                    34664
+                ],
+                [
+                    34664,
+                    34704
+                ],
+                [
+                    34704,
+                    34728
+                ],
+                [
+                    34728,
+                    34816
+                ],
+                [
+                    34838,
+                    34848
+                ],
+                [
+                    34848,
+                    34900
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1138,
+            "src_file": "copy_decompress_rle.c",
+            "line_range": [
+                233,
+                238
+            ],
+            "tag_pc_range": [
+                [
+                    34824,
+                    34838
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1149,
+            "src_file": "copy_decompress_rle.c",
+            "line_range": [
+                115,
+                173
+            ],
+            "tag_pc_range": [
+                [
+                    34576,
+                    34600
+                ],
+                [
+                    34900,
+                    34916
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1375,
+            "src_file": "cpy_tbl.c",
+            "line_range": [
+                59,
+                87
+            ],
+            "tag_pc_range": [
+                [
+                    35252,
+                    35282
+                ],
+                [
+                    35360,
+                    35368
+                ],
+                [
+                    35320,
+                    35340
+                ],
+                [
+                    35282,
+                    35320
+                ],
+                [
+                    35340,
+                    35360
+                ],
+                [
+                    35368,
+                    35392
+                ],
+                [
+                    35392,
+                    35424
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1456,
+            "src_file": "tls.c",
+            "line_range": [
+                84,
+                106
+            ],
+            "tag_pc_range": [
+                [
+                    36172,
+                    36208
+                ],
+                [
+                    36208,
+                    36236
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1522,
+            "src_file": "cpp_init.c",
+            "line_range": [
+                81,
+                82
+            ],
+            "tag_pc_range": [
+                [
+                    36588,
+                    36592
+                ],
+                [
+                    36592,
+                    36612
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1777,
+            "src_file": "exit.c",
+            "line_range": [
+                127,
+                128
+            ],
+            "tag_pc_range": [
+                [
+                    36708,
+                    36712
+                ]
+            ]
+        }
+    ]
+}

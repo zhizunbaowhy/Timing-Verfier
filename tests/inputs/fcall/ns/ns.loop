@@ -1,0 +1,265 @@
+{
+    "file": "./tests/inputs/fcall/ns/ns.dinfo",
+    "loops": [
+        {
+            "line_in_dinfo": 761,
+            "src_file": "autoinit.c",
+            "line_range": [
+                138,
+                147
+            ],
+            "tag_pc_range": [
+                [
+                    38818,
+                    38836
+                ],
+                [
+                    38836,
+                    38868
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1002,
+            "src_file": "copy_decompress_rle.c",
+            "line_range": [
+                115,
+                297
+            ],
+            "tag_pc_range": [
+                [
+                    38280,
+                    38288
+                ],
+                [
+                    38312,
+                    38330
+                ],
+                [
+                    38330,
+                    38376
+                ],
+                [
+                    38376,
+                    38416
+                ],
+                [
+                    38416,
+                    38440
+                ],
+                [
+                    38440,
+                    38528
+                ],
+                [
+                    38550,
+                    38560
+                ],
+                [
+                    38560,
+                    38612
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1034,
+            "src_file": "copy_decompress_rle.c",
+            "line_range": [
+                233,
+                238
+            ],
+            "tag_pc_range": [
+                [
+                    38536,
+                    38550
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1045,
+            "src_file": "copy_decompress_rle.c",
+            "line_range": [
+                115,
+                173
+            ],
+            "tag_pc_range": [
+                [
+                    38288,
+                    38312
+                ],
+                [
+                    38612,
+                    38628
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1271,
+            "src_file": "cpy_tbl.c",
+            "line_range": [
+                59,
+                87
+            ],
+            "tag_pc_range": [
+                [
+                    38964,
+                    38994
+                ],
+                [
+                    39072,
+                    39080
+                ],
+                [
+                    39032,
+                    39052
+                ],
+                [
+                    38994,
+                    39032
+                ],
+                [
+                    39052,
+                    39072
+                ],
+                [
+                    39080,
+                    39104
+                ],
+                [
+                    39104,
+                    39136
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1352,
+            "src_file": "tls.c",
+            "line_range": [
+                84,
+                106
+            ],
+            "tag_pc_range": [
+                [
+                    39468,
+                    39504
+                ],
+                [
+                    39504,
+                    39532
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1418,
+            "src_file": "cpp_init.c",
+            "line_range": [
+                81,
+                82
+            ],
+            "tag_pc_range": [
+                [
+                    39884,
+                    39888
+                ],
+                [
+                    39888,
+                    39908
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1483,
+            "src_file": "tests/inputs/fcall/ns/ns.c",
+            "line_range": [
+                504,
+                519
+            ],
+            "tag_pc_range": [
+                [
+                    37832,
+                    37834
+                ],
+                [
+                    37834,
+                    37844
+                ],
+                [
+                    38188,
+                    38236
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1499,
+            "src_file": "tests/inputs/fcall/ns/ns.c",
+            "line_range": [
+                505,
+                519
+            ],
+            "tag_pc_range": [
+                [
+                    37844,
+                    37856
+                ],
+                [
+                    37856,
+                    37860
+                ],
+                [
+                    38144,
+                    38188
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1515,
+            "src_file": "tests/inputs/fcall/ns/ns.c",
+            "line_range": [
+                506,
+                519
+            ],
+            "tag_pc_range": [
+                [
+                    37860,
+                    37864
+                ],
+                [
+                    38100,
+                    38144
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1528,
+            "src_file": "tests/inputs/fcall/ns/ns.c",
+            "line_range": [
+                507,
+                519
+            ],
+            "tag_pc_range": [
+                [
+                    37864,
+                    37984
+                ],
+                [
+                    38096,
+                    38100
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1674,
+            "src_file": "exit.c",
+            "line_range": [
+                127,
+                128
+            ],
+            "tag_pc_range": [
+                [
+                    40004,
+                    40008
+                ]
+            ]
+        }
+    ]
+}

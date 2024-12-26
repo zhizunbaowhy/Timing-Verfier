@@ -1,0 +1,34 @@
+{
+    "src" : [
+        {
+            "name": "remi.asm",
+            "cons" : [
+                {
+                    "line number": 122,
+                    "upper bound": 12
+                }
+            ]
+        },
+        {
+            "name": "tests/inputs/main/jfdctint/jfdctint.c",
+            "cons": [
+                {
+                    "line number" : 233,
+                    "upper bound": 16384
+                },
+                {
+                    "line number": 239,
+                    "upper bound": 256
+                },
+                {
+                    "line number": 253,
+                    "upper bound": 8
+                },
+                {
+                    "line number": 326,
+                    "upper bound": 8
+                }
+            ]
+        }
+    ]
+}

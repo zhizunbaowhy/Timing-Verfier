@@ -1,0 +1,34 @@
+{
+    "src" : [
+        {
+            "name": "remi.asm",
+            "cons": [
+                {
+                    "line number": 122,
+                    "upper bound": 13
+                }
+            ]
+        },
+        {
+            "name": "tests/inputs/fcall/cnt/cnt.c",
+            "cons": [
+                {
+                    "line number": 65,
+                    "upper bound": 10
+                },
+                {
+                    "line number": 66,
+                    "upper bound": 10
+                },
+                {
+                    "line number": 89,
+                    "upper bound": 10
+                },
+                {
+                    "line number": 90,
+                    "upper bound": 10
+                }
+            ]
+        }
+    ]
+}

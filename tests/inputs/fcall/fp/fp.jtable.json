@@ -1,0 +1,13 @@
+{
+    "proc" : [
+        {
+            "proc_name": "main",
+            "jtable": [
+                {
+                    "offset": "0x34",
+                    "target_name": ["add", "mul"]
+                }
+            ]
+        }
+    ]
+}

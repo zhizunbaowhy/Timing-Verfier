@@ -1,0 +1,41 @@
+{
+    "src" : [
+        {
+            "name": "tests/inputs/main/edn/edn.c",
+            "cons": [
+                {
+                    "line number": 40,
+                    "upper bound": 2048
+                },
+                {
+                    "line number": 49,
+                    "upper bound": 2048
+                },
+                {
+                    "line number": 62,
+                    "upper bound": 1098
+                },
+                {
+                    "line number": 64,
+                    "upper bound": 50
+                },
+                {
+                    "line number": 76,
+                    "upper bound": 25
+                },
+                {
+                    "line number": 80,
+                    "upper bound": 16
+                },
+                {
+                    "line number": 101,
+                    "upper bound": 25
+                },
+                {
+                    "line number": 119,
+                    "upper bound": 512
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,285 @@
+{
+    "file": "./tests/inputs/main/lms/lms.dinfo",
+    "loops": [
+        {
+            "line_in_dinfo": 739,
+            "src_file": "copy_zero_init.c",
+            "line_range": [
+                156,
+                161
+            ],
+            "tag_pc_range": [
+                [
+                    36032,
+                    36044
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 895,
+            "src_file": "autoinit.c",
+            "line_range": [
+                138,
+                147
+            ],
+            "tag_pc_range": [
+                [
+                    35554,
+                    35572
+                ],
+                [
+                    35572,
+                    35604
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1156,
+            "src_file": "copy_decompress_rle.c",
+            "line_range": [
+                115,
+                297
+            ],
+            "tag_pc_range": [
+                [
+                    35016,
+                    35024
+                ],
+                [
+                    35048,
+                    35066
+                ],
+                [
+                    35066,
+                    35112
+                ],
+                [
+                    35112,
+                    35152
+                ],
+                [
+                    35152,
+                    35176
+                ],
+                [
+                    35176,
+                    35264
+                ],
+                [
+                    35286,
+                    35296
+                ],
+                [
+                    35296,
+                    35348
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1188,
+            "src_file": "copy_decompress_rle.c",
+            "line_range": [
+                233,
+                238
+            ],
+            "tag_pc_range": [
+                [
+                    35272,
+                    35286
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1199,
+            "src_file": "copy_decompress_rle.c",
+            "line_range": [
+                115,
+                173
+            ],
+            "tag_pc_range": [
+                [
+                    35024,
+                    35048
+                ],
+                [
+                    35348,
+                    35364
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1425,
+            "src_file": "cpy_tbl.c",
+            "line_range": [
+                59,
+                87
+            ],
+            "tag_pc_range": [
+                [
+                    35700,
+                    35730
+                ],
+                [
+                    35808,
+                    35816
+                ],
+                [
+                    35768,
+                    35788
+                ],
+                [
+                    35730,
+                    35768
+                ],
+                [
+                    35788,
+                    35808
+                ],
+                [
+                    35816,
+                    35840
+                ],
+                [
+                    35840,
+                    35872
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1506,
+            "src_file": "tls.c",
+            "line_range": [
+                84,
+                106
+            ],
+            "tag_pc_range": [
+                [
+                    36428,
+                    36464
+                ],
+                [
+                    36464,
+                    36492
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1572,
+            "src_file": "cpp_init.c",
+            "line_range": [
+                81,
+                82
+            ],
+            "tag_pc_range": [
+                [
+                    36844,
+                    36848
+                ],
+                [
+                    36848,
+                    36868
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1634,
+            "src_file": "tests/inputs/main/lms/lms.c",
+            "line_range": [
+                94,
+                127
+            ],
+            "tag_pc_range": [
+                [
+                    34496,
+                    34528
+                ],
+                [
+                    34712,
+                    34720
+                ],
+                [
+                    34586,
+                    34712
+                ],
+                [
+                    34796,
+                    34816
+                ],
+                [
+                    34858,
+                    34980
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1656,
+            "src_file": "tests/inputs/main/lms/lms.c",
+            "line_range": [
+                110,
+                110
+            ],
+            "tag_pc_range": [
+                [
+                    34528,
+                    34586
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1666,
+            "src_file": "tests/inputs/main/lms/lms.c",
+            "line_range": [
+                120,
+                120
+            ],
+            "tag_pc_range": [
+                [
+                    34720,
+                    34796
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1676,
+            "src_file": "tests/inputs/main/lms/lms.c",
+            "line_range": [
+                122,
+                122
+            ],
+            "tag_pc_range": [
+                [
+                    34816,
+                    34858
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1686,
+            "src_file": "tests/inputs/main/lms/lms.c",
+            "line_range": [
+                85,
+                88
+            ],
+            "tag_pc_range": [
+                [
+                    34294,
+                    34340
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1803,
+            "src_file": "exit.c",
+            "line_range": [
+                127,
+                128
+            ],
+            "tag_pc_range": [
+                [
+                    37156,
+                    37160
+                ]
+            ]
+        }
+    ]
+}

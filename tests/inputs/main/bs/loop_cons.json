@@ -1,0 +1,13 @@
+{
+    "src" : [
+        {
+            "name": "tests/inputs/main/bs/bs.c",
+            "cons": [
+                {
+                    "line number": 61,
+                    "upper bound": 4
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "src": [
+        {
+            "name": "remi.asm",
+            "cons":[
+                {
+                    "line number": 122,
+                    "upper bound": 16
+                }
+            ]
+        },
+        {
+            "name": "tests/inputs/fcall/jfdctint/jfdctint.c",
+            "cons":[
+                {
+                    "line number": 219,
+                    "upper bound": 8
+                },
+                {
+                    "line number": 284,
+                    "upper bound": 8
+                },
+                {
+                    "line number": 368,
+                    "upper bound": 64
+                }
+            ] 
+                
+        }
+    ]
+}

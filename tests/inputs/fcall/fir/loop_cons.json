@@ -1,0 +1,26 @@
+{
+    "src" : [
+        {
+            "name": "divi.asm",
+            "cons": [
+                {
+                    "line number": 136,
+                    "upper bound": 19
+                }
+            ]
+        },
+        {
+            "name": "tests/inputs/fcall/fir/fir.c",
+            "cons": [
+                {
+                    "line number": 271,
+                    "upper bound": 700
+                },
+                {
+                    "line number": 280,
+                    "upper bound": 34
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+{
+    "src": [
+        {
+            "name": "tests/inputs/fcall/ud/ud.c",
+            "cons": [
+                {
+                    "line number": 99,
+                    "upper bound": 6
+                },
+                {
+                    "line number": 102,
+                    "upper bound": 6
+                },
+                {
+                    "line number": 122,
+                    "upper bound": 4
+                },
+                {
+                    "line number": 125,
+                    "upper bound": 2
+                },
+                {
+                    "line number": 131,
+                    "upper bound": 2
+                },
+                {
+                    "line number": 135,
+                    "upper bound": 2
+                },
+                {
+                    "line number": 138,
+                    "upper bound": 2
+                },
+                {
+                    "line number": 144,
+                    "upper bound": 4
+                },
+                {
+                    "line number": 147,
+                    "upper bound": 2
+                },
+                {
+                    "line number": 152,
+                    "upper bound": 4
+                },
+                {
+                    "line number": 155,
+                    "upper bound": 2
+                }
+            ]
+        },
+        {
+            "name": "divi.asm",
+            "cons": [
+                {
+                    "line number": 136,
+                    "upper bound": 31
+                }
+            ]
+        }
+    ]
+}

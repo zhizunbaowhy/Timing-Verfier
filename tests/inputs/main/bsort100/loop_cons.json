@@ -1,0 +1,21 @@
+{
+    "src" : [
+        {
+            "name": "tests/inputs/main/bsort100/bsort100.c",
+            "cons": [
+                {
+                    "line number": 57,
+                    "upper bound": 1024
+                },
+                {
+                    "line number": 66,
+                    "upper bound": 1024
+                },
+                {
+                    "line number": 68,
+                    "upper bound": 512
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "src" : [
+        {
+            "name": "tests/inputs/main/adpcm/adpcm.c",
+            "cons": [
+                {
+                    "line number": 113,
+                    "upper bound": 2048
+                },
+                {
+                    "line number": 198,
+                    "upper bound": 2048
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "src": [
+        {
+            "name": "tests/inputs/fcall/ndes/ndes.c",
+            "cons": [
+                {
+                    "line number": 72,
+                    "upper bound": 30
+                },
+                {
+                    "line number": 77,
+                    "upper bound": 28
+                },
+                {
+                    "line number": 82,
+                    "upper bound": 16
+                },
+                {
+                    "line number": 85,
+                    "upper bound": 32
+                },
+                {
+                    "line number": 89,
+                    "upper bound": 16
+                },
+                {
+                    "line number": 100,
+                    "upper bound": 32
+                },
+                {
+                    "line number": 120,
+                    "upper bound": 2
+                },
+                {
+                    "line number": 125,
+                    "upper bound": 16
+                },
+                {
+                    "line number": 185,
+                    "upper bound": 16
+                },
+                {
+                    "line number": 195,
+                    "upper bound": 4
+                },
+                {
+                    "line number": 208,
+                    "upper bound": 8
+                },
+                {
+                    "line number": 212,
+                    "upper bound": 32
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "src" : [
+        {
+            "name": "tests/inputs/fcall/fibcall/fibcall.c",
+            "cons": [
+                {
+                    "line number": 53,
+                    "upper bound": 29
+                }
+            ]
+        }
+    ]
+}

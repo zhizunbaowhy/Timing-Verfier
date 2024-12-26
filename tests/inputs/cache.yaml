@@ -1,0 +1,10 @@
+L1P:
+  capacity_size: 32768
+  associativity: 1
+  line_size: 32
+  penalty: 0
+L1D:
+  capacity_size: 32768
+  associativity: 2
+  line_size: 64
+  penalty: 0

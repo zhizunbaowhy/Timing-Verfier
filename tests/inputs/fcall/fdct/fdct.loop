@@ -1,0 +1,241 @@
+{
+    "file": "./tests/inputs/fcall/fdct/fdct.dinfo",
+    "loops": [
+        {
+            "line_in_dinfo": 746,
+            "src_file": "autoinit.c",
+            "line_range": [
+                138,
+                147
+            ],
+            "tag_pc_range": [
+                [
+                    35170,
+                    35188
+                ],
+                [
+                    35188,
+                    35220
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 987,
+            "src_file": "copy_decompress_rle.c",
+            "line_range": [
+                115,
+                297
+            ],
+            "tag_pc_range": [
+                [
+                    34632,
+                    34640
+                ],
+                [
+                    34664,
+                    34682
+                ],
+                [
+                    34682,
+                    34728
+                ],
+                [
+                    34728,
+                    34768
+                ],
+                [
+                    34768,
+                    34792
+                ],
+                [
+                    34792,
+                    34880
+                ],
+                [
+                    34902,
+                    34912
+                ],
+                [
+                    34912,
+                    34964
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1019,
+            "src_file": "copy_decompress_rle.c",
+            "line_range": [
+                233,
+                238
+            ],
+            "tag_pc_range": [
+                [
+                    34888,
+                    34902
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1030,
+            "src_file": "copy_decompress_rle.c",
+            "line_range": [
+                115,
+                173
+            ],
+            "tag_pc_range": [
+                [
+                    34640,
+                    34664
+                ],
+                [
+                    34964,
+                    34980
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1256,
+            "src_file": "cpy_tbl.c",
+            "line_range": [
+                59,
+                87
+            ],
+            "tag_pc_range": [
+                [
+                    35316,
+                    35346
+                ],
+                [
+                    35424,
+                    35432
+                ],
+                [
+                    35384,
+                    35404
+                ],
+                [
+                    35346,
+                    35384
+                ],
+                [
+                    35404,
+                    35424
+                ],
+                [
+                    35432,
+                    35456
+                ],
+                [
+                    35456,
+                    35488
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1337,
+            "src_file": "tls.c",
+            "line_range": [
+                84,
+                106
+            ],
+            "tag_pc_range": [
+                [
+                    35820,
+                    35856
+                ],
+                [
+                    35856,
+                    35884
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1403,
+            "src_file": "cpp_init.c",
+            "line_range": [
+                81,
+                82
+            ],
+            "tag_pc_range": [
+                [
+                    36236,
+                    36240
+                ],
+                [
+                    36240,
+                    36260
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1470,
+            "src_file": "tests/inputs/fcall/fdct/fdct.c",
+            "line_range": [
+                161,
+                230
+            ],
+            "tag_pc_range": [
+                [
+                    33648,
+                    33864
+                ],
+                [
+                    33864,
+                    34124
+                ],
+                [
+                    34124,
+                    34394
+                ],
+                [
+                    34394,
+                    34400
+                ],
+                [
+                    34400,
+                    34574
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1493,
+            "src_file": "tests/inputs/fcall/fdct/fdct.c",
+            "line_range": [
+                83,
+                155
+            ],
+            "tag_pc_range": [
+                [
+                    32814,
+                    32992
+                ],
+                [
+                    32992,
+                    33256
+                ],
+                [
+                    33256,
+                    33528
+                ],
+                [
+                    33528,
+                    33588
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1645,
+            "src_file": "exit.c",
+            "line_range": [
+                127,
+                128
+            ],
+            "tag_pc_range": [
+                [
+                    36356,
+                    36360
+                ]
+            ]
+        }
+    ]
+}

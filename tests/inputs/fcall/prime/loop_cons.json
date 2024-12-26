@@ -1,0 +1,22 @@
+{
+    "src" : [
+        {
+            "name": "remu.asm",
+            "cons" : [
+                {
+                    "line number": 114,
+                    "upper bound": 17
+                }
+            ]
+        },
+        {
+            "name": "tests/inputs/fcall/prime/prime.c",
+            "cons": [
+                {
+                    "line number" : 27,
+                    "upper bound": 357
+                }
+            ]
+        }
+    ]
+}

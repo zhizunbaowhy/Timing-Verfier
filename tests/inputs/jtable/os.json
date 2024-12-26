@@ -1,0 +1,113 @@
+{
+    "ill_ret_proc": ["$Tramp$S$$Enable_int", 
+                    "$Tramp$S$$Disable_int"],
+    "proc" : [
+        {
+            "proc_name": "__c6xabi_divd",
+            "jtable": [],
+            "ret_inst_offset" : [
+                "0x1b4"
+            ]
+        },
+        {
+            "proc_name": "Disable_int",
+            "jtable": [],
+            "ret_from": "$Tramp$S$$Disable_int"
+        },
+        {
+            "proc_name": "Enable_int",
+            "jtable": [],
+            "ret_from": "$Tramp$S$$Enable_int"
+        },
+        {
+            "proc_name": "$Tramp$S$$__c6xabi_divull",
+            "jtable": [
+                {
+                    "offset": "0x08",
+                    "target_name": ["__c6xabi_divull"]
+                }
+            ]
+        },
+        {
+            "proc_name": "$Tramp$S$$__c6xabi_divul",
+            "jtable": [
+                {
+                    "offset": "0x08",
+                    "target_name": ["__c6xabi_divul"]
+                }
+            ]
+        },
+        {
+            "proc_name": "$Tramp$S$$__c6xabi_llshru",
+            "jtable": [
+                {
+                    "offset": "0x08",
+                    "target_name": ["__c6xabi_llshru"]
+                }
+            ]
+        },
+        {
+            "proc_name": "$Tramp$S$$__c6xabi_negll",
+            "jtable": [
+                {
+                    "offset": "0x08",
+                    "target_name": ["__c6xabi_negll"]
+                }
+            ]
+        },
+        {
+            "proc_name": "$Tramp$S$$GetCurrentSP",
+            "jtable": [
+                {
+                    "offset": "0x08",
+                    "target_name": ["GetCurrentSP"]
+                }
+            ]
+        },
+        {
+            "proc_name": "$Tramp$S$$__c6xabi_isinf",
+            "jtable": [
+                {
+                    "offset": "0x08",
+                    "target_name": ["__c6xabi_isinf"]
+                }
+            ]
+        },
+        {
+            "proc_name": "$Tramp$S$$__c6xabi_isnan",
+            "jtable": [
+                {
+                    "offset": "0x08",
+                    "target_name": ["__c6xabi_isnan"]
+                }
+            ]
+        },
+        {
+            "proc_name": "$Tramp$S$$__c6xabi_divd",
+            "jtable": [
+                {
+                    "offset": "0x08",
+                    "target_name": ["__c6xabi_divd"]
+                }
+            ]
+        },
+        {
+            "proc_name": "$Tramp$S$$Enable_int",
+            "jtable": [
+                {
+                    "offset": "0x08",
+                    "target_name": ["Enable_int"]
+                }
+            ]
+        },
+        {
+            "proc_name": "$Tramp$S$$Disable_int",
+            "jtable": [
+                {
+                    "offset": "0x08",
+                    "target_name": ["Disable_int"]
+                }
+            ]
+        }
+    ]
+}

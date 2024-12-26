@@ -1,0 +1,17 @@
+{
+    "src" : [
+        {
+            "name": "tests/inputs/main/fir/fir.c",
+            "cons": [
+                {
+                    "line number" : 218,
+                    "upper bound": 128
+                },
+                {
+                    "line number": 228,
+                    "upper bound": 15
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "src" : [
+        {
+            "name": "remu.asm",
+            "cons" : [
+                {
+                    "line number": 114,
+                    "upper bound": 5
+                }
+            ]
+        },
+        {
+            "name": "tests/inputs/main/fft/fft.c",
+            "cons": [
+                {
+                    "line number" : 49,
+                    "upper bound": 128
+                },
+                {
+                    "line number": 75,
+                    "upper bound": 128
+                },
+                {
+                    "line number": 81,
+                    "upper bound": 7
+                },
+                {
+                    "line number": 98,
+                    "upper bound": 7
+                },
+                {
+                    "line number": 108,
+                    "upper bound": 8
+                },
+                {
+                    "line number": 116,
+                    "upper bound": 8
+                }
+            ]
+        }
+    ]
+}

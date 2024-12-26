@@ -1,0 +1,199 @@
+{
+    "file": "./tests/inputs/fcall/matmult/matmult.dinfo",
+    "loops": [
+        {
+            "line_in_dinfo": 720,
+            "src_file": "copy_zero_init.c",
+            "line_range": [
+                156,
+                161
+            ],
+            "tag_pc_range": [
+                [
+                    39168,
+                    39180
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 876,
+            "src_file": "autoinit.c",
+            "line_range": [
+                138,
+                147
+            ],
+            "tag_pc_range": [
+                [
+                    38690,
+                    38708
+                ],
+                [
+                    38708,
+                    38740
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1137,
+            "src_file": "copy_decompress_rle.c",
+            "line_range": [
+                115,
+                297
+            ],
+            "tag_pc_range": [
+                [
+                    38152,
+                    38160
+                ],
+                [
+                    38184,
+                    38202
+                ],
+                [
+                    38202,
+                    38248
+                ],
+                [
+                    38248,
+                    38288
+                ],
+                [
+                    38288,
+                    38312
+                ],
+                [
+                    38312,
+                    38400
+                ],
+                [
+                    38422,
+                    38432
+                ],
+                [
+                    38432,
+                    38484
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1169,
+            "src_file": "copy_decompress_rle.c",
+            "line_range": [
+                233,
+                238
+            ],
+            "tag_pc_range": [
+                [
+                    38408,
+                    38422
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1180,
+            "src_file": "copy_decompress_rle.c",
+            "line_range": [
+                115,
+                173
+            ],
+            "tag_pc_range": [
+                [
+                    38160,
+                    38184
+                ],
+                [
+                    38484,
+                    38500
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1406,
+            "src_file": "cpy_tbl.c",
+            "line_range": [
+                59,
+                87
+            ],
+            "tag_pc_range": [
+                [
+                    38836,
+                    38866
+                ],
+                [
+                    38944,
+                    38952
+                ],
+                [
+                    38904,
+                    38924
+                ],
+                [
+                    38866,
+                    38904
+                ],
+                [
+                    38924,
+                    38944
+                ],
+                [
+                    38952,
+                    38976
+                ],
+                [
+                    38976,
+                    39008
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1487,
+            "src_file": "tls.c",
+            "line_range": [
+                84,
+                106
+            ],
+            "tag_pc_range": [
+                [
+                    39756,
+                    39792
+                ],
+                [
+                    39792,
+                    39820
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1553,
+            "src_file": "cpp_init.c",
+            "line_range": [
+                81,
+                82
+            ],
+            "tag_pc_range": [
+                [
+                    40172,
+                    40176
+                ],
+                [
+                    40176,
+                    40196
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1976,
+            "src_file": "exit.c",
+            "line_range": [
+                127,
+                128
+            ],
+            "tag_pc_range": [
+                [
+                    40292,
+                    40296
+                ]
+            ]
+        }
+    ]
+}

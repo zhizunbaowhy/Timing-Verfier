@@ -1,0 +1,409 @@
+{
+    "file": "./tests/inputs/fcall/ud/ud.dinfo",
+    "loops": [
+        {
+            "line_in_dinfo": 722,
+            "src_file": "copy_zero_init.c",
+            "line_range": [
+                156,
+                161
+            ],
+            "tag_pc_range": [
+                [
+                    46048,
+                    46060
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 878,
+            "src_file": "autoinit.c",
+            "line_range": [
+                138,
+                147
+            ],
+            "tag_pc_range": [
+                [
+                    45346,
+                    45364
+                ],
+                [
+                    45364,
+                    45396
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1139,
+            "src_file": "copy_decompress_rle.c",
+            "line_range": [
+                115,
+                297
+            ],
+            "tag_pc_range": [
+                [
+                    44808,
+                    44816
+                ],
+                [
+                    44840,
+                    44858
+                ],
+                [
+                    44858,
+                    44904
+                ],
+                [
+                    44904,
+                    44944
+                ],
+                [
+                    44944,
+                    44968
+                ],
+                [
+                    44968,
+                    45056
+                ],
+                [
+                    45078,
+                    45088
+                ],
+                [
+                    45088,
+                    45140
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1171,
+            "src_file": "copy_decompress_rle.c",
+            "line_range": [
+                233,
+                238
+            ],
+            "tag_pc_range": [
+                [
+                    45064,
+                    45078
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1182,
+            "src_file": "copy_decompress_rle.c",
+            "line_range": [
+                115,
+                173
+            ],
+            "tag_pc_range": [
+                [
+                    44816,
+                    44840
+                ],
+                [
+                    45140,
+                    45156
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1408,
+            "src_file": "cpy_tbl.c",
+            "line_range": [
+                59,
+                87
+            ],
+            "tag_pc_range": [
+                [
+                    45492,
+                    45522
+                ],
+                [
+                    45600,
+                    45608
+                ],
+                [
+                    45560,
+                    45580
+                ],
+                [
+                    45522,
+                    45560
+                ],
+                [
+                    45580,
+                    45600
+                ],
+                [
+                    45608,
+                    45632
+                ],
+                [
+                    45632,
+                    45664
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1489,
+            "src_file": "tls.c",
+            "line_range": [
+                84,
+                106
+            ],
+            "tag_pc_range": [
+                [
+                    46444,
+                    46480
+                ],
+                [
+                    46480,
+                    46508
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1555,
+            "src_file": "cpp_init.c",
+            "line_range": [
+                81,
+                82
+            ],
+            "tag_pc_range": [
+                [
+                    46860,
+                    46864
+                ],
+                [
+                    46864,
+                    46884
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1617,
+            "src_file": "tests/inputs/fcall/ud/ud.c",
+            "line_range": [
+                99,
+                110
+            ],
+            "tag_pc_range": [
+                [
+                    43212,
+                    43240
+                ],
+                [
+                    43438,
+                    43496
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1630,
+            "src_file": "tests/inputs/fcall/ud/ud.c",
+            "line_range": [
+                102,
+                108
+            ],
+            "tag_pc_range": [
+                [
+                    43240,
+                    43242
+                ],
+                [
+                    43242,
+                    43438
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1685,
+            "src_file": "tests/inputs/fcall/ud/ud.c",
+            "line_range": [
+                152,
+                158
+            ],
+            "tag_pc_range": [
+                [
+                    44564,
+                    44576
+                ],
+                [
+                    44656,
+                    44694
+                ],
+                [
+                    44694,
+                    44776
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1701,
+            "src_file": "tests/inputs/fcall/ud/ud.c",
+            "line_range": [
+                155,
+                156
+            ],
+            "tag_pc_range": [
+                [
+                    44576,
+                    44656
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1711,
+            "src_file": "tests/inputs/fcall/ud/ud.c",
+            "line_range": [
+                144,
+                150
+            ],
+            "tag_pc_range": [
+                [
+                    44296,
+                    44298
+                ],
+                [
+                    44368,
+                    44448
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1724,
+            "src_file": "tests/inputs/fcall/ud/ud.c",
+            "line_range": [
+                147,
+                148
+            ],
+            "tag_pc_range": [
+                [
+                    44298,
+                    44368
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1734,
+            "src_file": "tests/inputs/fcall/ud/ud.c",
+            "line_range": [
+                122,
+                142
+            ],
+            "tag_pc_range": [
+                [
+                    43584,
+                    43620
+                ],
+                [
+                    43944,
+                    43948
+                ],
+                [
+                    43620,
+                    43624
+                ],
+                [
+                    43884,
+                    43944
+                ],
+                [
+                    44176,
+                    44228
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1756,
+            "src_file": "tests/inputs/fcall/ud/ud.c",
+            "line_range": [
+                125,
+                134
+            ],
+            "tag_pc_range": [
+                [
+                    43624,
+                    43648
+                ],
+                [
+                    43648,
+                    43660
+                ],
+                [
+                    43756,
+                    43792
+                ],
+                [
+                    43792,
+                    43884
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1775,
+            "src_file": "tests/inputs/fcall/ud/ud.c",
+            "line_range": [
+                131,
+                132
+            ],
+            "tag_pc_range": [
+                [
+                    43660,
+                    43756
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1785,
+            "src_file": "tests/inputs/fcall/ud/ud.c",
+            "line_range": [
+                135,
+                141
+            ],
+            "tag_pc_range": [
+                [
+                    43948,
+                    43972
+                ],
+                [
+                    44070,
+                    44176
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1798,
+            "src_file": "tests/inputs/fcall/ud/ud.c",
+            "line_range": [
+                138,
+                139
+            ],
+            "tag_pc_range": [
+                [
+                    43972,
+                    43976
+                ],
+                [
+                    43976,
+                    44070
+                ]
+            ]
+        },
+        {
+            "line_in_dinfo": 1918,
+            "src_file": "exit.c",
+            "line_range": [
+                127,
+                128
+            ],
+            "tag_pc_range": [
+                [
+                    46980,
+                    46984
+                ]
+            ]
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "src" : [
+        {
+            "name": "tests/inputs/main/lms/lms.c",
+            "cons": [
+                {
+                    "line number" : 85,
+                    "upper bound": 1024
+                },
+                {
+                    "line number": 94,
+                    "upper bound": 1024
+                },
+                {
+                    "line number": 110,
+                    "upper bound": 20
+                },
+                {
+                    "line number": 120,
+                    "upper bound": 20
+                },
+                {
+                    "line number": 122,
+                    "upper bound": 20
+                }
+            ]
+        }
+    ]
+}

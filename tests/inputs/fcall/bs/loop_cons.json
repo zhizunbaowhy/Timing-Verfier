@@ -1,0 +1,13 @@
+{
+    "src" : [
+        {
+            "name": "tests/inputs/fcall/bs/bs.c",
+            "cons": [
+                {
+                    "line number" : 83,
+                    "upper bound": 4
+                }
+            ]
+        }
+    ]
+}
