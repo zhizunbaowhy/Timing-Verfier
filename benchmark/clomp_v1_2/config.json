@@ -1,7 +1,0 @@
-{
-    "asm": "clomp.asm",
-    "asm_detailed": "clompD.asm",
-    "skip_as_plt": [
-        
-    ] 
-}

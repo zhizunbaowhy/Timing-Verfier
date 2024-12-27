@@ -1,8 +1,0 @@
-{
-    "benchmark":"spec_medium",
-    "asm": "medium.asm",
-    "asm_detailed": "mediumD.asm",
-    "skip_as_plt": [
-        
-    ] 
-}

@@ -1,7 +1,0 @@
-{
-    "asm": "malloc.asm",
-    "asm_detailed": "mallocD.asm",
-    "skip_as_plt": [
-        
-    ] 
-}

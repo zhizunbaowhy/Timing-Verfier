@@ -1,8 +1,0 @@
-{
-    "asm": "hacc.asm",
-    "asm_detailed": "haccD.asm",
-    "skip_as_plt": [
-        
-    ] 
-    
-}
