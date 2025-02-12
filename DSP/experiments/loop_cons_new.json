@@ -1,0 +1,248 @@
+{
+    "src": [
+        {
+            "name": "../core/cap/OS_TASK_CAP.C",
+            "cons": [
+                {
+                    "func": "Int2String",
+                    "loop bounds": [
+                        [21, 2], [28, 1]
+                    ]
+                },
+                {
+                    "func": "pthread_attr_init",
+                    "loop bounds": [
+                        [100, 61], [113, 8]
+                    ]
+                },
+                {
+                    "func": "pthread_attr_setschedprio",
+                    "loop bounds": [
+                        [219, 8]
+                    ]
+                },
+                {
+                    "func": "pthread_getid",
+                    "loop bounds": [
+                        [694, 64]
+                    ]
+                },
+                {
+                    "func": "pthread_cancel",
+                    "loop bounds": [
+                        [446, 16], [488, 63], [494, 63], [500, 60] , [517, 61], [520, 72]
+                    ]
+                },
+                {
+                    "func": "check_cap_parent",
+                    "loop bounds": [
+                        [415, 64]
+                    ]
+                },
+                {
+                    "func": "pthread_exit",
+                    "loop bounds": [
+                        [806, 6], [827, 64], [833, 64], [839, 64], [856, 61], [859, 72]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "../core/cap/OS_MUTEX_CAP.C",
+            "cons": [
+                {
+                    "func": "pthread_mutex_destroy",
+                    "loop bounds": [
+                        [345, 61], [349, 72]
+                    ]
+                },
+                {
+                    "func": "pthread_mutexattr_init",
+                    "loop bounds": [
+                        [33, 64]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "../core/cap/OS_SEM_CAP.C",
+            "cons": [
+                {
+                    "func": "sem_getvalue",
+                    "loop bounds": [
+                        [597, 64]
+                    ]
+                },
+                {
+                    "func": "sem_flush",
+                    "loop bounds": [
+                        [531, 64]
+                    ]
+                },
+                {
+                    "func": "sem_destroy",
+                    "loop bounds": [
+                        [268, 61], [272, 72]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "../core/oscore/os_core.c",
+            "cons": [
+                {
+                    "func": "getFreePos",
+                    "loop bounds": [
+                        [214, 6], [234, 6], [254, 6]
+                    ]
+                },
+                {
+                    "func": "OSTimeTick",
+                    "loop bounds": [
+                        [561, 63]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "../core/oscore/OS_MUTEX.C",
+            "cons": [
+                {
+                    "func": "OSMutexDel",
+                    "loop bounds": [
+                        [254, 64]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "../core/cap/capability.c",
+            "cons": [
+                {
+                    "func": "Get_Obj_Solt",
+                    "loop bounds": [
+                        [37, 47]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "../core/oscore/OS_SEM.C",
+            "cons": [
+                {
+                    "func": "OSSemDel",
+                    "loop bounds": [
+                        [193, 64]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "../core/oscore/OS_Q.C",
+            "cons": [
+                {
+                    "func": "OSQDel",
+                    "loop bounds": [
+                        [240, 64], [243, 64]
+                    ]
+                },
+                {
+                    "func": "OSQPostOpt",
+                    "loop bounds": [
+                        [612, 64]
+                    ]
+                },
+                {
+                    "func": "OS_QInit",
+                    "loop bounds": [
+                        [779, 9]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "../core/cap/OS_Q_CAP.C",
+            "cons": [
+                {
+                    "func": "mq_delete",
+                    "loop bounds": [
+                        [143, 61], [147, 72]
+                    ]
+                },
+                {
+                    "func": "mq_getinfo",
+                    "loop bounds": [
+                        [502, 64]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "../port/timer.c",
+            "cons": [
+                {
+                    "func": "timer_create",
+                    "loop bounds": [
+                        [75, 10]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "/tmp/TI_MKLIB6sLCzz/SRC/string.h",
+            "cons": [
+                {
+                    "func": "strcmp",
+                    "loop bounds": [
+                        [215, 3]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "../core/elf/elf32.c",
+            "cons": [
+                {
+                    "func": "LoadElf2Mem",
+                    "loop bounds": [
+                        [144, 235]
+                    ]
+                },
+                {
+                    "func": "ProgramHeadInfo",
+                    "loop bounds": [
+                        [108, 235]
+                    ]
+                },
+                {
+                    "func": "is_ELFProgramValid",
+                    "loop bounds": [
+                        [186, 235]
+                    ]
+                }
+            ] 
+        },
+        {
+            "name": "remi.asm",
+            "cons": [
+                {
+                    "func": "remi",
+                    "loop bounds": [
+                        [122, 31]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "divi.asm",
+            "cons": [
+                {
+                    "func": "divi",
+                    "loop bounds": [
+                        [136, 31]
+                    ]
+                }
+            ]
+        }
+    ]
+}
