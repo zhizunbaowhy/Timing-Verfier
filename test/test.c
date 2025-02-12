@@ -1,7 +1,8 @@
 
 int calc(int a, int b) {
 	int c = a + b;
-	return c;
+	int d = c + 1;
+	return d;
 }
 
 int main() {
