@@ -1,0 +1,97 @@
+{
+    "APIs" : [
+        {
+            "name": "pthread_attr_init"
+        },
+        {
+            "name": "pthread_attr_destroy"
+        },
+        {
+            "name": "pthread_attr_setstackaddr"
+        },
+        {
+            "name": "pthread_attr_setstacksize"
+        },
+        {
+            "name": "pthread_attr_setschedprio"
+        },
+        {   
+            "name": "pthread_attr_setname"
+        },
+        {
+            "name": "pthread_create"
+        },
+        {
+            "name": "pthread_cancel"
+        },
+        {
+            "name": "pthread_getid"
+        },
+        {
+            "name": "pthread_getname"
+        },
+        {
+            "name": "pthread_self"
+        },
+        {
+            "name": "pthread_suspend"
+        },
+        {
+            "name": "pthread_resume"
+        },
+        {
+            "name": "pthread_delay"
+        },
+        {
+            "name": "pthread_is_ready"
+        },
+        {
+            "name": "pthread_lock"
+        },
+        {
+            "name": "pthread_unlock"
+        },
+        {
+            "name": "pthread_showstack"
+        },
+        {
+            "name": "pthread_exit"
+        },
+        {
+            "name": "sem_trywait"
+        },
+        {
+            "name": "sem_init"
+        },
+        {
+            "name": "sem_init_bin"
+        },
+        {
+            "name": "sem_destroy"
+        },
+        {
+            "name": "sem_wait"
+        },
+        {
+            "name": "sem_post"
+        },
+        {
+            "name": "sem_flush"
+        },
+        {
+            "name": "sem_getvalue"
+        },
+        {
+            "name": "pthread_mutex_init"
+        },
+        {
+            "name": "pthread_mutex_destroy"
+        },
+        {
+            "name": "pthread_mutex_lock"
+        },
+        {
+            "name": "pthread_mutex_unlock"
+        }
+    ]
+}
