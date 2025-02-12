@@ -1,0 +1,7 @@
+{
+    "benchmark": "compress",
+    "asm": "compress.asm",
+    "asm_detailed": "compressD.asm",
+    "procedure_cfg": ["all"],
+    "skip_as_plt": []
+}

@@ -1,0 +1,6 @@
+{
+    "benchmark": "insertsort",
+    "asm": "insertsort.asm",
+    "asm_detailed": "insertsortD.asm",
+    "skip_as_plt": []
+}

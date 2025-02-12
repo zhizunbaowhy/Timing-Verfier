@@ -1,0 +1,7 @@
+{
+    "benchmark": "ud",
+    "asm": "ud.asm",
+    "asm_detailed": "udD.asm",
+    "procedure_cfg": ["all"],
+    "skip_as_plt": []
+}

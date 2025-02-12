@@ -1,0 +1,6 @@
+{
+    "benchmark": "ns",
+    "asm": "ns.asm",
+    "asm_detailed": "nsD.asm",
+    "skip_as_plt": []
+}

@@ -1,0 +1,6 @@
+{
+    "benchmark": "nsichneu",
+    "asm": "nsichneu.asm",
+    "asm_detailed": "nsichneuD.asm",
+    "skip_as_plt": []
+}

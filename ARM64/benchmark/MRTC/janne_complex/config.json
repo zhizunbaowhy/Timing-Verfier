@@ -1,0 +1,6 @@
+{
+    "benchmark": "janne_complex",
+    "asm": "janne_complex.asm",
+    "asm_detailed": "janne_complexD.asm",
+    "skip_as_plt": []
+}

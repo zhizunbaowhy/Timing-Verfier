@@ -1,0 +1,7 @@
+{
+    "benchmark": "matmult",
+    "asm": "matmult.asm",
+    "asm_detailed": "matmultD.asm",
+    "procedure_cfg": ["all"],
+    "skip_as_plt": []
+}

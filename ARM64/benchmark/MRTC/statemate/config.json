@@ -1,0 +1,6 @@
+{
+    "benchmark": "statemate",
+    "asm": "statemate.asm",
+    "asm_detailed": "statemateD.asm",
+    "skip_as_plt": []
+}

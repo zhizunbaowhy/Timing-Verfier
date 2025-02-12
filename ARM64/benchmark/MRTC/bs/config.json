@@ -1,0 +1,7 @@
+{
+    "benchmark": "bs",
+    "asm": "bs.asm",
+    "asm_detailed": "bsD.asm",
+    "procedure_cfg": ["all"],
+    "skip_as_plt": []
+}
