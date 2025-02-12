@@ -1,0 +1,9 @@
+{
+    "effect": [
+        {
+            "name": "OS_Sched",
+            "start": "0x857234",
+            "end": "0x4578"
+        }
+    ]
+}
