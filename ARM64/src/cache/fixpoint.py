@@ -10,7 +10,6 @@ from src.cache.cache_config import MultiLevelCacheConfig
 
 
 class FixpointState:
-    
     def __init__(self, cache_config: Optional[MultiLevelCacheConfig] = None, init_state: Optional[MultiLevelCacheState] = None):
 
         if cache_config is not None:
