@@ -465,6 +465,7 @@ def creat_cfg(instructions:List[str]): #构建cfg过程
             #cfg.add_edge(block_start_line[start_line], target_id)
 
     #return cfg
+    return cfg
 
 def draw_cfg(tmp_block_list,tmp_edge_list,file_path):
 
